@@ -1,6 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
 
-import { TranslateService } from '@ngx-translate/core';
+import { LanguageService, SvgIconService } from '@services';
 
 @Component({
   selector: 'app-root',
@@ -8,14 +8,11 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private translate: TranslateService = inject(TranslateService);
+  private languageService: LanguageService = inject(LanguageService);
+  private svgIconService: SvgIconService = inject(SvgIconService);
 
   ngOnInit(): void {
-    this.setLanguage();
-  }
-
-  private setLanguage(): void {
-    this.translate.setDefaultLang('en-GB');
-    this.translate.use('sl');
+    this.svgIconService.registerIcons();
+    this.languageService.setLanguageFromBrowserSettings();
   }
 }

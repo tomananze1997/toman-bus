@@ -1,3 +1,10 @@
-{"NAVIGATION": {
-  "HELLO": "Pozdravljeni!"
-}}
+{
+  "NAVIGATION": {
+    "HELLO": "Pozdravljeni!",
+    "LANGUAGE": {
+      "ENGLISH": "Angleščina",
+      "SLOVENIAN": "Slovenščina",
+      "GERMAN": "Nemščina"
+    }
+  }
+}

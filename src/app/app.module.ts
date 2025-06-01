@@ -1,12 +1,16 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AboutUsComponent, ContactUsComponent, HomepageComponent, JoinUsComponent } from '@pages';
+import { DropdownModule } from 'primeng/dropdown';
 
-import { FooterComponent, NavigationComponent } from '@components';
+import { FooterComponent, LanguagePickerComponent, NavigationComponent } from '@components';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,18 +20,23 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 @NgModule({
-  declarations: [AppComponent, AboutUsComponent, ContactUsComponent, JoinUsComponent, HomepageComponent, NavigationComponent, FooterComponent],
+  declarations: [AppComponent, AboutUsComponent, ContactUsComponent, JoinUsComponent, HomepageComponent, NavigationComponent, FooterComponent, LanguagePickerComponent],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
+    MatIconModule,
     HttpClientModule,
+    FormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    DropdownModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
