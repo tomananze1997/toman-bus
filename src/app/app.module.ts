@@ -7,20 +7,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { AboutUsComponent, ContactUsComponent, HomepageComponent, JoinUsComponent } from '@pages';
+import { AboutUsComponent, ContactUsComponent, HomepageComponent } from '@pages';
 import { DropdownModule } from 'primeng/dropdown';
 
 import { FooterComponent, LanguagePickerComponent, NavigationComponent } from '@components';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroComponent } from './components/common/hero/hero.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
-  declarations: [AppComponent, AboutUsComponent, ContactUsComponent, JoinUsComponent, HomepageComponent, NavigationComponent, FooterComponent, LanguagePickerComponent],
+  declarations: [AppComponent, AboutUsComponent, ContactUsComponent, HomepageComponent, NavigationComponent, FooterComponent, LanguagePickerComponent, HeroComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

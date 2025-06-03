@@ -1,10 +1,19 @@
 {
   "NAVIGATION": {
-    "HELLO": "Pozdravljeni!",
+    "ABOUT_US": "O nas",
+    "CONTACT_US": "Kontakt",
+    "VIP": "VIP transferji",
     "LANGUAGE": {
       "ENGLISH": "Angleščina",
       "SLOVENIAN": "Slovenščina",
       "GERMAN": "Nemščina"
+    }
+  },
+  "MAIN": {
+    "HERO": {
+      "TITLE": "Doživite udobno in prijetno izkušnjo...",
+      "CONTENT": "Z avtobusnimi prevozi Toman, bo vaše popotovanje prijetno in udobno. Poskrbeli bomo, da boste doživeli najlepšo izkušnjo in spoznali najlepše nove kraje. Nudimo popolno storitev, kjer z veseljem ustrežemo vašim zahtevam in pričakovanjem. Vsi avtobusi so opremljeni z vso turistično opremo. Prav tako omogočamo VIP prevoze z vrhunskimi vozili višjega cenovnega razreda. Vozniki so profesionalno usposobljeni in dobro poznajo domače in evropske destinacije. Prevoze izvajamo skladno z veljavno prometno, delovno in davčno zakonodajo, potniki in vozila pa so zavarovani.",
+      "SERVICES_BUTTON": "Naše storitve"
     }
   }
 }

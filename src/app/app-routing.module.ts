@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AboutUsComponent, ContactUsComponent, HomepageComponent, JoinUsComponent } from '@pages';
+import { AboutUsComponent, ContactUsComponent, HomepageComponent } from '@pages';
 
 const routes: Routes = [
   {
@@ -16,11 +16,6 @@ const routes: Routes = [
     path: 'about-us',
     component: AboutUsComponent
   },
-  {
-    path: 'join-us',
-    component: JoinUsComponent
-  },
-
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

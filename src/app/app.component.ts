@@ -11,8 +11,11 @@ export class AppComponent implements OnInit {
   private languageService: LanguageService = inject(LanguageService);
   private svgIconService: SvgIconService = inject(SvgIconService);
 
-  ngOnInit(): void {
+  constructor() {
     this.svgIconService.registerIcons();
+  }
+
+  ngOnInit(): void {
     this.languageService.setLanguageFromBrowserSettings();
   }
 }

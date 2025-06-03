@@ -4,3 +4,38 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+.text-secondary-hover{
+  @apply text-lg text-secondary-200 fill-white font-bold hover:text-secondary-50 duration-150 ease-in-out;
+}
+
+.font-first{
+  @apply text-5xl text-secondary-50 font-bold my-4;
+}
+
+.font-second{
+  @apply text-2xl text-secondary-100 font-medium my-3;
+}
+
+.font-third{
+  @apply text-lg text-secondary-200 font-bold hover:text-secondary-50 duration-150 ease-in-out;
+}
+
+.btn-primary-filled {
+  @apply border-2 border-primary-300 text-lg bg-transparent text-secondary-300 font-bold px-6 py-2 hover:bg-secondary-50 hover:text-secondary-600 duration-150 ease-in-out;
+}
+
+.btn-primary-unfilled {
+  @apply border-2 border-primary-200 text-lg bg-transparent text-secondary-200 font-semibold px-6 py-2 hover:bg-primary-400 hover:text-secondary-100 duration-150 ease-in-out;
+}
+
+.btn-secondary-filled {
+  @apply text-lg bg-secondary-400 text-secondary-600 font-semibold px-6 py-2 hover:bg-secondary-50 hover:text-secondary-600 duration-150 ease-in-out;
+}
+
+.btn-secondary-unfilled {
+  @apply border-2 border-secondary-300 text-lg bg-transparent text-secondary-300 font-semibold px-6 py-2 hover:bg-secondary-50 hover:text-secondary-600 duration-150 ease-in-out;
+}
+

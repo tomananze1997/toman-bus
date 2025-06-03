@@ -13,5 +13,9 @@ export class SvgIconService {
     this.matIconRegistry.addSvgIcon('de', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/de.svg'));
     this.matIconRegistry.addSvgIcon('en', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/en.svg'));
     this.matIconRegistry.addSvgIcon('sl', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/sl.svg'));
+    this.matIconRegistry.addSvgIcon('telephone', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/telephone.svg'));
+    this.matIconRegistry.addSvgIcon('cross', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/cross.svg'));
+    this.matIconRegistry.addSvgIcon('hamburger', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/hamburger.svg'));
+    this.matIconRegistry.addSvgIcon('down-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/down-arrow.svg'));
   }
 }
