@@ -14,6 +14,44 @@
       "TITLE": "Doživite udobno in prijetno izkušnjo...",
       "CONTENT": "Z avtobusnimi prevozi Toman, bo vaše popotovanje prijetno in udobno. Poskrbeli bomo, da boste doživeli najlepšo izkušnjo in spoznali najlepše nove kraje. Nudimo popolno storitev, kjer z veseljem ustrežemo vašim zahtevam in pričakovanjem. Vsi avtobusi so opremljeni z vso turistično opremo. Prav tako omogočamo VIP prevoze z vrhunskimi vozili višjega cenovnega razreda. Vozniki so profesionalno usposobljeni in dobro poznajo domače in evropske destinacije. Prevoze izvajamo skladno z veljavno prometno, delovno in davčno zakonodajo, potniki in vozila pa so zavarovani.",
       "SERVICES_BUTTON": "Naše storitve"
+    },
+    "WHO_WE_ARE": {
+      "TITLE": "Doživite udobno in prijetno izkušnjo...",
+      "SUBTITLE": "Kdo smo",
+      "CONTENT_1": "Z avtobusnimi prevozi Toman, bo vaše popotovanje prijetno in udobno. Poskrbeli bomo, da boste doživeli najlepšo izkušnjo in spoznali najlepše nove kraje. Nudimo popolno storitev, kjer z veseljem ustrežemo vašim zahtevam in pričakovanjem. Vsi avtobusi so opremljeni z vso turistično opremo. Prav tako omogočamo VIP prevoze z vrhunskimi vozili višjega cenovnega razreda. Vozniki so profesionalno usposobljeni in dobro poznajo domače in evropske destinacije. Prevoze izvajamo skladno z veljavno prometno, delovno in davčno zakonodajo, potniki in vozila pa so zavarovani.",
+      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko obrazca za rezervacijo avtobusnega prevoza.",
+      "MORE_ABOUT_US_BUTTON": "Več o nas",
+      "SERVICES_BUTTON": "Naše storitve",
+      "FLEET_BUTTON": "Naš vozni park"
+    },
+    "SERVICES": {
+      "TITLE": "Our services",
+      "SUBTITLE": "Wherever You Need to Be — We'll Get You There",
+      "FIRST": {
+        "TITLE": "Airport Transfers",
+        "CONTENT": "Reliable and stress-free transfers to and from the airport — always on time."
+      },
+      "SECOND": {
+        "TITLE": "Seaport Transfers",
+        "CONTENT": "Smooth and timely connections to cruise ports — start your journey right."
+      },
+      "THIRD": {
+        "TITLE": "Travel Trips",
+        "CONTENT": "Day and multi-day transport for groups — comfortable, flexible, and safe."
+      },
+      "FOURTH": {
+        "TITLE": "School Transports",
+        "CONTENT": "Safe and punctual school transfers with vetted drivers and dedicated routes."
+      },
+      "FIFTH": {
+        "TITLE": "Corporate Transports",
+        "CONTENT": "Professional transport for business events, clients, and executives."
+      },
+      "SIXTH": {
+        "TITLE": "Transportation On Request",
+        "CONTENT": "Custom transport solutions tailored to your needs. Contact us for flexible options."
+      },
+      "BUTTON": "Learn more"
     }
   }
 }

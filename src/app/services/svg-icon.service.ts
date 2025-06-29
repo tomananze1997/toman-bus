@@ -17,5 +17,13 @@ export class SvgIconService {
     this.matIconRegistry.addSvgIcon('cross', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/cross.svg'));
     this.matIconRegistry.addSvgIcon('hamburger', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/hamburger.svg'));
     this.matIconRegistry.addSvgIcon('down-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/down-arrow.svg'));
+    this.matIconRegistry.addSvgIcon('left-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/left-arrow.svg'));
+    this.matIconRegistry.addSvgIcon('right-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/right-arrow.svg'));
+    this.matIconRegistry.addSvgIcon('airplane', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/airplane.svg'));
+    this.matIconRegistry.addSvgIcon('coach', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/coach.svg'));
+    this.matIconRegistry.addSvgIcon('corporate', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/corporate.svg'));
+    this.matIconRegistry.addSvgIcon('school', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/school.svg'));
+    this.matIconRegistry.addSvgIcon('ship', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/ship.svg'));
+    this.matIconRegistry.addSvgIcon('suitcase', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/suitcase.svg'));
   }
 }

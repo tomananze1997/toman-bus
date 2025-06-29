@@ -1,0 +1,9 @@
+<div
+  *ngIf="card"
+  class="flex h-[480px] w-72 flex-col items-center justify-between p-6 text-center transition-all duration-200 hover:scale-105 hover:shadow-[0_0_20px_0] hover:shadow-secondary-300"
+>
+  <mat-icon class="!h-24 !w-24 text-primary-500" svgIcon="{{ card.icon }}"></mat-icon>
+  <h2 class="title-secondary-second h-[100px] py-2">{{ card.title | translate }}</h2>
+  <p class="content-primary-second my-6">{{ card.content | translate }}</p>
+  <button class="btn-secondary-unfilled mt-auto">{{ 'MAIN.SERVICES.BUTTON' | translate }}</button>
+</div>

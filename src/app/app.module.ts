@@ -10,18 +10,29 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AboutUsComponent, ContactUsComponent, HomepageComponent } from '@pages';
 import { DropdownModule } from 'primeng/dropdown';
 
-import { FooterComponent, LanguagePickerComponent, NavigationComponent } from '@components';
+import { FooterComponent, HeroComponent, LanguagePickerComponent, NavigationComponent, OurServicesComponent, ServiceCardComponent, WhoWeAreComponent } from '@components';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroComponent } from './components/common/hero/hero.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
-  declarations: [AppComponent, AboutUsComponent, ContactUsComponent, HomepageComponent, NavigationComponent, FooterComponent, LanguagePickerComponent, HeroComponent],
+  declarations: [
+    AppComponent,
+    AboutUsComponent,
+    ContactUsComponent,
+    HomepageComponent,
+    NavigationComponent,
+    FooterComponent,
+    LanguagePickerComponent,
+    HeroComponent,
+    WhoWeAreComponent,
+    OurServicesComponent,
+    ServiceCardComponent
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
