@@ -71,3 +71,15 @@ html {
   color: #1877F2; /* Facebook Blue */
 }
 
+.partner-logo-first {
+  @apply h-16 grayscale transition duration-150 ease-in-out
+}
+
+.partner-logo-first:hover {
+  @apply hover:grayscale-0
+}
+
+.partner-logo-second {
+  @apply h-16 grayscale invert
+}
+
