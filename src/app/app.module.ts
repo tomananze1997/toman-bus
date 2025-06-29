@@ -10,7 +10,17 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AboutUsComponent, ContactUsComponent, HomepageComponent } from '@pages';
 import { DropdownModule } from 'primeng/dropdown';
 
-import { FooterComponent, HeroComponent, LanguagePickerComponent, NavigationComponent, OurServicesComponent, ServiceCardComponent, WhoWeAreComponent } from '@components';
+import {
+  FleetComponent,
+  FooterComponent,
+  HeroComponent,
+  LanguagePickerComponent,
+  NavigationComponent,
+  OurServicesComponent,
+  PartnersComponent,
+  ServiceCardComponent,
+  WhoWeAreComponent
+} from '@components';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,7 +41,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeroComponent,
     WhoWeAreComponent,
     OurServicesComponent,
-    ServiceCardComponent
+    ServiceCardComponent,
+    FleetComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,

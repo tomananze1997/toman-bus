@@ -25,5 +25,7 @@ export class SvgIconService {
     this.matIconRegistry.addSvgIcon('school', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/school.svg'));
     this.matIconRegistry.addSvgIcon('ship', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/ship.svg'));
     this.matIconRegistry.addSvgIcon('suitcase', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/suitcase.svg'));
+    this.matIconRegistry.addSvgIcon('facebook', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/facebook.svg'));
+    this.matIconRegistry.addSvgIcon('mail', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/mail.svg'));
   }
 }

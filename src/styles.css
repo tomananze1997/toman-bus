@@ -7,12 +7,8 @@
 html {
   scroll-behavior: smooth;
 }
-.navigation-hover{
+.content-primary-hover{
   @apply text-lg text-secondary-200 fill-white font-bold hover:text-secondary-50 duration-150 ease-in-out;
-}
-
-.footer-hover{
-  @apply text-lg text-primary-200 fill-white font-bold hover:text-primary-50 duration-150 ease-in-out;
 }
 
 .title-primary-first{
@@ -21,6 +17,10 @@ html {
 
 .title-primary-second{
   @apply text-4xl text-secondary-50 font-bold my-2;
+}
+
+.title-primary-third{
+  @apply text-lg text-secondary-50 font-bold my-2;
 }
 
 .title-secondary-first{
@@ -40,6 +40,10 @@ html {
 }
 
 .content-primary-second{
+  @apply text-xl text-secondary-200 font-medium ;
+}
+
+.content-primary-third{
   @apply text-lg text-secondary-200 font-medium ;
 }
 
@@ -57,5 +61,13 @@ html {
 
 .btn-secondary-unfilled {
   @apply border-2 border-secondary-300 text-lg bg-transparent text-secondary-300 font-semibold px-6 py-2 hover:bg-secondary-50 hover:text-secondary-600 duration-150 ease-in-out;
+}
+
+.social-media-svg {
+  @apply !h-8 !w-8 text-secondary-200 transition-colors duration-150 ease-in-out cursor-pointer;
+}
+
+.social-media-svg:hover {
+  color: #1877F2; /* Facebook Blue */
 }
 
