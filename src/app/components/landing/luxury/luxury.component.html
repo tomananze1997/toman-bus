@@ -1,0 +1,36 @@
+<section class="main-container">
+  <!-- Background Image: now on the RIGHT -->
+  <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/bus-1_side-left.png')"></div>
+
+  <!-- Main Right-to-Left Gradient -->
+  <div class="absolute inset-0 -z-20" style="background: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.8) 65%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%)"></div>
+
+  <!-- Top Vertical Black Fade on Left -->
+  <div
+    class="pointer-events-none absolute left-0 top-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.1) 80%, transparent 100%)"
+  ></div>
+
+  <!-- Bottom Vertical Black Fade on Left -->
+  <div
+    class="pointer-events-none absolute bottom-0 left-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
+  ></div>
+
+  <!-- Content (right aligned now) -->
+  <div class="relative z-10 ml-auto flex w-3/5 flex-col gap-6 text-right">
+    <div>
+      <h3 class="title-secondary-third">{{ 'MAIN.VIP_TRANSFERS.SUBTITLE' | translate }}</h3>
+      <h2 class="title-primary-first">{{ 'MAIN.VIP_TRANSFERS.TITLE' | translate }}</h2>
+    </div>
+    <p class="content-primary-first">{{ 'MAIN.VIP_TRANSFERS.CONTENT_1' | translate }}</p>
+    <p class="content-primary-first">{{ 'MAIN.VIP_TRANSFERS.CONTENT_2' | translate }}</p>
+
+    <!-- Buttons: reversed order and aligned right -->
+    <div class="flex flex-wrap justify-end gap-3">
+      <button routerLink="/contact" class="btn-primary-filled !text-xl">{{ 'MAIN.VIP_TRANSFERS.FLEET_BUTTON' | translate }}</button>
+      <button routerLink="/contact" class="btn-primary-filled !text-xl">{{ 'MAIN.VIP_TRANSFERS.SERVICES_BUTTON' | translate }}</button>
+      <button routerLink="/contact" class="btn-primary-unfilled !text-xl">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</button>
+    </div>
+  </div>
+</section>

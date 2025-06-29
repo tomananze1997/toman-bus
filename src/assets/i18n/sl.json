@@ -20,14 +20,14 @@
   },
   "MAIN": {
     "HERO": {
-      "TITLE": "Doživite udobno in prijetno izkušnjo...",
+      "TITLE": "Doživite udobno in prijetno izkušnjo",
       "CONTENT": "Z avtobusnimi prevozi Toman, bo vaše popotovanje prijetno in udobno. Poskrbeli bomo, da boste doživeli najlepšo izkušnjo in spoznali najlepše nove kraje. Nudimo popolno storitev, kjer z veseljem ustrežemo vašim zahtevam in pričakovanjem. Vsi avtobusi so opremljeni z vso turistično opremo. Prav tako omogočamo VIP prevoze z vrhunskimi vozili višjega cenovnega razreda. Vozniki so profesionalno usposobljeni in dobro poznajo domače in evropske destinacije. Prevoze izvajamo skladno z veljavno prometno, delovno in davčno zakonodajo, potniki in vozila pa so zavarovani.",
       "SERVICES_BUTTON": "Naše storitve"
     },
     "WHO_WE_ARE": {
-      "TITLE": "Doživite udobno in prijetno izkušnjo...",
+      "TITLE": "Varno in udobno na poti",
       "SUBTITLE": "Kdo smo",
-      "CONTENT_1": "Z avtobusnimi prevozi Toman, bo vaše popotovanje prijetno in udobno. Poskrbeli bomo, da boste doživeli najlepšo izkušnjo in spoznali najlepše nove kraje. Nudimo popolno storitev, kjer z veseljem ustrežemo vašim zahtevam in pričakovanjem. Vsi avtobusi so opremljeni z vso turistično opremo. Prav tako omogočamo VIP prevoze z vrhunskimi vozili višjega cenovnega razreda. Vozniki so profesionalno usposobljeni in dobro poznajo domače in evropske destinacije. Prevoze izvajamo skladno z veljavno prometno, delovno in davčno zakonodajo, potniki in vozila pa so zavarovani.",
+      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.\n\n",
       "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko obrazca za rezervacijo avtobusnega prevoza.",
       "MORE_ABOUT_US_BUTTON": "Več o nas",
       "SERVICES_BUTTON": "Naše storitve",
@@ -61,6 +61,15 @@
         "CONTENT": "Custom transport solutions tailored to your needs. Contact us for flexible options."
       },
       "BUTTON": "Learn more"
+    },
+    "VIP_TRANSFERS": {
+      "TITLE": "Popolno udobje in prestiž po meri",
+      "SUBTITLE": "VIP Prevozi",
+      "CONTENT_1": "Za posebne priložnosti ali pomembne poslovne poti ponujamo vrhunske prevoze z luksuznimi vozili višjega cenovnega razreda. Naša storitev je popolnoma prilagojena vašim željam – zagotovimo vam udobno, varno in brezskrbno potovanje na najvišji ravni.",
+      "CONTENT_2": "Naši izkušeni in diskretni vozniki poskrbijo, da prispete točno, sproščeno in v stilu – kamorkoli v Sloveniji ali Evropi. Pokličite nas ali pošljite e-mail in z veseljem vam pripravimo individualno ponudbo.",
+      "MORE_ABOUT_US_BUTTON": "Več o nas",
+      "SERVICES_BUTTON": "Naše storitve",
+      "FLEET_BUTTON": "Naš vozni park"
     },
     "BUSINESS_PARTNERS": {
       "TITLE": "Our Business Partners",

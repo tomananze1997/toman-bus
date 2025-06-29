@@ -15,6 +15,7 @@ import {
   FooterComponent,
   HeroComponent,
   LanguagePickerComponent,
+  LuxuryComponent,
   NavigationComponent,
   OurServicesComponent,
   PartnersComponent,
@@ -43,7 +44,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     OurServicesComponent,
     ServiceCardComponent,
     FleetComponent,
-    PartnersComponent
+    PartnersComponent,
+    LuxuryComponent
   ],
   imports: [
     BrowserModule,

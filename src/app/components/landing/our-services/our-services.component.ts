@@ -1,8 +1,6 @@
 import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { Subscription, interval } from 'rxjs';
-
 import { IServiceCards } from '@interfaces';
 
 @Component({
