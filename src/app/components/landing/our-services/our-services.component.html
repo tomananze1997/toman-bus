@@ -1,4 +1,4 @@
-<section class="main-container bg-black text-center">
+<section id="services" class="main-container bg-black text-center">
   <h3 class="title-secondary-third">
     {{ 'MAIN.SERVICES.SUBTITLE' | translate }}
   </h3>
@@ -7,7 +7,7 @@
   </h2>
   <div class="w-full p-6">
     <div class="grid grid-cols-2 gap-6 md:px-12 lg:grid-cols-3 2xl:grid-cols-6">
-      <app-service-card *ngFor="let card of cards" [card]="card" (click)="navigateTo(card.link)"> </app-service-card>
+      <app-service-card *ngFor="let card of cards" [card]="card"> </app-service-card>
     </div>
   </div>
 </section>

@@ -25,6 +25,8 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { TOSComponent } from './pages/tos/tos.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -45,7 +47,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ServiceCardComponent,
     FleetComponent,
     PartnersComponent,
-    LuxuryComponent
+    LuxuryComponent,
+    PrivacyPolicyComponent,
+    TOSComponent
   ],
   imports: [
     BrowserModule,

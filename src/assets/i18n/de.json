@@ -22,7 +22,7 @@
     "HERO": {
       "TITLE": "Enjoy a comfortable and pleasant experience",
       "CONTENT": "With Toman bus transport, your journey will be pleasant and comfortable. We will ensure that you have the best experience and discover the most beautiful new places. We offer a complete service, where we are happy to meet your requirements and expectations. All buses are equipped with all tourist amenities. We also offer VIP transport with top-of-the-range vehicles. Our drivers are professionally trained and have extensive knowledge of domestic and European destinations. We operate in accordance with applicable traffic, labour and tax legislation, and both passengers and vehicles are insured.",
-      "SERVICES_BUTTON": "Our services"
+      "QUOTE_BUTTON": "Get a quote"
     },
     "WHO_WE_ARE": {
       "TITLE": "Doživite udobno in prijetno izkušnjo",
@@ -68,8 +68,7 @@
       "CONTENT_1": "Za posebne priložnosti ali pomembne poslovne poti ponujamo vrhunske prevoze z luksuznimi vozili višjega cenovnega razreda. Naša storitev je popolnoma prilagojena vašim željam – zagotovimo vam udobno, varno in brezskrbno potovanje na najvišji ravni.",
       "CONTENT_2": "Naši izkušeni in diskretni vozniki poskrbijo, da prispete točno, sproščeno in v stilu – kamorkoli v Sloveniji ali Evropi. Pokličite nas ali pošljite e-mail in z veseljem vam pripravimo individualno ponudbo.",
       "MORE_ABOUT_US_BUTTON": "Več o nas",
-      "SERVICES_BUTTON": "Naše storitve",
-      "FLEET_BUTTON": "Naš vozni park"
+      "VIP_BUTTON": "VIP prevozi"
     },
     "FLEET": {
       "TITLE": "Reliable, comfortable, and ready to go",

@@ -21,10 +21,11 @@ export class HeroComponent implements AfterViewInit {
     }
   }
   public scrollDown(): void {
-    const scrollThreshold: number = window.innerHeight * 0.4;
+    const scrollThreshold: number = window.innerHeight * 0.8;
+    const targetScroll = Math.floor(scrollThreshold);
 
-    if (window.scrollY < scrollThreshold) {
-      window.scrollBy({ top: scrollThreshold, behavior: 'smooth' });
+    if (window.scrollY < targetScroll) {
+      window.scrollTo({ top: targetScroll, behavior: 'smooth' });
     }
   }
 }
