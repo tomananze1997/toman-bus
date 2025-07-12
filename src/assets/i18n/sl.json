@@ -34,8 +34,8 @@
       "FLEET_BUTTON": "Naš vozni park"
     },
     "SERVICES": {
-      "TITLE": "Our services",
-      "SUBTITLE": "Wherever You Need to Be — We'll Get You There",
+      "TITLE": "Wherever You Need to Be — We'll Get You There",
+      "SUBTITLE": "Our services",
       "FIRST": {
         "TITLE": "Airport Transfers",
         "CONTENT": "Reliable and stress-free transfers to and from the airport — always on time."
@@ -71,9 +71,39 @@
       "SERVICES_BUTTON": "Naše storitve",
       "FLEET_BUTTON": "Naš vozni park"
     },
+    "FLEET": {
+      "TITLE": "Reliable, comfortable, and ready to go",
+      "SUBTITLE": "Our Fleet",
+      "VEHICLES": {
+        "C_CLASS": {
+          "NAME": "Mercedes-Benz C-Class",
+          "DESCRIPTION": "Mercedes-Benz C-Class z AMG opremo združuje športno eleganco in vrhunsko udobje. Notranjost je prefinjena, vožnja pa izjemno dinamična in tiha. Ta vozilo je idealno za poslovne prevoze, individualne transferje ali elegantne priložnosti, kjer želite izstopati z brezhibnim slogom."
+        },
+        "V_CLASS": {
+          "NAME": "Mercedes-Benz V-Class",
+          "DESCRIPTION": "Podaljšana Mercedes-Benz V-Class ponuja izjemno prostornost in fleksibilnost za skupine do 7 oseb. Z udobnimi sedeži, razkošno notranjostjo in sodobno opremo je popolna izbira za poslovna potovanja, družinske izlete ali VIP transferje. Kombinacija elegance in praktičnosti zagotavlja visoko raven udobja na vsaki poti."
+        },
+        "LION_COACH_1": {
+          "NAME": "MAN Lionʼs Coach",
+          "DESCRIPTION": "Doživite sodobno udobje z našim novejšim avtobusom MAN Lion’s Coach. Z 51+1+1 sedeži je odlična izbira za večje skupine, ki pričakujejo prostornost in zanesljivost. Avtobus je opremljen s klimatsko napravo, televizijo in hladilnikom, kar zagotavlja prijetno in udobno vožnjo. Primeren je tako za daljša potovanja kot tudi za enodnevne izlete in poslovne prevoze."
+        },
+        "LION_COACH_2": {
+          "NAME": "MAN Lionʼs Coach",
+          "DESCRIPTION": "Doživite vrhunec razkošnega potovanja z našim Man Lion's Coachem. S 49+1 sedeži ta avtobus ponuja dovolj prostora za udobno potovanje. Uživajte v dodatnih udobjih na krovu, kot so televizija, WC, klimatska naprava in hladilnik. Ne glede na to, ali gre za poslovni dogodek, prevoz na letališče ali skupinsko izletovanje, naš Man Lion's Coach zagotavlja brezhibno in razkošno izkušnjo potovanja."
+        },
+        "TRAVEGO": {
+          "NAME": "Mercedes-Benz Travego",
+          "DESCRIPTION": "Odpotujte na pustolovščino z našim Mercedes Benz Travegom. Zasnovan za 51+2 potnika ter združuje eleganco in funkcionalnost. Uživajte v televiziji na krovu, sprostite se v osvežujočem okolju klimatske naprave in hranite svoje osvežitve hladne v hladilniku. Ne glede na to, ali gre za dolgo potovanje ali ogled znamenitosti, naš Mercedes Benz Travego zagotavlja elegantno in udobno vožnjo."
+        },
+        "SETRA": {
+          "NAME": "Setra 416 GT-HD",
+          "DESCRIPTION": "Razvajajte se v razkošju in z avtobusom Setra 416 GT HD, ki s 53+2 sedeži nudi obilo prostora in udobja. Uživajte v priljubljenih oddajah na televiziji na krovu in doživite prijetno potovanje s klimatsko napravo, hladilnikom in WC-jem. Ne glede na to, ali gre za poseben dogodek ali skupinski izlet, avtobus Setra 416 GT HD zagotavlja izkušnjo potovanja prvega razreda"
+        }
+      }
+    },
     "BUSINESS_PARTNERS": {
       "TITLE": "Our Business Partners",
-      "SUB_TITLE": "Trusted by clients throughout Slovenia and Europe"
+      "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
     }
   }
 }

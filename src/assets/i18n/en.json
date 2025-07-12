@@ -34,8 +34,8 @@
       "FLEET_BUTTON": "Naš vozni park"
     },
     "SERVICES": {
-      "TITLE": "Our services",
-      "SUBTITLE": "Wherever You Need to Be — We'll Get You There",
+      "TITLE": "Wherever You Need to Be — We'll Get You There",
+      "SUBTITLE": "Our services",
       "FIRST": {
         "TITLE": "Airport Transfers",
         "CONTENT": "Reliable and stress-free transfers to and from the airport — always on time."
@@ -71,9 +71,39 @@
       "SERVICES_BUTTON": "Naše storitve",
       "FLEET_BUTTON": "Naš vozni park"
     },
+    "FLEET": {
+      "TITLE": "Reliable, comfortable, and ready to go",
+      "SUBTITLE": "Our Fleet",
+      "VEHICLES": {
+        "C_CLASS": {
+          "NAME": "Mercedes-Benz C-Class",
+          "DESCRIPTION": "The Mercedes-Benz C-Class with AMG styling combines sporty elegance with premium comfort. Its refined interior and dynamic ride make it ideal for business transfers, individual transport, or stylish occasions where making an impression matters."
+        },
+        "V_CLASS": {
+          "NAME": "Mercedes-Benz V-Class",
+          "DESCRIPTION": "The extended Mercedes-Benz V-Class offers exceptional space and flexibility for up to 7 passengers. With comfortable seating, a luxurious interior, and modern features, it's the perfect choice for business trips, family outings, or VIP transfers. This van blends elegance with practicality to ensure a high level of comfort on every journey."
+        },
+        "LION_COACH_1": {
+          "NAME": "MAN Lionʼs Coach",
+          "DESCRIPTION": "Experience modern comfort with our newer MAN Lion’s Coach. Featuring 51+1+1 seats, it’s an excellent choice for larger groups seeking space and reliability. The coach is equipped with air conditioning, a TV, and a refrigerator to ensure a smooth and pleasant journey. Ideal for both long-distance trips and corporate or day tours."
+        },
+        "LION_COACH_2": {
+          "NAME": "MAN Lionʼs Coach",
+          "DESCRIPTION": "Experience the pinnacle of luxury travel with our Man Lion's Coach. With 49+1 seats, this coach offers ample space for a comfortable journey. Enjoy onboard amenities such as a TV, toilete, air conditioning, and a refrigerator. Whether it's a corporate event, airport transfer, or group excursion, our Man Lion's Coach ensures a seamless and lavish travel experience."
+        },
+        "TRAVEGO": {
+          "NAME": "Mercedes-Benz Travego",
+          "DESCRIPTION": "Embark on a remarkable journey with our Mercedes Benz Travego. Designed to accommodate 51+2 passengers, this coach combines elegance and functionality. Stay entertained with the onboard TV, relax in the refreshing air-conditioned environment, and keep your refreshments cool in the refrigerator. Whether it's a long-distance trip or a sightseeing tour, our Mercedes Benz Travego guarantees a stylish and comfortable ride."
+        },
+        "SETRA": {
+          "NAME": "Setra 416 GT-HD",
+          "DESCRIPTION": "Indulge in luxury and sophistication with our Setra 416 GT HD coach. With seating for 53+2 passengers, this coach provides an abundance of space and comfort. Enjoy your favorite shows on the onboard TV, benefit from the convenience of a toilete, and experience a pleasant journey with the climate control and refrigerator. Whether it's a special event or a group excursion, our Setra 416 GT HD ensures a first-class travel experience."
+        }
+      }
+    },
     "BUSINESS_PARTNERS": {
       "TITLE": "Our Business Partners",
-      "SUB_TITLE": "Trusted by clients throughout Slovenia and Europe"
+      "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
     }
   }
 }
