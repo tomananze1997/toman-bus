@@ -104,5 +104,22 @@
       "TITLE": "Our Business Partners",
       "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
     }
+  },
+  "PRIVACY_POLICY": {
+    "TITLE": "Privacy policy",
+    "SECTION_TITLE_FIRST": "Introduction",
+    "SECTION_CONTENT_FIRST": "TOMAN Transport Ltd. respects your privacy and is committed to protecting your personal data. This privacy policy informs you about how we handle your personal information when you visit our website (regardless of where you visit it from) and informs you about your privacy rights and how the law protects you.",
+    "SECTION_TITLE_SECOND": "Collection and use of data",
+    "SECTION_CONTENT_SECOND": "During the use of our website, we may ask you to provide certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your name, address, email address, and phone number. We use this data to improve our services, respond to your inquiries, process your orders, and comply with legal obligations.",
+    "SECTION_TITLE_THIRD": "Disclosure of data",
+    "SECTION_CONTENT_THIRD": "We may disclose your personal data to third-party service providers who perform services on our behalf, such as payment processing, order fulfillment, or data analysis. All third-party service providers must take appropriate security measures to protect your personal data.",
+    "SECTION_TITLE_FORTH": "Data security",
+    "SECTION_CONTENT_FORTH": "We have implemented appropriate security measures to prevent accidental loss, use, or unauthorized access, alteration, or disclosure of your personal data.",
+    "SECTION_TITLE_FIFTH": "Your rights",
+    "SECTION_CONTENT_FIFTH": "You have the right to access, correct, or delete your personal data. You may also object to the processing of your personal data under certain circumstances.",
+    "SECTION_TITLE_SIXTH": "Changes to policy",
+    "SECTION_CONTENT_SIXTH": "Any changes we make to our privacy policy in the future will be posted on this page. Please check regularly for any updates or changes to our privacy policy.",
+    "SECTION_TITLE_SEVENTH": "Contact",
+    "SECTION_CONTENT_SEVENTH": "If you have any questions regarding this privacy policy, please contact us at"
   }
 }

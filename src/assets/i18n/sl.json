@@ -104,5 +104,22 @@
       "TITLE": "Our Business Partners",
       "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
     }
+  },
+  "PRIVACY_POLICY": {
+    "TITLE": "Politika zasebnosti",
+    "SECTION_TITLE_FIRST": "Uvod",
+    "SECTION_CONTENT_FIRST": "TOMAN prevozništvo d.o.o. spoštuje vašo zasebnost in je zavezana k zaščiti vaših osebnih podatkov. Ta politika zasebnosti vas obvešča, kako skrbimo za vaše osebne podatke, ko obiščete našo spletno stran (ne glede na to, od kje jo obiščete), ter vam pove o vaših pravicah glede zasebnosti in kako vas ščiti zakon.",
+    "SECTION_TITLE_SECOND": "Zbiranje in uporaba podatkov",
+    "SECTION_CONTENT_SECOND": "Med uporabo naše strani vam lahko zahtevamo, da nam posredujete nekatere osebno identifikacijske podatke, ki se lahko uporabljajo za kontaktiranje ali identifikacijo vas. Osebno identifikacijski podatki lahko vključujejo, vendar niso omejeni na vaše ime, naslov, e-poštni naslov in telefonsko številko. Te podatke uporabljamo za izboljšanje naših storitev, odzivanje na vaša vprašanja, obdelavo vaših naročil in skladnost z zakonskimi obveznostmi.",
+    "SECTION_TITLE_THIRD": "Razkritje podatkov",
+    "SECTION_CONTENT_THIRD": "Vaše osebne podatke lahko razkrijemo ponudnikom storitev tretjih oseb, ki opravljajo storitve v našem imenu, kot so obdelava plačil, izpolnitev naročil ali analiza podatkov. Vsi ponudniki storitev tretjih oseb morajo sprejeti ustrezne varnostne ukrepe za zaščito vaših osebnih podatkov.",
+    "SECTION_TITLE_FORTH": "Varnost podatkov",
+    "SECTION_CONTENT_FORTH": "Vzpostavili smo ustrezne varnostne ukrepe za preprečevanje nenamernega izgubljanja, uporabe ali nepooblaščenega dostopa, spreminjanja ali razkrivanja vaših osebnih podatkov.",
+    "SECTION_TITLE_FIFTH": "Vaše pravice",
+    "SECTION_CONTENT_FIFTH": "Imate pravico do dostopa, popravka ali brisanja svojih osebnih podatkov. Prav tako lahko v določenih okoliščinah ugovarjate obdelavi vaših osebnih podatkov.",
+    "SECTION_TITLE_SIXTH": "Spremembe te politike",
+    "SECTION_CONTENT_SIXTH": "Vse spremembe, ki jih bomo v prihodnosti naredili v naši politiki zasebnosti, bodo objavljene na tej strani. Prosimo, redno preverjajte morebitne posodobitve ali spremembe naše politike zasebnosti.",
+    "SECTION_TITLE_SEVENTH": "Kontakt",
+    "SECTION_CONTENT_SEVENTH": "Če imate kakršna koli vprašanja glede te politike zasebnosti, nas prosimo kontaktirajte na"
   }
 }

@@ -7,10 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { AboutUsComponent, ContactUsComponent, HomepageComponent } from '@pages';
+import { AboutUsComponent, ContactUsComponent, HomepageComponent, PrivacyPolicyComponent } from '@pages';
 import { DropdownModule } from 'primeng/dropdown';
 
 import {
+  ContentPrivacyPolicyComponent,
   FleetComponent,
   FooterComponent,
   HeroComponent,
@@ -25,8 +26,6 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
-import { TOSComponent } from './pages/tos/tos.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -49,7 +48,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PartnersComponent,
     LuxuryComponent,
     PrivacyPolicyComponent,
-    TOSComponent
+    ContentPrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

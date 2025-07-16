@@ -10,7 +10,7 @@
 
     <!-- Desktop Menu -->
     <div class="hidden items-center gap-6 lg:flex">
-      <a href="tel:+38641720655" class="content-primary-hover hidden items-center gap-1 xl:flex"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
+      <a href="tel:+38641720655" class="content-secondary-hover hidden items-center gap-1 xl:flex"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
       <button routerLink="/about-us" class="btn-secondary-unfilled">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
       <button routerLink="/contact-us" class="btn-secondary-filled">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
       <button routerLink="/contact-us" class="btn-secondary-filled-vip">{{ 'NAVIGATION.VIP' | translate }}</button>
@@ -22,7 +22,7 @@
       <!-- Cross Icon -->
       <mat-icon
         svgIcon="hamburger"
-        class="content-primary-hover absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200"
+        class="content-secondary-hover absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200"
         [ngClass]="{
           'pointer-events-auto opacity-100': !isMenuOpen,
           'pointer-events-none opacity-0': isMenuOpen
@@ -30,7 +30,7 @@
       ></mat-icon>
       <mat-icon
         svgIcon="cross"
-        class="content-primary-hover absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200"
+        class="content-secondary-hover absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200"
         [ngClass]="{
           'pointer-events-auto opacity-100': isMenuOpen,
           'pointer-events-none opacity-0': !isMenuOpen
@@ -41,7 +41,7 @@
 
   <!-- Mobile Menu -->
   <div *ngIf="isMenuOpen" class="fixed top-0 z-40 flex w-full flex-col items-center gap-4 bg-black bg-opacity-90 px-6 py-16 backdrop-blur-md lg:hidden">
-    <a href="tel:+38641720655" class="content-primary-hover flex items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
+    <a href="tel:+38641720655" class="content-secondary-hover flex items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
     <button routerLink="/about" class="btn-secondary-unfilled w-full">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
     <button routerLink="/contact" class="btn-secondary-filled w-full">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
     <button routerLink="/contact" class="btn-secondary-filled w-full">{{ 'NAVIGATION.VIP' | translate }}</button>

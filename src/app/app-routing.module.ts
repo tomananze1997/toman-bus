@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AboutUsComponent, ContactUsComponent, HomepageComponent, PrivacyPolicyComponent, TOSComponent } from '@pages';
+import { AboutUsComponent, ContactUsComponent, HomepageComponent, PrivacyPolicyComponent } from '@pages';
 
 const routes: Routes = [
   {
@@ -19,10 +19,6 @@ const routes: Routes = [
   {
     path: 'privacy-policy',
     component: PrivacyPolicyComponent
-  },
-  {
-    path: 'terms-conditions',
-    component: TOSComponent
   },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
