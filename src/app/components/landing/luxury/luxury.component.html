@@ -1,4 +1,4 @@
-<section class="main-container">
+<section class="main-container-outer-without-background">
   <!-- Background Image: now on the RIGHT -->
   <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/c-class_side-left.png')"></div>
 
@@ -16,20 +16,21 @@
     class="pointer-events-none absolute bottom-0 left-0 -z-10 h-1/2 w-1/2"
     style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
   ></div>
+  <div class="main-container">
+    <!-- Content (right aligned now) -->
+    <div class="relative z-10 ml-auto flex w-3/5 flex-col gap-6 text-right">
+      <div>
+        <h3 class="title-secondary-third">{{ 'MAIN.VIP_TRANSFERS.SUBTITLE' | translate }}</h3>
+        <h2 class="title-primary-first">{{ 'MAIN.VIP_TRANSFERS.TITLE' | translate }}</h2>
+      </div>
+      <p class="content-primary-first">{{ 'MAIN.VIP_TRANSFERS.CONTENT_1' | translate }}</p>
+      <p class="content-primary-first">{{ 'MAIN.VIP_TRANSFERS.CONTENT_2' | translate }}</p>
 
-  <!-- Content (right aligned now) -->
-  <div class="relative z-10 ml-auto flex w-3/5 flex-col gap-6 text-right">
-    <div>
-      <h3 class="title-secondary-third">{{ 'MAIN.VIP_TRANSFERS.SUBTITLE' | translate }}</h3>
-      <h2 class="title-primary-first">{{ 'MAIN.VIP_TRANSFERS.TITLE' | translate }}</h2>
-    </div>
-    <p class="content-primary-first">{{ 'MAIN.VIP_TRANSFERS.CONTENT_1' | translate }}</p>
-    <p class="content-primary-first">{{ 'MAIN.VIP_TRANSFERS.CONTENT_2' | translate }}</p>
-
-    <!-- Buttons: reversed order and aligned right -->
-    <div class="flex flex-wrap justify-end gap-3">
-      <button routerLink="/contact-us" class="btn-primary-filled-vip !text-xl">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</button>
-      <button routerLink="/about-us" class="btn-primary-unfilled !text-xl">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</button>
+      <!-- Buttons: reversed order and aligned right -->
+      <div class="flex flex-wrap justify-end gap-3">
+        <button routerLink="/contact-us" class="btn-primary-filled-vip !text-xl">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</button>
+        <button routerLink="/about-us" class="btn-primary-unfilled !text-xl">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</button>
+      </div>
     </div>
   </div>
 </section>

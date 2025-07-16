@@ -1,71 +1,73 @@
-<section id="fleet" class="main-container group relative bg-black text-center">
-  <h2 class="title-secondary-third">{{ 'MAIN.FLEET.SUBTITLE' | translate }}</h2>
-  <h3 class="title-primary-first">{{ 'MAIN.FLEET.TITLE' | translate }}</h3>
+<section id="fleet" class="main-container-outer">
+  <div class="main-container group relative bg-black text-center">
+    <h2 class="title-secondary-third">{{ 'MAIN.FLEET.SUBTITLE' | translate }}</h2>
+    <h3 class="title-primary-first">{{ 'MAIN.FLEET.TITLE' | translate }}</h3>
 
-  <swiper-container
-    #swiperRef
-    slides-per-view="1"
-    centered-slides="true"
-    autoplay="false"
-    space-between="20"
-    events-prefix="swiper-"
-    breakpoints='{
+    <swiper-container
+      #swiperRef
+      slides-per-view="1"
+      centered-slides="true"
+      autoplay="false"
+      space-between="20"
+      events-prefix="swiper-"
+      breakpoints='{
       "1024": { "slidesPerView": 3 }
     }'
-  >
-    <swiper-slide
-      *ngFor="let bus of fleet; let i = index"
-      [ngClass]="{
-        'scale-110': isSlideActive(i),
-        'scale-90': !isSlideActive(i)
-      }"
-      (mouseenter)="onMouseEnter(i)"
-      (mouseleave)="onMouseLeave()"
-      (click)="onSelectSlide(i)"
-      class="transform cursor-pointer p-10 transition-transform duration-300"
     >
-      <!-- Image container -->
-      <div class="relative mx-auto h-48 w-full max-w-xs">
-        <!-- Primary image (shown when active) -->
-        <img
-          [src]="bus.imgPrimary"
-          [alt]="bus.name"
-          class="absolute inset-0 h-full w-full object-contain transition-all duration-300"
-          [ngClass]="{
-            'opacity-100 drop-shadow-[0_0_20px_rgba(255,255,255,0.5)] delay-150': isSlideActive(i),
-            'opacity-0 delay-0': !isSlideActive(i)
-          }"
-        />
-
-        <!-- Secondary image (shown when NOT active) -->
-        <img
-          [src]="bus.imgSecondary"
-          [alt]="bus.name"
-          class="absolute inset-0 h-full w-full object-contain transition-all duration-300"
-          [ngClass]="{
-            'opacity-0 delay-0': isSlideActive(i),
-            'opacity-100 brightness-50 delay-150': !isSlideActive(i)
-          }"
-        />
-      </div>
-
-      <p
-        class="mt-2 text-center font-semibold text-white opacity-0 transition-opacity duration-300 hover:opacity-100"
+      <swiper-slide
+        *ngFor="let bus of fleet; let i = index"
         [ngClass]="{
-          'opacity-100': isSlideActive(i)
+          'scale-110': isSlideActive(i),
+          'scale-90': !isSlideActive(i)
         }"
+        (mouseenter)="onMouseEnter(i)"
+        (mouseleave)="onMouseLeave()"
+        (click)="onSelectSlide(i)"
+        class="transform cursor-pointer p-10 transition-transform duration-300"
       >
-        {{ fleet[i].name | translate }}
-      </p>
-    </swiper-slide>
-  </swiper-container>
+        <!-- Image container -->
+        <div class="relative mx-auto h-48 w-full max-w-xs">
+          <!-- Primary image (shown when active) -->
+          <img
+            [src]="bus.imgPrimary"
+            [alt]="bus.name"
+            class="absolute inset-0 h-full w-full object-contain transition-all duration-300"
+            [ngClass]="{
+              'opacity-100 drop-shadow-[0_0_20px_rgba(255,255,255,0.5)] delay-150': isSlideActive(i),
+              'opacity-0 delay-0': !isSlideActive(i)
+            }"
+          />
 
-  <!-- Navigation arrows -->
-  <mat-icon (click)="slidePrev()" svgIcon="left-arrow" class="content-primary-hover absolute left-2 top-1/2 z-10 h-6 w-6 -translate-y-1/2 cursor-pointer"></mat-icon>
-  <mat-icon (click)="slideNext()" svgIcon="right-arrow" class="content-primary-hover absolute right-2 top-1/2 z-10 h-6 w-6 -translate-y-1/2 cursor-pointer"></mat-icon>
+          <!-- Secondary image (shown when NOT active) -->
+          <img
+            [src]="bus.imgSecondary"
+            [alt]="bus.name"
+            class="absolute inset-0 h-full w-full object-contain transition-all duration-300"
+            [ngClass]="{
+              'opacity-0 delay-0': isSlideActive(i),
+              'opacity-100 brightness-50 delay-150': !isSlideActive(i)
+            }"
+          />
+        </div>
 
-  <!-- content -->
-  <div>
-    <p class="content-primary-second minh mx-auto min-h-[300px] w-1/2">{{ fleet[realIndex].description | translate }}</p>
+        <p
+          class="content-primary-second mt-2 text-center opacity-0 transition-opacity duration-300 hover:opacity-100"
+          [ngClass]="{
+            'opacity-100': isSlideActive(i)
+          }"
+        >
+          {{ fleet[i].name | translate }}
+        </p>
+      </swiper-slide>
+    </swiper-container>
+
+    <!-- Navigation arrows -->
+    <mat-icon (click)="slidePrev()" svgIcon="left-arrow" class="content-primary-hover absolute left-2 top-1/2 z-10 h-6 w-6 -translate-y-1/2 cursor-pointer"></mat-icon>
+    <mat-icon (click)="slideNext()" svgIcon="right-arrow" class="content-primary-hover absolute right-2 top-1/2 z-10 h-6 w-6 -translate-y-1/2 cursor-pointer"></mat-icon>
+
+    <!-- content -->
+    <div>
+      <p class="content-primary-second minh mx-auto min-h-[300px] w-1/2">{{ fleet[realIndex].description | translate }}</p>
+    </div>
   </div>
 </section>

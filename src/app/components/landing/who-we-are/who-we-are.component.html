@@ -1,4 +1,4 @@
-<section class="main-container">
+<section class="main-container-outer-without-background">
   <!-- Background Image -->
   <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/bus-1_side-left.png')"></div>
 
@@ -17,18 +17,20 @@
     style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
   ></div>
 
-  <!-- Content -->
-  <div class="relative z-10 flex w-3/5 flex-col gap-6 text-left">
-    <div>
-      <h3 class="title-secondary-third">{{ 'MAIN.WHO_WE_ARE.SUBTITLE' | translate }}</h3>
-      <h2 class="title-primary-first">{{ 'MAIN.WHO_WE_ARE.TITLE' | translate }}</h2>
-    </div>
-    <p class="content-primary-first">{{ 'MAIN.WHO_WE_ARE.CONTENT_1' | translate }}</p>
-    <p class="content-primary-first">{{ 'MAIN.WHO_WE_ARE.CONTENT_2' | translate }}</p>
-    <div class="flex gap-3">
-      <button routerLink="/about-us" class="btn-primary-unfilled !text-xl">{{ 'MAIN.WHO_WE_ARE.MORE_ABOUT_US_BUTTON' | translate }}</button>
-      <button routerLink="/" fragment="services" class="btn-primary-filled !text-xl">{{ 'MAIN.WHO_WE_ARE.SERVICES_BUTTON' | translate }}</button>
-      <button routerLink="/" fragment="fleet" class="btn-primary-filled !text-xl">{{ 'MAIN.WHO_WE_ARE.FLEET_BUTTON' | translate }}</button>
+  <div class="main-container">
+    <!-- Content -->
+    <div class="relative z-10 flex w-3/5 flex-col gap-6 text-left">
+      <div>
+        <h3 class="title-secondary-third">{{ 'MAIN.WHO_WE_ARE.SUBTITLE' | translate }}</h3>
+        <h2 class="title-primary-first">{{ 'MAIN.WHO_WE_ARE.TITLE' | translate }}</h2>
+      </div>
+      <p class="content-primary-first">{{ 'MAIN.WHO_WE_ARE.CONTENT_1' | translate }}</p>
+      <p class="content-primary-first">{{ 'MAIN.WHO_WE_ARE.CONTENT_2' | translate }}</p>
+      <div class="flex gap-3">
+        <button routerLink="/about-us" class="btn-primary-unfilled !text-xl">{{ 'MAIN.WHO_WE_ARE.MORE_ABOUT_US_BUTTON' | translate }}</button>
+        <button routerLink="/" fragment="services" class="btn-primary-filled !text-xl">{{ 'MAIN.WHO_WE_ARE.SERVICES_BUTTON' | translate }}</button>
+        <button routerLink="/" fragment="fleet" class="btn-primary-filled !text-xl">{{ 'MAIN.WHO_WE_ARE.FLEET_BUTTON' | translate }}</button>
+      </div>
     </div>
   </div>
 </section>
