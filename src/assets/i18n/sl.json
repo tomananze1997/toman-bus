@@ -130,6 +130,17 @@
     "CONTENT_FORTH": "V vseh teh letih je naša predanost odličnosti pridobila zaupanje in zvestobo številnih strank. Ponosni smo, da se mnoge naše stranke vedno znova vračajo, z zaupanjem računajo na naše storitve. Poleg tega smo počaščeni, da smo vzpostavili močna sodelovanja z uglednimi mednarodnimi partnerji. Ta partnerstva so nastala na osnovi medsebojnega spoštovanja, skupnih vrednot ter priznanja kakovosti in zanesljivosti našega podjetja.",
     "CONTENT_FIFTH": "Ko se oziramo v prihodnost, ostajamo zavezani premikati meje odličnosti v prevozniški industriji. Nadaljevali bomo z vlaganjem v vozni park, raziskovanjem inovativnih pristopov ter razširitvijo naše mreže, da še bolje služimo našim strankam. Naša vizija je postati ena izmed prvih izbir za posameznike, ki iščejo varne, učinkovite in okolju prijazne prevozne storitve."
   },
+  "CONTACT_US": {
+    "TITLE": "Kontakt",
+    "DISCLAIMER": "Poslano povpraševanje ne pomeni rezervacije tranferja. Rezervacija je veljavna na podlagi potrditve pripravljene ponudbe preko e-pošte s strani naročnika.",
+    "FORM": {
+      "NAME": "Polno ime:",
+      "E-MAIL": "E-pošta:",
+      "PHONE": "Telefon:",
+      "MESSAGE": "Sporočilo:",
+      "BUTTON_SEND": "Pošlji"
+    }
+  },
   "COMMON": {
     "POPUP": {
       "SUCCESS_TEXT": "E-pošta uspešno poslana!",

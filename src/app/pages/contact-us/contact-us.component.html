@@ -1,6 +1,6 @@
 <section id="services" class="main-container-outer">
   <div class="main-container">
-    <h1 class="title-primary-second pb-8">Kontakt</h1>
+    <h1 class="title-primary-second pb-8">{{"CONTACT_US.TITLE" | translate}}</h1>
     <div class="flex gap-3">
       <!--    form    -->
       <div>
@@ -8,7 +8,7 @@
 
           <!-- Name -->
           <div class="form-group">
-            <label class="content-primary-first" for="name">Polno ime:</label>
+            <label class="content-primary-first" for="name">{{"CONTACT_US.FORM.NAME" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
                          'focused': contactForm.get('name')?.dirty || contactForm.get('name')?.touched,
@@ -22,7 +22,7 @@
 
           <!-- Email -->
           <div class="form-group">
-            <label class="content-primary-first" for="email">E-pošta:</label>
+            <label class="content-primary-first" for="email">{{"CONTACT_US.FORM.E-MAIL" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
            'focused': contactForm.get('email')?.dirty || contactForm.get('email')?.touched,
@@ -36,7 +36,7 @@
 
           <!-- Phone -->
           <div class="form-group">
-            <label class="content-primary-first" for="phone">Telefon:</label>
+            <label class="content-primary-first" for="phone">{{"CONTACT_US.FORM.PHONE" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
            'focused': contactForm.get('phone')?.dirty || contactForm.get('phone')?.touched,
@@ -50,7 +50,7 @@
 
           <!-- Message -->
           <div class="form-group">
-            <label class="content-primary-first" for="message">Sporočilo:</label>
+            <label class="content-primary-first" for="message">{{"CONTACT_US.FORM.MESSAGE" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
            'focused': contactForm.get('message')?.dirty || contactForm.get('message')?.touched,
@@ -61,9 +61,9 @@
             </div>
           </div>
 
-          <button type="submit" class="btn-primary-unfilled" [disabled]="contactForm.invalid && allFieldsTouched()">Pošlji</button>
+          <button type="submit" class="btn-primary-unfilled" [disabled]="contactForm.invalid && allFieldsTouched()">{{"CONTACT_US.FORM.BUTTON_SEND" | translate}}</button>
         </form>
-        <p class="content-primary-second">Poslano povpraševanje ne pomeni rezervacije tranferja. Rezervacija je veljavna na podlagi potrditve pripravljene ponudbe preko e-pošte s strani naročnika.</p>
+        <p class="content-primary-second">{{"CONTACT_US.DISCLAIMER" | translate}}</p>
       </div>
 
       <!--    contact info    -->

@@ -130,6 +130,17 @@
     "CONTENT_FORTH": "Throughout these years, our commitment to excellence has gained the trust and loyalty of numerous customers. We are proud that many of our clients return to us time and time again, relying on our services with confidence. Additionally, we are honored to have established strong collaborations with reputable international partners. These partnerships have been built on mutual respect, shared values, and recognition of the quality and reliability of our company.",
     "CONTENT_FIFTH": "As we look towards the future, we remain committed to pushing the boundaries of excellence in the transportation industry. We will continue to invest in our fleet, explore innovative approaches, and expand our network to better serve our customers. Our vision is to become one of the top choices for individuals seeking safe, efficient, and environmentally friendly transportation services."
   },
+  "CONTACT_US": {
+    "TITLE": "Contact us",
+    "DISCLAIMER": "Sending an inquiry does not constitute a reservation of the transfer. The reservation is valid only upon confirmation of the prepared offer via email by the client.",
+    "FORM": {
+      "NAME": "Full name:",
+      "E-MAIL": "Email:",
+      "PHONE": "Phone:",
+      "MESSAGE": "Message:",
+      "BUTTON_SEND": "Send"
+    }
+  },
   "COMMON": {
     "POPUP": {
       "SUCCESS_TEXT": "Email sent successfully!",
