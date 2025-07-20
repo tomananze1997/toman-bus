@@ -122,6 +122,14 @@
     "SECTION_TITLE_SEVENTH": "Kontakt",
     "SECTION_CONTENT_SEVENTH": "Če imate kakršna koli vprašanja glede te politike zasebnosti, nas prosimo kontaktirajte na"
   },
+  "ABOUT_US": {
+    "TITLE": "O nas",
+    "CONTENT_FIRST": "Toman d.o.o. je ugledno podjetje, specializirano za zagotavljanje kvalitetnih avtobusnih in VIP prevozov za posameznike tako v Sloveniji kot tudi v tujini. S trdnimi temelji, postavljenimi leta 2012, se nenehno prilagajamo in razvijamo, da bi zadovoljili vedno spreminjajoče se potrebe naših cenjenih strank.",
+    "CONTENT_SECOND": "V preteklih letih je podjetje doživelo izjemen razvoj in s tem utrdilo svoj položaj kot eden izmed najbolj zaupljivih ponudnikov prevoznih storitev. Z vlaganjem sredstev v posodobitev našega voznega parka zagotavljamo, da vozila izpolnjujejo najvišje kakovostne standarde in se ujemajo z zahtevnimi okoljskimi predpisi. Naša zaveza trajnosti se prepleta z našo predanostjo zagotavljanju varnih, učinkovitih in okolju prijaznih prevoznih rešitev.",
+    "CONTENT_THIRD": "V podjetju smo izjemno ponosni na našo ekipo izkušenih in strokovnih voznikov. Vsak član našega osebja je skrbno izbran in temeljito usposobljen, da zagotovi vrhunsko raven storitev. Njihovo strokovno znanje, skupaj z njihovim prijaznim in ustrežljivim pristopom, zagotavlja prijetno in udobno potovanje za vsakega potnika. Razumemo, da vloga voznika sega prek preprostega prevoza; služijo kot ambasadorji našega podjetja, predstavljajo naše vrednote in zavezanost k zadovoljstvu strank.",
+    "CONTENT_FORTH": "V vseh teh letih je naša predanost odličnosti pridobila zaupanje in zvestobo številnih strank. Ponosni smo, da se mnoge naše stranke vedno znova vračajo, z zaupanjem računajo na naše storitve. Poleg tega smo počaščeni, da smo vzpostavili močna sodelovanja z uglednimi mednarodnimi partnerji. Ta partnerstva so nastala na osnovi medsebojnega spoštovanja, skupnih vrednot ter priznanja kakovosti in zanesljivosti našega podjetja.",
+    "CONTENT_FIFTH": "Ko se oziramo v prihodnost, ostajamo zavezani premikati meje odličnosti v prevozniški industriji. Nadaljevali bomo z vlaganjem v vozni park, raziskovanjem inovativnih pristopov ter razširitvijo naše mreže, da še bolje služimo našim strankam. Naša vizija je postati ena izmed prvih izbir za posameznike, ki iščejo varne, učinkovite in okolju prijazne prevozne storitve."
+  },
   "COMMON": {
     "POPUP": {
       "SUCCESS_TEXT": "E-pošta uspešno poslana!",

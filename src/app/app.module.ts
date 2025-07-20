@@ -11,6 +11,7 @@ import { AboutUsComponent, ContactUsComponent, HomepageComponent, PrivacyPolicyC
 import { DropdownModule } from 'primeng/dropdown';
 
 import {
+  ContentAboutUsComponent,
   ContentPrivacyPolicyComponent,
   FleetComponent,
   FooterComponent,
@@ -50,7 +51,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     LuxuryComponent,
     PrivacyPolicyComponent,
     ContentPrivacyPolicyComponent,
-    PopupComponent
+    PopupComponent,
+    ContentAboutUsComponent
   ],
   imports: [
     BrowserModule,

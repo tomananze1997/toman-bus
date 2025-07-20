@@ -122,6 +122,14 @@
     "SECTION_TITLE_SEVENTH": "Contact",
     "SECTION_CONTENT_SEVENTH": "If you have any questions regarding this privacy policy, please contact us at"
   },
+  "ABOUT_US": {
+    "TITLE": "About us",
+    "CONTENT_FIRST": "Toman d.o.o. is a company specialized in providing high-quality bus and VIP transportation services for individuals both in Slovenia and abroad. With a solid foundation established in 2012, we constantly adapt and develop to meet the ever-changing needs of our esteemed customers.",
+    "CONTENT_SECOND": "Over the years, the company has experienced remarkable growth, solidifying its position as one of the most trusted providers of transportation services. By investing in the modernization of our fleet, we ensure that our vehicles meet the highest quality standards and comply with demanding environmental regulations. Our commitment to sustainability intertwines with our dedication to providing safe, efficient, and environmentally friendly transportation solutions.",
+    "CONTENT_THIRD": "We take great pride in our team of experienced and professional drivers. Each member of our staff is carefully selected and trained to deliver a superior level of service. Their expertise, combined with a friendly and accommodating approach, ensures a pleasant and comfortable journey for every passenger. We understand that the role of a driver extends beyond simple transportation; they serve as ambassadors of our company, representing our values and commitment to customer satisfaction.",
+    "CONTENT_FORTH": "Throughout these years, our commitment to excellence has gained the trust and loyalty of numerous customers. We are proud that many of our clients return to us time and time again, relying on our services with confidence. Additionally, we are honored to have established strong collaborations with reputable international partners. These partnerships have been built on mutual respect, shared values, and recognition of the quality and reliability of our company.",
+    "CONTENT_FIFTH": "As we look towards the future, we remain committed to pushing the boundaries of excellence in the transportation industry. We will continue to invest in our fleet, explore innovative approaches, and expand our network to better serve our customers. Our vision is to become one of the top choices for individuals seeking safe, efficient, and environmentally friendly transportation services."
+  },
   "COMMON": {
     "POPUP": {
       "SUCCESS_TEXT": "Email sent successfully!",
