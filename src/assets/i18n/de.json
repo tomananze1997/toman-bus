@@ -1,138 +1,138 @@
 {
   "NAVIGATION": {
-    "ABOUT_US": "About us",
-    "CONTACT_US": "Contact us",
-    "VIP": "VIP transfers",
+    "ABOUT_US": "Über Uns",
+    "CONTACT_US": "Kontaktieren Sie Uns",
+    "VIP": "VIP Transfers",
     "LANGUAGE": {
-      "ENGLISH": "English",
-      "SLOVENIAN": "Slovenian",
-      "GERMAN": "German"
+      "ENGLISH": "Englisch",
+      "SLOVENIAN": "Slowenisch",
+      "GERMAN": "Deutsch"
     }
   },
   "FOOTER": {
-    "CONTACT_US_TITLE": "Contact Us",
-    "LEGAL_TITLE": "Legal policies",
-    "PRIVACY_POLICY": "Privacy Policy",
-    "TERMS_AND_CONDITIONS": "Terms & Conditions",
-    "INFORMATIONS_TITLE": "Informations",
-    "INFORMATIONS_CONTENT": "With us, your journey will be comfortable, safe, and tailored to your wishes – anywhere in Slovenia or Europe.",
-    "COMPANY_DATA": "© 2025 Toman d.o.o. — Posavec 131, 4244 Podnart, Slovenia — VAT number: SI95427201"
+    "CONTACT_US_TITLE": "Kontaktieren Sie Uns",
+    "LEGAL_TITLE": "Rechtliche Bestimmungen",
+    "PRIVACY_POLICY": "Datenschutzerklärung",
+    "TERMS_AND_CONDITIONS": "Geschäftsbedingungen",
+    "INFORMATIONS_TITLE": "Informationen",
+    "INFORMATIONS_CONTENT": "Bei uns wird Ihre Reise komfortabel, sicher und nach Ihren Wünschen gestaltet – überall in Slowenien oder Europa.",
+    "COMPANY_DATA": "© 2025 Toman d.o.o. — Posavec 131, 4244 Podnart, Slowenien — USt-Nummer: SI95427201"
   },
   "MAIN": {
     "HERO": {
-      "TITLE": "Enjoy a comfortable and pleasant experience",
-      "CONTENT": "With Toman bus transport, your journey will be pleasant and comfortable. We will ensure that you have the best experience and discover the most beautiful new places. We offer a complete service, where we are happy to meet your requirements and expectations. All buses are equipped with all tourist amenities. We also offer VIP transport with top-of-the-range vehicles. Our drivers are professionally trained and have extensive knowledge of domestic and European destinations. We operate in accordance with applicable traffic, labour and tax legislation, and both passengers and vehicles are insured.",
-      "QUOTE_BUTTON": "Get a quote"
+      "TITLE": "Genießen Sie Ein Komfortables Und Angenehmes Erlebnis",
+      "CONTENT": "Mit Toman Bus Transport wird Ihre Reise angenehm und komfortabel. Wir sorgen dafür, dass Sie die beste Erfahrung machen und die schönsten neuen Orte entdecken. Wir bieten einen Komplettservice, der Ihre Anforderungen und Erwartungen gerne erfüllt. Alle Busse sind mit allen touristischen Annehmlichkeiten ausgestattet. Wir bieten auch VIP-Transfers mit erstklassigen Fahrzeugen an. Unsere Fahrer sind professionell geschult und verfügen über umfassende Kenntnisse der inländischen und europäischen Reiseziele. Wir handeln gemäß den geltenden Verkehrs-, Arbeits- und Steuergesetzen, und sowohl Fahrgäste als auch Fahrzeuge sind versichert.",
+      "QUOTE_BUTTON": "Angebot Anfordern"
     },
     "WHO_WE_ARE": {
-      "TITLE": "Doživite udobno in prijetno izkušnjo",
-      "SUBTITLE": "Kdo smo",
-      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.\n\n",
-      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko obrazca za rezervacijo avtobusnega prevoza.",
-      "MORE_ABOUT_US_BUTTON": "Več o nas",
-      "SERVICES_BUTTON": "Naše storitve",
-      "FLEET_BUTTON": "Naš vozni park"
+      "TITLE": "Erleben Sie Komfortable Und Angenehme Reisen",
+      "SUBTITLE": "Wer Wir Sind",
+      "CONTENT_1": "Komfortabel, zuverlässig und sorgenfrei – das ist unser Ansatz im Busverkehr. Ob Ausflug, Geschäftsveranstaltung oder Schulausflug, wir bringen Sie sicher und pünktlich ans Ziel. Unsere Busse sind modern ausgestattet, die Fahrer erfahren, und der Service immer auf Ihre Wünsche zugeschnitten. Lassen Sie Ihre Reise mit Vertrauen beginnen – wir kümmern uns um den Rest.",
+      "CONTENT_2": "Wenn Sie ein genaues Angebot wünschen, rufen Sie uns an, schreiben Sie eine E-Mail oder kontaktieren Sie uns über das Kontaktformular.",
+      "MORE_ABOUT_US_BUTTON": "Mehr Über Uns",
+      "SERVICES_BUTTON": "Unsere Dienstleistungen",
+      "FLEET_BUTTON": "Unsere Flotte"
     },
     "SERVICES": {
-      "TITLE": "Wherever You Need to Be — We'll Get You There",
-      "SUBTITLE": "Our services",
+      "TITLE": "Wohin Sie Auch Müssen – Wir Bringen Sie Hin",
+      "SUBTITLE": "Unsere Dienstleistungen",
       "FIRST": {
-        "TITLE": "Airport Transfers",
-        "CONTENT": "Reliable and stress-free transfers to and from the airport — always on time."
+        "TITLE": "Flughafentransfers",
+        "CONTENT": "Zuverlässige und stressfreie Transfers zum und vom Flughafen – immer pünktlich."
       },
       "SECOND": {
-        "TITLE": "Seaport Transfers",
-        "CONTENT": "Smooth and timely connections to cruise ports — start your journey right."
+        "TITLE": "Hafentransfers",
+        "CONTENT": "Reibungslose und pünktliche Verbindungen zu Kreuzfahrthäfen – starten Sie Ihre Reise richtig."
       },
       "THIRD": {
-        "TITLE": "Travel Trips",
-        "CONTENT": "Day and multi-day transport for groups — comfortable, flexible, and safe."
+        "TITLE": "Reisefahrten",
+        "CONTENT": "Tages- und mehrtägige Transporte für Gruppen – komfortabel, flexibel und sicher."
       },
       "FOURTH": {
-        "TITLE": "School Transports",
-        "CONTENT": "Safe and punctual school transfers with vetted drivers and dedicated routes."
+        "TITLE": "Schultransporte",
+        "CONTENT": "Sichere und pünktliche Schultransfers mit geprüften Fahrern und festen Routen."
       },
       "FIFTH": {
-        "TITLE": "Corporate Transports",
-        "CONTENT": "Professional transport for business events, clients, and executives."
+        "TITLE": "Firmentransporte",
+        "CONTENT": "Professioneller Transport für Geschäftsveranstaltungen, Kunden und Führungskräfte."
       },
       "SIXTH": {
-        "TITLE": "Transportation On Request",
-        "CONTENT": "Custom transport solutions tailored to your needs. Contact us for flexible options."
+        "TITLE": "Transport Auf Anfrage",
+        "CONTENT": "Individuelle Transportlösungen, die auf Ihre Bedürfnisse zugeschnitten sind. Kontaktieren Sie uns für flexible Optionen."
       },
-      "BUTTON": "Learn more"
+      "BUTTON": "Mehr Erfahren"
     },
     "VIP_TRANSFERS": {
-      "TITLE": "Popolno udobje in prestiž po meri",
-      "SUBTITLE": "VIP Prevozi",
-      "CONTENT_1": "Za posebne priložnosti ali pomembne poslovne poti ponujamo vrhunske prevoze z luksuznimi vozili višjega cenovnega razreda. Naša storitev je popolnoma prilagojena vašim željam – zagotovimo vam udobno, varno in brezskrbno potovanje na najvišji ravni.",
-      "CONTENT_2": "Naši izkušeni in diskretni vozniki poskrbijo, da prispete točno, sproščeno in v stilu – kamorkoli v Sloveniji ali Evropi. Pokličite nas ali pošljite e-mail in z veseljem vam pripravimo individualno ponudbo.",
-      "MORE_ABOUT_US_BUTTON": "Več o nas",
-      "VIP_BUTTON": "VIP prevozi"
+      "TITLE": "Ultimativer Komfort Und Prestige Nach Ihren Wünschen",
+      "SUBTITLE": "VIP Transfers",
+      "CONTENT_1": "Für besondere Anlässe oder wichtige Geschäftsreisen bieten wir erstklassigen Transport mit Luxusfahrzeugen der höchsten Klasse. Unser Service ist vollständig auf Ihre Wünsche zugeschnitten – wir garantieren eine komfortable, sichere und sorgenfreie Reise auf höchstem Niveau.",
+      "CONTENT_2": "Unsere erfahrenen und diskreten Fahrer sorgen dafür, dass Sie pünktlich, entspannt und stilvoll ankommen – überall in Slowenien oder Europa. Rufen Sie uns an oder senden Sie eine E-Mail, und wir erstellen Ihnen gerne ein individuelles Angebot.",
+      "MORE_ABOUT_US_BUTTON": "Mehr Über Uns",
+      "VIP_BUTTON": "VIP Transfers"
     },
     "FLEET": {
-      "TITLE": "Reliable, comfortable, and ready to go",
-      "SUBTITLE": "Our Fleet",
+      "TITLE": "Zuverlässig, Komfortabel Und Einsatzbereit",
+      "SUBTITLE": "Unsere Flotte",
       "VEHICLES": {
         "C_CLASS": {
-          "NAME": "Mercedes-Benz C-Class",
-          "DESCRIPTION": "The Mercedes-Benz C-Class with AMG styling combines sporty elegance with premium comfort. Its refined interior and dynamic ride make it ideal for business transfers, individual transport, or stylish occasions where making an impression matters."
+          "NAME": "Mercedes-Benz C-Klasse",
+          "DESCRIPTION": "Die Mercedes-Benz C-Klasse mit AMG-Styling verbindet sportliche Eleganz mit Premium-Komfort. Ihr edles Interieur und die dynamische Fahrt machen sie ideal für Geschäftstransfers, Individualtransporte oder stilvolle Anlässe, bei denen ein Eindruck wichtig ist."
         },
         "V_CLASS": {
-          "NAME": "Mercedes-Benz V-Class",
-          "DESCRIPTION": "The extended Mercedes-Benz V-Class offers exceptional space and flexibility for up to 7 passengers. With comfortable seating, a luxurious interior, and modern features, it's the perfect choice for business trips, family outings, or VIP transfers. This van blends elegance with practicality to ensure a high level of comfort on every journey."
+          "NAME": "Mercedes-Benz V-Klasse",
+          "DESCRIPTION": "Die verlängerte Mercedes-Benz V-Klasse bietet außergewöhnlichen Raum und Flexibilität für bis zu 7 Passagiere. Mit komfortablen Sitzen, luxuriösem Interieur und modernen Features ist sie die perfekte Wahl für Geschäftsreisen, Familienausflüge oder VIP-Transfers. Dieser Van verbindet Eleganz mit Praktikabilität, um auf jeder Fahrt hohen Komfort zu gewährleisten."
         },
         "LION_COACH_1": {
           "NAME": "MAN Lionʼs Coach",
-          "DESCRIPTION": "Experience modern comfort with our newer MAN Lion’s Coach. Featuring 51+1+1 seats, it’s an excellent choice for larger groups seeking space and reliability. The coach is equipped with air conditioning, a TV, and a refrigerator to ensure a smooth and pleasant journey. Ideal for both long-distance trips and corporate or day tours."
+          "DESCRIPTION": "Erleben Sie modernen Komfort mit unserem neueren MAN Lion’s Coach. Mit 51+1+1 Sitzplätzen ist er eine ausgezeichnete Wahl für größere Gruppen, die Raum und Zuverlässigkeit suchen. Der Reisebus ist mit Klimaanlage, Fernseher und Kühlschrank ausgestattet, um eine reibungslose und angenehme Reise zu gewährleisten. Ideal für Langstreckenfahrten sowie Firmen- oder Tagestouren."
         },
         "LION_COACH_2": {
           "NAME": "MAN Lionʼs Coach",
-          "DESCRIPTION": "Experience the pinnacle of luxury travel with our Man Lion's Coach. With 49+1 seats, this coach offers ample space for a comfortable journey. Enjoy onboard amenities such as a TV, toilete, air conditioning, and a refrigerator. Whether it's a corporate event, airport transfer, or group excursion, our Man Lion's Coach ensures a seamless and lavish travel experience."
+          "DESCRIPTION": "Erleben Sie den Gipfel des Luxusreisens mit unserem MAN Lion's Coach. Mit 49+1 Sitzplätzen bietet dieser Bus viel Platz für eine komfortable Reise. Genießen Sie Annehmlichkeiten wie Fernseher, Toilette, Klimaanlage und Kühlschrank. Ob Firmenveranstaltung, Flughafentransfer oder Gruppenausflug – unser MAN Lion's Coach garantiert eine nahtlose und luxuriöse Reiseerfahrung."
         },
         "TRAVEGO": {
           "NAME": "Mercedes-Benz Travego",
-          "DESCRIPTION": "Embark on a remarkable journey with our Mercedes Benz Travego. Designed to accommodate 51+2 passengers, this coach combines elegance and functionality. Stay entertained with the onboard TV, relax in the refreshing air-conditioned environment, and keep your refreshments cool in the refrigerator. Whether it's a long-distance trip or a sightseeing tour, our Mercedes Benz Travego guarantees a stylish and comfortable ride."
+          "DESCRIPTION": "Beginnen Sie eine bemerkenswerte Reise mit unserem Mercedes-Benz Travego. Für 51+2 Passagiere ausgelegt, vereint dieser Reisebus Eleganz und Funktionalität. Bleiben Sie mit dem Bordfernseher unterhalten, entspannen Sie sich in der klimatisierten Umgebung und kühlen Sie Ihre Getränke im Kühlschrank. Ob Langstreckenfahrt oder Sightseeing-Tour, unser Mercedes-Benz Travego garantiert eine stilvolle und komfortable Fahrt."
         },
         "SETRA": {
           "NAME": "Setra 416 GT-HD",
-          "DESCRIPTION": "Indulge in luxury and sophistication with our Setra 416 GT HD coach. With seating for 53+2 passengers, this coach provides an abundance of space and comfort. Enjoy your favorite shows on the onboard TV, benefit from the convenience of a toilete, and experience a pleasant journey with the climate control and refrigerator. Whether it's a special event or a group excursion, our Setra 416 GT HD ensures a first-class travel experience."
+          "DESCRIPTION": "Genießen Sie Luxus und Raffinesse mit unserem Setra 416 GT HD Reisebus. Mit Sitzplätzen für 53+2 Passagiere bietet dieser Bus viel Raum und Komfort. Genießen Sie Ihre Lieblingssendungen auf dem Bordfernseher, profitieren Sie von der Toilette und erleben Sie eine angenehme Fahrt dank Klimaanlage und Kühlschrank. Ob besondere Veranstaltung oder Gruppenausflug, unser Setra 416 GT HD sorgt für ein erstklassiges Reiseerlebnis."
         }
       }
     },
     "BUSINESS_PARTNERS": {
-      "TITLE": "Our Business Partners",
-      "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
+      "TITLE": "Unsere Geschäftspartner",
+      "SUBTITLE": "Vertraut Von Kunden In Ganz Slowenien Und Europa"
     }
   },
   "PRIVACY_POLICY": {
-    "TITLE": "Privacy policy",
-    "SECTION_TITLE_FIRST": "Introduction",
-    "SECTION_CONTENT_FIRST": "TOMAN Transport Ltd. respects your privacy and is committed to protecting your personal data. This privacy policy informs you about how we handle your personal information when you visit our website (regardless of where you visit it from) and informs you about your privacy rights and how the law protects you.",
-    "SECTION_TITLE_SECOND": "Collection and use of data",
-    "SECTION_CONTENT_SECOND": "During the use of our website, we may ask you to provide certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your name, address, email address, and phone number. We use this data to improve our services, respond to your inquiries, process your orders, and comply with legal obligations.",
-    "SECTION_TITLE_THIRD": "Disclosure of data",
-    "SECTION_CONTENT_THIRD": "We may disclose your personal data to third-party service providers who perform services on our behalf, such as payment processing, order fulfillment, or data analysis. All third-party service providers must take appropriate security measures to protect your personal data.",
-    "SECTION_TITLE_FORTH": "Data security",
-    "SECTION_CONTENT_FORTH": "We have implemented appropriate security measures to prevent accidental loss, use, or unauthorized access, alteration, or disclosure of your personal data.",
-    "SECTION_TITLE_FIFTH": "Your rights",
-    "SECTION_CONTENT_FIFTH": "You have the right to access, correct, or delete your personal data. You may also object to the processing of your personal data under certain circumstances.",
-    "SECTION_TITLE_SIXTH": "Changes to policy",
-    "SECTION_CONTENT_SIXTH": "Any changes we make to our privacy policy in the future will be posted on this page. Please check regularly for any updates or changes to our privacy policy.",
-    "SECTION_TITLE_SEVENTH": "Contact",
-    "SECTION_CONTENT_SEVENTH": "If you have any questions regarding this privacy policy, please contact us at"
+    "TITLE": "Datenschutzerklärung",
+    "SECTION_TITLE_FIRST": "Einführung",
+    "SECTION_CONTENT_FIRST": "TOMAN Transport GmbH respektiert Ihre Privatsphäre und verpflichtet sich zum Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre persönlichen Daten verarbeiten, wenn Sie unsere Website besuchen (unabhängig davon, von wo aus Sie sie besuchen), und informiert Sie über Ihre Datenschutzrechte und den gesetzlichen Schutz.",
+    "SECTION_TITLE_SECOND": "Erfassung Und Verwendung Von Daten",
+    "SECTION_CONTENT_SECOND": "Während der Nutzung unserer Website können wir Sie bitten, bestimmte personenbezogene Daten anzugeben, mit denen Sie kontaktiert oder identifiziert werden können. Personenbezogene Daten können unter anderem Ihren Namen, Adresse, E-Mail-Adresse und Telefonnummer umfassen. Wir verwenden diese Daten, um unsere Dienstleistungen zu verbessern, auf Ihre Anfragen zu reagieren, Ihre Bestellungen zu bearbeiten und gesetzlichen Verpflichtungen nachzukommen.",
+    "SECTION_TITLE_THIRD": "Weitergabe Von Daten",
+    "SECTION_CONTENT_THIRD": "Wir können Ihre personenbezogenen Daten an Drittanbieter weitergeben, die in unserem Auftrag Dienstleistungen erbringen, wie Zahlungsabwicklung, Auftragsabwicklung oder Datenanalyse. Alle Drittanbieter müssen angemessene Sicherheitsmaßnahmen zum Schutz Ihrer personenbezogenen Daten ergreifen.",
+    "SECTION_TITLE_FORTH": "Datensicherheit",
+    "SECTION_CONTENT_FORTH": "Wir haben geeignete Sicherheitsmaßnahmen umgesetzt, um versehentlichen Verlust, unbefugte Nutzung oder Zugriff, Änderung oder Offenlegung Ihrer personenbezogenen Daten zu verhindern.",
+    "SECTION_TITLE_FIFTH": "Ihre Rechte",
+    "SECTION_CONTENT_FIFTH": "Sie haben das Recht, auf Ihre personenbezogenen Daten zuzugreifen, diese zu korrigieren oder zu löschen. Sie können unter bestimmten Umständen auch der Verarbeitung Ihrer personenbezogenen Daten widersprechen.",
+    "SECTION_TITLE_SIXTH": "Änderungen Der Richtlinie",
+    "SECTION_CONTENT_SIXTH": "Alle zukünftigen Änderungen unserer Datenschutzerklärung werden auf dieser Seite veröffentlicht. Bitte überprüfen Sie regelmäßig unsere Datenschutzerklärung auf Aktualisierungen oder Änderungen.",
+    "SECTION_TITLE_SEVENTH": "Kontakt",
+    "SECTION_CONTENT_SEVENTH": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter"
   },
   "ABOUT_US": {
-    "TITLE": "About us",
-    "CONTENT_FIRST": "Toman d.o.o. is a company specialized in providing high-quality bus and VIP transportation services for individuals both in Slovenia and abroad. With a solid foundation established in 2012, we constantly adapt and develop to meet the ever-changing needs of our esteemed customers.",
-    "CONTENT_SECOND": "Over the years, the company has experienced remarkable growth, solidifying its position as one of the most trusted providers of transportation services. By investing in the modernization of our fleet, we ensure that our vehicles meet the highest quality standards and comply with demanding environmental regulations. Our commitment to sustainability intertwines with our dedication to providing safe, efficient, and environmentally friendly transportation solutions.",
-    "CONTENT_THIRD": "We take great pride in our team of experienced and professional drivers. Each member of our staff is carefully selected and trained to deliver a superior level of service. Their expertise, combined with a friendly and accommodating approach, ensures a pleasant and comfortable journey for every passenger. We understand that the role of a driver extends beyond simple transportation; they serve as ambassadors of our company, representing our values and commitment to customer satisfaction.",
-    "CONTENT_FORTH": "Throughout these years, our commitment to excellence has gained the trust and loyalty of numerous customers. We are proud that many of our clients return to us time and time again, relying on our services with confidence. Additionally, we are honored to have established strong collaborations with reputable international partners. These partnerships have been built on mutual respect, shared values, and recognition of the quality and reliability of our company.",
-    "CONTENT_FIFTH": "As we look towards the future, we remain committed to pushing the boundaries of excellence in the transportation industry. We will continue to invest in our fleet, explore innovative approaches, and expand our network to better serve our customers. Our vision is to become one of the top choices for individuals seeking safe, efficient, and environmentally friendly transportation services."
+    "TITLE": "Über Uns",
+    "CONTENT_FIRST": "Toman d.o.o. ist ein Unternehmen, das sich auf hochwertige Bus- und VIP-Transporte für Privatpersonen in Slowenien und im Ausland spezialisiert hat. Mit einer soliden Grundlage, die 2012 gelegt wurde, passen wir uns ständig an und entwickeln uns weiter, um den sich ständig ändernden Bedürfnissen unserer geschätzten Kunden gerecht zu werden.",
+    "CONTENT_SECOND": "Im Laufe der Jahre hat das Unternehmen ein bemerkenswertes Wachstum erfahren und sich als einer der vertrauenswürdigsten Anbieter von Transportdienstleistungen etabliert. Durch Investitionen in die Modernisierung unserer Flotte stellen wir sicher, dass unsere Fahrzeuge den höchsten Qualitätsstandards entsprechen und anspruchsvolle Umweltvorschriften erfüllen. Unser Engagement für Nachhaltigkeit verbindet sich mit unserem Bestreben, sichere, effiziente und umweltfreundliche Transportlösungen anzubieten.",
+    "CONTENT_THIRD": "Wir sind stolz auf unser Team erfahrener und professioneller Fahrer. Jedes Mitglied unseres Teams wird sorgfältig ausgewählt und geschult, um einen erstklassigen Service zu bieten. Ihre Expertise, kombiniert mit einem freundlichen und zuvorkommenden Auftreten, sorgt für eine angenehme und komfortable Reise für jeden Fahrgast. Wir verstehen, dass die Rolle eines Fahrers über den reinen Transport hinausgeht; sie sind Botschafter unseres Unternehmens und vertreten unsere Werte sowie unser Engagement für Kundenzufriedenheit.",
+    "CONTENT_FORTH": "Im Laufe der Jahre hat unser Engagement für Exzellenz das Vertrauen und die Loyalität zahlreicher Kunden gewonnen. Wir sind stolz darauf, dass viele unserer Kunden immer wieder auf unsere Dienstleistungen vertrauen. Zudem freuen wir uns über starke Partnerschaften mit renommierten internationalen Partnern. Diese Partnerschaften basieren auf gegenseitigem Respekt, gemeinsamen Werten und Anerkennung der Qualität und Zuverlässigkeit unseres Unternehmens.",
+    "CONTENT_FIFTH": "Mit Blick auf die Zukunft bleiben wir bestrebt, die Grenzen der Exzellenz im Transportwesen zu erweitern. Wir werden weiterhin in unsere Flotte investieren, innovative Ansätze verfolgen und unser Netzwerk ausbauen, um unseren Kunden noch besseren Service zu bieten. Unsere Vision ist es, eine der ersten Adressen für Personen zu werden, die sichere, effiziente und umweltfreundliche Transportdienstleistungen suchen."
   },
   "CONTACT_US": {
-    "TITLE": "Kontakt",
-    "DISCLAIMER": "Das Absenden einer Anfrage stellt keine Reservierung des Transfers dar. Die Reservierung ist erst nach der Bestätigung des vorbereiteten Angebots per E-Mail durch den Kunden gültig.",
+    "TITLE": "Kontaktieren Sie Uns",
+    "DISCLAIMER": "Das Senden einer Anfrage stellt keine Reservierung des Transfers dar. Die Reservierung ist nur gültig, wenn das vorbereitete Angebot vom Kunden per E-Mail bestätigt wird.",
     "FORM": {
       "NAME": "Vollständiger Name:",
       "E-MAIL": "E-Mail:",
@@ -143,9 +143,9 @@
   },
   "COMMON": {
     "POPUP": {
-      "SUCCESS_TEXT": "Email sent successfully!",
-      "FAILURE_TEXT": "An error occurred while sending the email.",
-      "CONFIRM_BUTTON": "Confirm"
+      "SUCCESS_TEXT": "E-Mail Erfolgreich Gesendet!",
+      "FAILURE_TEXT": "Beim Senden Der E-Mail Ist Ein Fehler Aufgetreten.",
+      "CONFIRM_BUTTON": "Bestätigen"
     }
   }
 }

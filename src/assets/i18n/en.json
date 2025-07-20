@@ -11,42 +11,42 @@
   },
   "FOOTER": {
     "CONTACT_US_TITLE": "Contact Us",
-    "LEGAL_TITLE": "Legal policies",
+    "LEGAL_TITLE": "Legal Policies",
     "PRIVACY_POLICY": "Privacy Policy",
     "TERMS_AND_CONDITIONS": "Terms & Conditions",
     "INFORMATIONS_TITLE": "Informations",
     "INFORMATIONS_CONTENT": "With us, your journey will be comfortable, safe, and tailored to your wishes – anywhere in Slovenia or Europe.",
-    "COMPANY_DATA": "© 2025 Toman d.o.o. — Posavec 131, 4244 Podnart, Slovenia — VAT number: SI95427201"
+    "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenia - VAT number: SI95427201"
   },
   "MAIN": {
     "HERO": {
-      "TITLE": "Enjoy a comfortable and pleasant experience",
+      "TITLE": "Enjoy a Comfortable and Pleasant Experience",
       "CONTENT": "With Toman bus transport, your journey will be pleasant and comfortable. We will ensure that you have the best experience and discover the most beautiful new places. We offer a complete service, where we are happy to meet your requirements and expectations. All buses are equipped with all tourist amenities. We also offer VIP transport with top-of-the-range vehicles. Our drivers are professionally trained and have extensive knowledge of domestic and European destinations. We operate in accordance with applicable traffic, labour and tax legislation, and both passengers and vehicles are insured.",
-      "QUOTE_BUTTON": "Get a quote"
+      "QUOTE_BUTTON": "Get a Quote"
     },
     "WHO_WE_ARE": {
-      "TITLE": "Doživite udobno in prijetno izkušnjo",
-      "SUBTITLE": "Kdo smo",
-      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.\n\n",
-      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko obrazca za rezervacijo avtobusnega prevoza.",
-      "MORE_ABOUT_US_BUTTON": "Več o nas",
-      "SERVICES_BUTTON": "Naše storitve",
-      "FLEET_BUTTON": "Naš vozni park"
+      "TITLE": "Experience Comfortable and Pleasant Journey",
+      "SUBTITLE": "Who We Are",
+      "CONTENT_1": "Comfortable, reliable, and worry-free - this is our approach to bus transportation. Whether it’s a trip, business event, or school excursion, we will take you safely and on time to your destination. Our buses are modernly equipped, drivers experienced, and service always tailored to your wishes. Let your journey start with trust - we take care of everything else.",
+      "CONTENT_2": "If you would like us to prepare an exact offer for you, please call, send an email, or contact us via contact form.",
+      "MORE_ABOUT_US_BUTTON": "More About Us",
+      "SERVICES_BUTTON": "Our Services",
+      "FLEET_BUTTON": "Our Fleet"
     },
     "SERVICES": {
-      "TITLE": "Wherever You Need to Be — We'll Get You There",
-      "SUBTITLE": "Our services",
+      "TITLE": "Wherever You Need to Be - We'll Get You There",
+      "SUBTITLE": "Our Services",
       "FIRST": {
         "TITLE": "Airport Transfers",
-        "CONTENT": "Reliable and stress-free transfers to and from the airport — always on time."
+        "CONTENT": "Reliable and stress-free transfers to and from the airport - always on time."
       },
       "SECOND": {
         "TITLE": "Seaport Transfers",
-        "CONTENT": "Smooth and timely connections to cruise ports — start your journey right."
+        "CONTENT": "Smooth and timely connections to cruise ports - start your journey right."
       },
       "THIRD": {
         "TITLE": "Travel Trips",
-        "CONTENT": "Day and multi-day transport for groups — comfortable, flexible, and safe."
+        "CONTENT": "Day and multi-day transport for groups - comfortable, flexible, and safe."
       },
       "FOURTH": {
         "TITLE": "School Transports",
@@ -60,15 +60,15 @@
         "TITLE": "Transportation On Request",
         "CONTENT": "Custom transport solutions tailored to your needs. Contact us for flexible options."
       },
-      "BUTTON": "Learn more"
+      "BUTTON": "Learn More"
     },
     "VIP_TRANSFERS": {
-      "TITLE": "Popolno udobje in prestiž po meri",
-      "SUBTITLE": "VIP Prevozi",
-      "CONTENT_1": "Za posebne priložnosti ali pomembne poslovne poti ponujamo vrhunske prevoze z luksuznimi vozili višjega cenovnega razreda. Naša storitev je popolnoma prilagojena vašim željam – zagotovimo vam udobno, varno in brezskrbno potovanje na najvišji ravni.",
-      "CONTENT_2": "Naši izkušeni in diskretni vozniki poskrbijo, da prispete točno, sproščeno in v stilu – kamorkoli v Sloveniji ali Evropi. Pokličite nas ali pošljite e-mail in z veseljem vam pripravimo individualno ponudbo.",
-      "MORE_ABOUT_US_BUTTON": "Več o nas",
-      "VIP_BUTTON": "VIP prevozi"
+      "TITLE": "Ultimate Comfort And Prestige Tailored To You",
+      "SUBTITLE": "VIP Transfers",
+      "CONTENT_1": "For special occasions or important business trips, we offer top-level transportation with luxury vehicles of the highest class. Our service is fully tailored to your wishes - we guarantee a comfortable, safe, and worry-free journey at the highest level.",
+      "CONTENT_2": "Our experienced and discreet drivers ensure you arrive on time, relaxed, and in style - anywhere in Slovenia or Europe. Call us or send an email and we will gladly prepare an individual offer for you.",
+      "MORE_ABOUT_US_BUTTON": "More About Us",
+      "VIP_BUTTON": "VIP Transfers"
     },
     "FLEET": {
       "TITLE": "Reliable, comfortable, and ready to go",
@@ -102,11 +102,11 @@
     },
     "BUSINESS_PARTNERS": {
       "TITLE": "Our Business Partners",
-      "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
+      "SUBTITLE": "Trusted By Clients Throughout Slovenia And Europe"
     }
   },
   "PRIVACY_POLICY": {
-    "TITLE": "Privacy policy",
+    "TITLE": "Privacy Policy",
     "SECTION_TITLE_FIRST": "Introduction",
     "SECTION_CONTENT_FIRST": "TOMAN Transport Ltd. respects your privacy and is committed to protecting your personal data. This privacy policy informs you about how we handle your personal information when you visit our website (regardless of where you visit it from) and informs you about your privacy rights and how the law protects you.",
     "SECTION_TITLE_SECOND": "Collection and use of data",
@@ -123,7 +123,7 @@
     "SECTION_CONTENT_SEVENTH": "If you have any questions regarding this privacy policy, please contact us at"
   },
   "ABOUT_US": {
-    "TITLE": "About us",
+    "TITLE": "About Us",
     "CONTENT_FIRST": "Toman d.o.o. is a company specialized in providing high-quality bus and VIP transportation services for individuals both in Slovenia and abroad. With a solid foundation established in 2012, we constantly adapt and develop to meet the ever-changing needs of our esteemed customers.",
     "CONTENT_SECOND": "Over the years, the company has experienced remarkable growth, solidifying its position as one of the most trusted providers of transportation services. By investing in the modernization of our fleet, we ensure that our vehicles meet the highest quality standards and comply with demanding environmental regulations. Our commitment to sustainability intertwines with our dedication to providing safe, efficient, and environmentally friendly transportation solutions.",
     "CONTENT_THIRD": "We take great pride in our team of experienced and professional drivers. Each member of our staff is carefully selected and trained to deliver a superior level of service. Their expertise, combined with a friendly and accommodating approach, ensures a pleasant and comfortable journey for every passenger. We understand that the role of a driver extends beyond simple transportation; they serve as ambassadors of our company, representing our values and commitment to customer satisfaction.",
@@ -131,10 +131,10 @@
     "CONTENT_FIFTH": "As we look towards the future, we remain committed to pushing the boundaries of excellence in the transportation industry. We will continue to invest in our fleet, explore innovative approaches, and expand our network to better serve our customers. Our vision is to become one of the top choices for individuals seeking safe, efficient, and environmentally friendly transportation services."
   },
   "CONTACT_US": {
-    "TITLE": "Contact us",
+    "TITLE": "Contact Us",
     "DISCLAIMER": "Sending an inquiry does not constitute a reservation of the transfer. The reservation is valid only upon confirmation of the prepared offer via email by the client.",
     "FORM": {
-      "NAME": "Full name:",
+      "NAME": "Full Name:",
       "E-MAIL": "Email:",
       "PHONE": "Phone:",
       "MESSAGE": "Message:",
@@ -143,8 +143,8 @@
   },
   "COMMON": {
     "POPUP": {
-      "SUCCESS_TEXT": "Email sent successfully!",
-      "FAILURE_TEXT": "An error occurred while sending the email.",
+      "SUCCESS_TEXT": "Email Sent Successfully!",
+      "FAILURE_TEXT": "An Error Occurred While Sending The Email.",
       "CONFIRM_BUTTON": "Confirm"
     }
   }

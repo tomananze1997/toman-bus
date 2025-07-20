@@ -10,12 +10,12 @@
     }
   },
   "FOOTER": {
-    "CONTACT_US_TITLE": "Contact Us",
-    "LEGAL_TITLE": "Legal policies",
-    "PRIVACY_POLICY": "Privacy Policy",
-    "TERMS_AND_CONDITIONS": "Terms & Conditions",
-    "INFORMATIONS_TITLE": "Informations",
-    "INFORMATIONS_CONTENT": "With us, your journey will be comfortable, safe, and tailored to your wishes – anywhere in Slovenia or Europe.",
+    "CONTACT_US_TITLE": "Kontaktni podatki",
+    "LEGAL_TITLE": "Pravne politike",
+    "PRIVACY_POLICY": "Politika zasebnosti",
+    "TERMS_AND_CONDITIONS": "Pogoji poslovanja",
+    "INFORMATIONS_TITLE": "Informacije",
+    "INFORMATIONS_CONTENT": "Z nami bo vaše potovanje udobno, varno in prilagojeno vašim željam – kjerkoli v Sloveniji ali Evropi.",
     "COMPANY_DATA": "© 2025 Toman d.o.o. — Posavec 131, 4244 Podnart, Slovenia — VAT number: SI95427201"
   },
   "MAIN": {
@@ -27,40 +27,40 @@
     "WHO_WE_ARE": {
       "TITLE": "Varno in udobno na poti",
       "SUBTITLE": "Kdo smo",
-      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.\n\n",
-      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko obrazca za rezervacijo avtobusnega prevoza.",
+      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.",
+      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko kontaktnega obrazca.",
       "MORE_ABOUT_US_BUTTON": "Več o nas",
       "SERVICES_BUTTON": "Naše storitve",
       "FLEET_BUTTON": "Naš vozni park"
     },
     "SERVICES": {
-      "TITLE": "Wherever You Need to Be — We'll Get You There",
-      "SUBTITLE": "Our services",
+      "TITLE": "Kjerkoli morate biti — mi vas bomo pripeljali tja",
+      "SUBTITLE": "Naše storitve",
       "FIRST": {
-        "TITLE": "Airport Transfers",
-        "CONTENT": "Reliable and stress-free transfers to and from the airport — always on time."
+        "TITLE": "Letališki prevozi",
+        "CONTENT": "Zanesljivi in brezskrbni prevozi do in z letališča — vedno točni."
       },
       "SECOND": {
-        "TITLE": "Seaport Transfers",
-        "CONTENT": "Smooth and timely connections to cruise ports — start your journey right."
+        "TITLE": "Prevozi do pristanišč",
+        "CONTENT": "Udobne in pravočasne povezave do križarskih pristanišč — začnite potovanje brez skrbi."
       },
       "THIRD": {
-        "TITLE": "Travel Trips",
-        "CONTENT": "Day and multi-day transport for groups — comfortable, flexible, and safe."
+        "TITLE": "Izleti in potovanja",
+        "CONTENT": "Dnevni in večdnevni prevozi za skupine — udobno, prilagodljivo in varno."
       },
       "FOURTH": {
-        "TITLE": "School Transports",
-        "CONTENT": "Safe and punctual school transfers with vetted drivers and dedicated routes."
+        "TITLE": "Šolski prevozi",
+        "CONTENT": "Varni in točni šolski prevozi z zaupanja vrednimi vozniki."
       },
       "FIFTH": {
-        "TITLE": "Corporate Transports",
-        "CONTENT": "Professional transport for business events, clients, and executives."
+        "TITLE": "Poslovni prevozi",
+        "CONTENT": "Profesionalni prevozi za podjetja, njihove partnerje in vodilne kadre."
       },
       "SIXTH": {
-        "TITLE": "Transportation On Request",
-        "CONTENT": "Custom transport solutions tailored to your needs. Contact us for flexible options."
+        "TITLE": "Prevozi po naročilu",
+        "CONTENT": "Prilagojene prevozne rešitve glede na vaše potrebe. Kontaktirajte nas za možnosti."
       },
-      "BUTTON": "Learn more"
+      "BUTTON": "Izvedi več"
     },
     "VIP_TRANSFERS": {
       "TITLE": "Popolno udobje in prestiž po meri",
@@ -71,8 +71,8 @@
       "VIP_BUTTON": "VIP prevozi"
     },
     "FLEET": {
-      "TITLE": "Reliable, comfortable, and ready to go",
-      "SUBTITLE": "Our Fleet",
+      "TITLE": "Zanesljivi, udobni in pripravljeni na pot",
+      "SUBTITLE": "Vozni park",
       "VEHICLES": {
         "C_CLASS": {
           "NAME": "Mercedes-Benz C-Class",
@@ -101,8 +101,8 @@
       }
     },
     "BUSINESS_PARTNERS": {
-      "TITLE": "Our Business Partners",
-      "SUBTITLE": "Trusted by clients throughout Slovenia and Europe"
+      "TITLE": "Naši poslovni partnerji",
+      "SUBTITLE": "Zaupajo nam naročniki po vsej Sloveniji in Evropi"
     }
   },
   "PRIVACY_POLICY": {
