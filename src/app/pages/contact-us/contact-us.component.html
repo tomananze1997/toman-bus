@@ -1,1 +1,111 @@
-<p>contact-us works!</p>
+<section id="services" class="main-container-outer">
+  <div class="main-container">
+    <h1 class="title-primary-second pb-8">Kontakt</h1>
+    <div class="flex gap-3">
+      <!--    form    -->
+      <div>
+        <form *ngIf="contactForm" [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="my-8">
+
+          <!-- Name -->
+          <div class="form-group">
+            <label class="content-primary-first" for="name">Polno ime:</label>
+            <div class="input-wrapper"
+                 [ngClass]="{
+                         'focused': contactForm.get('name')?.dirty || contactForm.get('name')?.touched,
+                         'has-value': contactForm.get('name')?.value,
+                         'invalid': contactForm.get('name')?.touched && contactForm.get('name')?.invalid
+                 }">
+              <input id="name" class="content-primary-second" formControlName="name" type="text" />
+              <span class="underline"></span>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label class="content-primary-first" for="email">E-pošta:</label>
+            <div class="input-wrapper"
+                 [ngClass]="{
+           'focused': contactForm.get('email')?.dirty || contactForm.get('email')?.touched,
+           'has-value': contactForm.get('email')?.value,
+           'invalid': contactForm.get('email')?.touched && contactForm.get('email')?.invalid
+         }">
+              <input id="email" class="content-primary-second" formControlName="email" type="email" />
+              <span class="underline"></span>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="form-group">
+            <label class="content-primary-first" for="phone">Telefon:</label>
+            <div class="input-wrapper"
+                 [ngClass]="{
+           'focused': contactForm.get('phone')?.dirty || contactForm.get('phone')?.touched,
+           'has-value': contactForm.get('phone')?.value,
+           'invalid': contactForm.get('phone')?.touched && contactForm.get('phone')?.invalid
+         }">
+              <input id="phone" class="content-primary-second" formControlName="phone" type="tel" />
+              <span class="underline"></span>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="form-group">
+            <label class="content-primary-first" for="message">Sporočilo:</label>
+            <div class="input-wrapper"
+                 [ngClass]="{
+           'focused': contactForm.get('message')?.dirty || contactForm.get('message')?.touched,
+           'has-value': contactForm.get('message')?.value,
+           'invalid': contactForm.get('message')?.touched && contactForm.get('message')?.invalid
+         }">
+              <textarea id="message" class="content-primary-second" formControlName="message" rows="5"></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-primary-unfilled" [disabled]="contactForm.invalid && allFieldsTouched()">Pošlji</button>
+        </form>
+        <p class="content-primary-second">Poslano povpraševanje ne pomeni rezervacije tranferja. Rezervacija je veljavna na podlagi potrditve pripravljene ponudbe preko e-pošte s strani naročnika.</p>
+      </div>
+
+      <!--    contact info    -->
+      <div class="hidden lg:flex lg:flex-col lg:gap-6">
+        <ul class="content-primary-second">
+          <li>Toman d.o.o.</li>
+          <li>Posavec 131</li>
+          <li>4244 Podnart</li>
+          <li>Slovenia</li>
+        </ul>
+        <ul>
+          <li><a href="tel:+38641720655" class="content-secondary-hover flex  lg:justify-start items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a></li>
+          <li><a href="mailto:toman.bus@gmail.com" class="content-secondary-hover flex  lg:justify-start items-center gap-1"><mat-icon svgIcon="mail"></mat-icon>toman.bus@gmail.com</a></li>
+          <li>
+            <a
+              href="https://www.facebook.com/avtobusni.toman"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <mat-icon svgIcon="facebook" class="social-media-svg"></mat-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10959.769513997963!2d14.0965965!3d46.182267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477abe8f2cf8e787%3A0xafb9b9176c50237f!2sTOMAN%20prevozi!5e0!3m2!1ssl!2ssi!4v1721123880592!5m2!1ssl!2ssi"
+      width="100%"
+      height="400"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>
+
+<app-popup
+  [showPopup]="showPopup"
+  [text]="popupText"
+/>

@@ -121,5 +121,12 @@
     "SECTION_CONTENT_SIXTH": "Vse spremembe, ki jih bomo v prihodnosti naredili v naši politiki zasebnosti, bodo objavljene na tej strani. Prosimo, redno preverjajte morebitne posodobitve ali spremembe naše politike zasebnosti.",
     "SECTION_TITLE_SEVENTH": "Kontakt",
     "SECTION_CONTENT_SEVENTH": "Če imate kakršna koli vprašanja glede te politike zasebnosti, nas prosimo kontaktirajte na"
+  },
+  "COMMON": {
+    "POPUP": {
+      "SUCCESS_TEXT": "E-pošta uspešno poslana!",
+      "FAILURE_TEXT": "Prišlo je do napake pri pošiljanju e-pošte.",
+      "CONFIRM_BUTTON": "Potrdi"
+    }
   }
 }

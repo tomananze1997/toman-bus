@@ -1,0 +1,82 @@
+/* Osnovni wrapper za posamezno polje */
+.form-group {
+  margin: 2rem 0;
+}
+
+/* Labela nad inputom */
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+/* Wrapper za input + underline */
+.input-wrapper {
+  position: relative;
+  width: 80%;
+}
+
+/* Input in textarea osnovni stil */
+input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  padding: 0.5rem 0;
+  outline: none;
+}
+
+/* Textarea s klasičnim border */
+textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid white; /* border vedno prisoten */
+  padding: 0.5rem;
+  outline: none;
+  resize: vertical; /* omogoči vertikalno spreminjanje velikosti */
+  transition: border-color 0.3s ease;
+}
+
+/* Spodnja črta */
+.underline {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: white;
+  width: 20%;
+  transition:
+    width 0.3s ease,
+    background-color 0.3s ease;
+}
+
+/* Ko je input v fokusu (CSS-only verzija) */
+.input-wrapper:focus-within .underline {
+  width: 100%;
+}
+
+/* Ko je v fokusu naj bo bold tekst */
+.input-wrapper:focus-within input,
+.input-wrapper:focus-within textarea {
+  font-weight: bold;
+}
+
+/* Če je vrednost prisotna (iz Angular .has-value class) */
+.input-wrapper.has-value .underline {
+  width: 100%;
+}
+.input-wrapper.has-value input,
+.input-wrapper.has-value textarea {
+  font-weight: bold;
+}
+
+/* Če je input neveljaven in bil "touched" (Angular class .invalid) */
+.input-wrapper.invalid .underline {
+  background-color: red;
+  width: 75%;
+}
+
+.input-wrapper.invalid textarea {
+  border-color: red; /* textarea border postane rdeč */
+}

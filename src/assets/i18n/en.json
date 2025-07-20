@@ -121,5 +121,12 @@
     "SECTION_CONTENT_SIXTH": "Any changes we make to our privacy policy in the future will be posted on this page. Please check regularly for any updates or changes to our privacy policy.",
     "SECTION_TITLE_SEVENTH": "Contact",
     "SECTION_CONTENT_SEVENTH": "If you have any questions regarding this privacy policy, please contact us at"
+  },
+  "COMMON": {
+    "POPUP": {
+      "SUCCESS_TEXT": "Email sent successfully!",
+      "FAILURE_TEXT": "An error occurred while sending the email.",
+      "CONFIRM_BUTTON": "Confirm"
+    }
   }
 }
