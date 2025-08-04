@@ -12,11 +12,12 @@
   "FOOTER": {
     "CONTACT_US_TITLE": "Kontaktni podatki",
     "LEGAL_TITLE": "Pravne politike",
+    "FOLLOW_FB": "Sledite nam na Facebooku",
     "PRIVACY_POLICY": "Politika zasebnosti",
     "TERMS_AND_CONDITIONS": "Pogoji poslovanja",
     "INFORMATIONS_TITLE": "Informacije",
-    "INFORMATIONS_CONTENT": "Z nami bo vaše potovanje udobno, varno in prilagojeno vašim željam – kjerkoli v Sloveniji ali Evropi.",
-    "COMPANY_DATA": "© 2025 Toman d.o.o. — Posavec 131, 4244 Podnart, Slovenia — VAT number: SI95427201"
+    "INFORMATIONS_CONTENT": "Z nami bo vaše potovanje udobno, varno in prilagojeno vašim željam - kjerkoli v Sloveniji ali Evropi.",
+    "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenija - DDV številka: SI95427201"
   },
   "MAIN": {
     "HERO": {
@@ -106,6 +107,7 @@
     }
   },
   "PRIVACY_POLICY": {
+    "SUBTITLE": "Pravne politike",
     "TITLE": "Politika zasebnosti",
     "SECTION_TITLE_FIRST": "Uvod",
     "SECTION_CONTENT_FIRST": "TOMAN prevozništvo d.o.o. spoštuje vašo zasebnost in je zavezana k zaščiti vaših osebnih podatkov. Ta politika zasebnosti vas obvešča, kako skrbimo za vaše osebne podatke, ko obiščete našo spletno stran (ne glede na to, od kje jo obiščete), ter vam pove o vaših pravicah glede zasebnosti in kako vas ščiti zakon.",
@@ -123,7 +125,12 @@
     "SECTION_CONTENT_SEVENTH": "Če imate kakršna koli vprašanja glede te politike zasebnosti, nas prosimo kontaktirajte na"
   },
   "ABOUT_US": {
-    "TITLE": "O nas",
+    "SUBTITLE_FIRST": "Podjetje",
+    "TITLE_FIRST": "O nas",
+    "SUBTITLE_SECOND": "Odličnost",
+    "TITLE_SECOND": "Naša ekipa",
+    "SUBTITLE_THIRD": "Prihodnost",
+    "TITLE_THIRD": "Naša vizija",
     "CONTENT_FIRST": "Toman d.o.o. je ugledno podjetje, specializirano za zagotavljanje kvalitetnih avtobusnih in VIP prevozov za posameznike tako v Sloveniji kot tudi v tujini. S trdnimi temelji, postavljenimi leta 2012, se nenehno prilagajamo in razvijamo, da bi zadovoljili vedno spreminjajoče se potrebe naših cenjenih strank.",
     "CONTENT_SECOND": "V preteklih letih je podjetje doživelo izjemen razvoj in s tem utrdilo svoj položaj kot eden izmed najbolj zaupljivih ponudnikov prevoznih storitev. Z vlaganjem sredstev v posodobitev našega voznega parka zagotavljamo, da vozila izpolnjujejo najvišje kakovostne standarde in se ujemajo z zahtevnimi okoljskimi predpisi. Naša zaveza trajnosti se prepleta z našo predanostjo zagotavljanju varnih, učinkovitih in okolju prijaznih prevoznih rešitev.",
     "CONTENT_THIRD": "V podjetju smo izjemno ponosni na našo ekipo izkušenih in strokovnih voznikov. Vsak član našega osebja je skrbno izbran in temeljito usposobljen, da zagotovi vrhunsko raven storitev. Njihovo strokovno znanje, skupaj z njihovim prijaznim in ustrežljivim pristopom, zagotavlja prijetno in udobno potovanje za vsakega potnika. Razumemo, da vloga voznika sega prek preprostega prevoza; služijo kot ambasadorji našega podjetja, predstavljajo naše vrednote in zavezanost k zadovoljstvu strank.",
@@ -131,7 +138,13 @@
     "CONTENT_FIFTH": "Ko se oziramo v prihodnost, ostajamo zavezani premikati meje odličnosti v prevozniški industriji. Nadaljevali bomo z vlaganjem v vozni park, raziskovanjem inovativnih pristopov ter razširitvijo naše mreže, da še bolje služimo našim strankam. Naša vizija je postati ena izmed prvih izbir za posameznike, ki iščejo varne, učinkovite in okolju prijazne prevozne storitve."
   },
   "CONTACT_US": {
+    "SUBTITLE": "Stopite v stik",
     "TITLE": "Kontakt",
+    "CONTACT_INFO": "Kontaktni podatki",
+    "COUNTRY": "Slovenija",
+    "FOLLOW_FB": "Sledite nam na Facebooku",
+    "FIND_US": "Poiščite nas",
+    "OUR_LOCATION": "Naša lokacija v Podnartu, Slovenija",
     "DISCLAIMER": "Poslano povpraševanje ne pomeni rezervacije tranferja. Rezervacija je veljavna na podlagi potrditve pripravljene ponudbe preko e-pošte s strani naročnika.",
     "FORM": {
       "NAME": "Polno ime:",

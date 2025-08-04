@@ -1,10 +1,65 @@
-<section id="services" class="main-container-outer">
+<section class="main-container-outer-without-background">
+  <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/c-class_front.png')"></div>
+  <div class="absolute inset-0 -z-20" style="background: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.8) 65%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%)"></div>
+  <div
+    class="pointer-events-none absolute right-0 top-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.1) 80%, transparent 100%)"
+  ></div>
+  <div
+    class="pointer-events-none absolute bottom-0 right-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
+  ></div>
+
   <div class="main-container">
-    <h1 class="title-primary-second pb-8">{{ 'ABOUT_US.TITLE' | translate }}</h1>
-    <p class="content-primary-first py-8">{{ 'ABOUT_US.CONTENT_FIRST' | translate }}</p>
-    <p class="content-primary-first py-8">{{ 'ABOUT_US.CONTENT_SECOND' | translate }}</p>
-    <p class="content-primary-first py-8">{{ 'ABOUT_US.CONTENT_THIRD' | translate }}</p>
-    <p class="content-primary-first py-8">{{ 'ABOUT_US.CONTENT_FORTH' | translate }}</p>
-    <p class="content-primary-first py-8">{{ 'ABOUT_US.CONTENT_FIFTH' | translate }}</p>
+    <div class="relative z-10 flex flex-col px-4 text-center sm:px-6 lg:w-3/5 lg:text-left">
+      <div class="mb-6 sm:mb-8">
+        <p class="section-subtitle">{{ 'ABOUT_US.SUBTITLE_FIRST' | translate }}</p>
+        <h2 class="section-title">{{ 'ABOUT_US.TITLE_FIRST' | translate }}</h2>
+      </div>
+      <p class="section-text mb-6">{{ 'ABOUT_US.CONTENT_FIRST' | translate }}</p>
+      <p class="section-text">{{ 'ABOUT_US.CONTENT_SECOND' | translate }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="main-container-outer-without-background">
+  <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/c-class_front.png')"></div>
+  <div class="absolute inset-0 -z-20" style="background: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.6) 65%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%)"></div>
+  <div
+    class="pointer-events-none absolute left-0 top-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.1) 80%, transparent 100%)"
+  ></div>
+  <div
+    class="pointer-events-none absolute bottom-0 left-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
+  ></div>
+
+  <div class="main-container">
+    <div class="relative z-10 flex flex-col px-4 text-center sm:px-6 lg:ml-auto lg:w-3/5 lg:text-right">
+      <div class="mb-6 sm:mb-8">
+        <p class="section-subtitle">{{ 'ABOUT_US.SUBTITLE_SECOND' | translate }}</p>
+        <h2 class="section-title">{{ 'ABOUT_US.TITLE_SECOND' | translate }}</h2>
+      </div>
+      <p class="section-text mb-6">{{ 'ABOUT_US.CONTENT_THIRD' | translate }}</p>
+      <p class="section-text">{{ 'ABOUT_US.CONTENT_FORTH' | translate }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="main-container-outer">
+  <div class="main-container">
+    <div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+      <div>
+        <div class="mb-6 sm:mb-8">
+          <p class="section-subtitle">{{ 'ABOUT_US.SUBTITLE_THIRD' | translate }}</p>
+          <h2 class="section-title">{{ 'ABOUT_US.TITLE_THIRD' | translate }}</h2>
+        </div>
+        <p class="section-text">{{ 'ABOUT_US.CONTENT_FIFTH' | translate }}</p>
+      </div>
+
+      <div class="relative">
+        <img src="assets/images/c-class_front.png" alt="Professional Transportation" class="h-80 w-full object-cover lg:h-96" />
+      </div>
+    </div>
   </div>
 </section>

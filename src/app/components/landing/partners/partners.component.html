@@ -11,66 +11,22 @@
 >
   <div class="main-container">
     <div class="container mx-auto text-center">
-      <h3 class="title-secondary-third">{{ 'MAIN.BUSINESS_PARTNERS.TITLE' | translate }}</h3>
-      <h2 class="title-primary-first">{{ 'MAIN.BUSINESS_PARTNERS.SUBTITLE' | translate }}</h2>
-      <div class="flex flex-wrap items-center justify-center gap-10 p-10">
-        <a href="https://www.abc-tourism.com/sl/o-nas/" target="_blank" rel="noopener" aria-label="ABC Tourism">
-          <img src="assets/partners/ABC_logo.png" alt="ABC Tourism" class="partner-logo-first" />
-        </a>
-        <a href="http://atletski-klub-radovljica.si" target="_blank" rel="noopener" aria-label="AK Radovljica">
-          <img src="assets/partners/AK-Radovljica_logo.png" alt="AK Radovljica" class="partner-logo-first" />
-        </a>
-        <a href="https://www.alventus.com" target="_blank" rel="noopener" aria-label="Alventus Viajes">
-          <img src="assets/partners/Alventus_logo.png" alt="Alventus Viajes" class="partner-logo-first" />
-        </a>
-        <a href="https://duradovljica.rai.si" target="_blank" rel="noopener" aria-label="DU Radovljica">
-          <img src="assets/partners/DU-Radovljica_logo.png" alt="DU Radovljica" class="partner-logo-second" />
-        </a>
-        <a href="https://www.jskd.si/rezidenca/uvod_studijski_dejavnosti.htm" target="_blank" rel="noopener" aria-label="JSDK">
-          <img src="assets/partners/JSDK_logo.png" alt="JSDK" class="partner-logo-first" />
-        </a>
-        <a href="https://kercematours.com" target="_blank" rel="noopener" aria-label="Kercem Tours">
-          <img src="assets/partners/Kercem_logo.png" alt="Kercem Tours" class="partner-logo-first" />
-        </a>
-        <a href="http://www.nk-lesce.si" target="_blank" rel="noopener" aria-label="NK Lesce">
-          <img src="assets/partners/NK-Lesce_logo.png" alt="NK Lesce" class="partner-logo-first" />
-        </a>
-        <a href="https://www.nomago.si" target="_blank" rel="noopener" aria-label="Nomago">
-          <img src="assets/partners/Nomago_logo.png" alt="Nomago" class="partner-logo-first" />
-        </a>
-        <a href="https://www.okbled.si" target="_blank" rel="noopener" aria-label="OK Bled">
-          <img src="assets/partners/OK-Bled_logo.png" alt="OK Bled" class="partner-logo-first" />
-        </a>
-        <a href="https://os-aljaza.si" target="_blank" rel="noopener" aria-label="OS Jakoba Aljaza">
-          <img src="assets/partners/OS-Jakob-Aljaz-Kranj_logo.png" alt="OS Jakoba Aljaza" class="partner-logo-first" />
-        </a>
-        <a href="https://www.os-lipnica.si" target="_blank" rel="noopener" aria-label="OS Lipnica">
-          <img src="assets/partners/OS-Lipnica_logo.png" alt="OS Lipnica" class="partner-logo-first" />
-        </a>
-        <a href="https://www.osmatijecopa.si" target="_blank" rel="noopener" aria-label="OS Matije Copa Kranj">
-          <img src="assets/partners/OS-Matija-Copa-Kranj_logo.png" alt="OS Matije Copa Kranj" class="partner-logo-second" />
-        </a>
-        <a href="https://sic-rad.si" target="_blank" rel="noopener" aria-label="SIC Radovljica">
-          <img src="assets/partners/SIC-Radovljica_logo.png" alt="SIC Radovljica" class="partner-logo-first" />
-        </a>
-        <a href="https://www.os-naklo.si" target="_blank" rel="noopener" aria-label="OS Naklo">
-          <img src="assets/partners/OS-Naklo_logo.png" alt="OS Naklo" class="partner-logo-first" />
-        </a>
-        <a href="https://www.pdradovljica.si" target="_blank" rel="noopener" aria-label="PD Radovljica">
-          <img src="assets/partners/PD-Radovljica_logo.png" alt="PD Radovljica" class="partner-logo-first" />
-        </a>
-        <a href="https://www.relax.si" target="_blank" rel="noopener" aria-label="Relax Turizem">
-          <img src="assets/partners/Relax_logo.png" alt="Relax Turizem" class="partner-logo-first" />
-        </a>
-        <a href="https://www.studiosus.com" target="_blank" rel="noopener" aria-label="Studiosus">
-          <img src="assets/partners/Studiosus_logo.png" alt="Studiosus" class="partner-logo-first" />
-        </a>
-        <a href="http://www.desetnica.si" target="_blank" rel="noopener" aria-label="Turizem Desetnica">
-          <img src="assets/partners/Turizem-desetnica_logo.png" alt="Turizem Desetnica" class="h-16 grayscale invert" />
-        </a>
-        <a href="https://www.vrtec-radovljica.si" target="_blank" rel="noopener" aria-label="Vrtec Radovljica">
-          <img src="assets/partners/Vrtec-Radovljica_logo.png" alt="Vrtec Radovljica" class="partner-logo-first" />
-        </a>
+      <p class="section-subtitle">{{ 'MAIN.BUSINESS_PARTNERS.TITLE' | translate }}</p>
+      <h2 class="section-title">{{ 'MAIN.BUSINESS_PARTNERS.SUBTITLE' | translate }}</h2>
+      <div class="partners-scroll-container">
+        <div class="partners-scroll-track">
+          <div class="partners-scroll-group">
+            <div *ngFor="let partner of partners" class="flex h-14 w-20 flex-shrink-0 items-center justify-center sm:mx-2 md:mx-3 lg:mx-4">
+              <a [href]="partner.url" target="_blank" rel="noopener" [attr.aria-label]="partner.ariaLabel" class="block">
+                <img
+                  [src]="partner.imgSrc"
+                  [alt]="partner.alt"
+                  [class]="'h-8 w-full object-contain sm:h-10 md:h-12' + (partner.inverted ? ' partner-logo-inverted' : ' partner-logo')"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

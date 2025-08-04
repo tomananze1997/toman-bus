@@ -1,8 +1,8 @@
 <div class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 px-4 backdrop-blur-sm" *ngIf="showPopup">
   <div class="rounded-lg bg-secondary-500 p-5">
-    <p class="content-primary-first">{{ text | translate }}</p>
+    <p class="section-title-small">{{ text | translate }}</p>
     <div class="mt-4 flex justify-end gap-2">
-      <button class="btn-primary-unfilled" (click)="showPopup = false">
+      <button class="btn-primary btn-sm" (click)="showPopup = false">
         <span>{{ 'COMMON.POPUP.CONFIRM_BUTTON' | translate }}</span>
       </button>
     </div>

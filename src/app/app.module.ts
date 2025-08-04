@@ -22,7 +22,6 @@ import {
   OurServicesComponent,
   PartnersComponent,
   PopupComponent,
-  ServiceCardComponent,
   WhoWeAreComponent
 } from '@components';
 
@@ -45,7 +44,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeroComponent,
     WhoWeAreComponent,
     OurServicesComponent,
-    ServiceCardComponent,
     FleetComponent,
     PartnersComponent,
     LuxuryComponent,
