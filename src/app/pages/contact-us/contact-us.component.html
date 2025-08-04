@@ -1,107 +1,127 @@
-<section id="services" class="main-container-outer">
-  <div class="main-container">
-    <h1 class="title-primary-second pb-8">{{"CONTACT_US.TITLE" | translate}}</h1>
-    <div class="flex gap-3">
-      <!--    form    -->
-      <div>
-        <form *ngIf="contactForm" [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="my-8">
+<section id="contact" class="main-container-outer">
+  <div class="main-container !mt-12">
+    <div class="text-center mb-12">
+      <p class="section-subtitle">{{"CONTACT_US.SUBTITLE" | translate}}</p>
+      <h1 class="section-title mb-8">{{"CONTACT_US.TITLE" | translate}}</h1>
+    </div>
 
-          <!-- Name -->
+    <div class="grid lg:grid-cols-3 gap-12 lg:gap-16">
+      <div class="order-2 lg:order-1 lg:col-span-2">
+        <form *ngIf="contactForm" [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="space-y-6">
+
           <div class="form-group">
-            <label class="content-primary-first" for="name">{{"CONTACT_US.FORM.NAME" | translate}}</label>
+            <label class="section-text !font-bold mb-2" for="name">{{"CONTACT_US.FORM.NAME" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
                          'focused': contactForm.get('name')?.dirty || contactForm.get('name')?.touched,
                          'has-value': contactForm.get('name')?.value,
                          'invalid': contactForm.get('name')?.touched && contactForm.get('name')?.invalid
                  }">
-              <input id="name" class="content-primary-second" formControlName="name" type="text" />
+              <input id="name" class="w-full bg-transparent border-0 border-b-2 border-gray-300 py-3 px-0 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-300" formControlName="name" type="text" />
               <span class="underline"></span>
             </div>
           </div>
 
-          <!-- Email -->
           <div class="form-group">
-            <label class="content-primary-first" for="email">{{"CONTACT_US.FORM.E-MAIL" | translate}}</label>
+            <label class="section-text !font-bold mb-2" for="email">{{"CONTACT_US.FORM.E-MAIL" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
            'focused': contactForm.get('email')?.dirty || contactForm.get('email')?.touched,
            'has-value': contactForm.get('email')?.value,
            'invalid': contactForm.get('email')?.touched && contactForm.get('email')?.invalid
          }">
-              <input id="email" class="content-primary-second" formControlName="email" type="email" />
+              <input id="email" class="w-full bg-transparent border-0 border-b-2 border-gray-300 py-3 px-0 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-300" formControlName="email" type="email" />
               <span class="underline"></span>
             </div>
           </div>
 
-          <!-- Phone -->
           <div class="form-group">
-            <label class="content-primary-first" for="phone">{{"CONTACT_US.FORM.PHONE" | translate}}</label>
+            <label class="section-text !font-bold mb-2" for="phone">{{"CONTACT_US.FORM.PHONE" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
            'focused': contactForm.get('phone')?.dirty || contactForm.get('phone')?.touched,
            'has-value': contactForm.get('phone')?.value,
            'invalid': contactForm.get('phone')?.touched && contactForm.get('phone')?.invalid
          }">
-              <input id="phone" class="content-primary-second" formControlName="phone" type="tel" />
+              <input id="phone" class="w-full bg-transparent border-0 border-b-2 border-gray-300 py-3 px-0 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-300" formControlName="phone" type="tel" />
               <span class="underline"></span>
             </div>
           </div>
 
-          <!-- Message -->
           <div class="form-group">
-            <label class="content-primary-first" for="message">{{"CONTACT_US.FORM.MESSAGE" | translate}}</label>
+            <label class="section-text !font-bold mb-2" for="message">{{"CONTACT_US.FORM.MESSAGE" | translate}}</label>
             <div class="input-wrapper"
                  [ngClass]="{
            'focused': contactForm.get('message')?.dirty || contactForm.get('message')?.touched,
            'has-value': contactForm.get('message')?.value,
            'invalid': contactForm.get('message')?.touched && contactForm.get('message')?.invalid
          }">
-              <textarea id="message" class="content-primary-second" formControlName="message" rows="5"></textarea>
+              <textarea id="message" class="w-full bg-transparent border-2 border-gray-300 py-3 px-4 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-300 resize-vertical rounded-md" formControlName="message" rows="5"></textarea>
             </div>
           </div>
 
-          <button type="submit" class="btn-primary-unfilled" [disabled]="contactForm.invalid && allFieldsTouched()">{{"CONTACT_US.FORM.BUTTON_SEND" | translate}}</button>
+          <button type="submit" class="btn-primary btn-md w-full sm:w-auto" [disabled]="contactForm.invalid && allFieldsTouched()">{{"CONTACT_US.FORM.BUTTON_SEND" | translate}}</button>
         </form>
-        <p class="content-primary-second">{{"CONTACT_US.DISCLAIMER" | translate}}</p>
+
+        <div class="mt-8 p-4 bg-gray-800 bg-opacity-50 rounded-lg">
+          <p class="text-sm text-gray-300">{{"CONTACT_US.DISCLAIMER" | translate}}</p>
+        </div>
       </div>
 
-      <!--    contact info    -->
-      <div class="hidden lg:flex lg:flex-col lg:gap-6">
-        <ul class="content-primary-second">
-          <li>Toman d.o.o.</li>
-          <li>Posavec 131</li>
-          <li>4244 Podnart</li>
-          <li>Slovenia</li>
-        </ul>
-        <ul>
-          <li><a href="tel:+38641720655" class="content-secondary-hover flex  lg:justify-start items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a></li>
-          <li><a href="mailto:toman.bus@gmail.com" class="content-secondary-hover flex  lg:justify-start items-center gap-1"><mat-icon svgIcon="mail"></mat-icon>toman.bus@gmail.com</a></li>
-          <li>
-            <a
-              href="https://www.facebook.com/avtobusni.toman"
-              target="_blank"
-              rel="noopener"
-              aria-label="Facebook"
-            >
-              <mat-icon svgIcon="facebook" class="social-media-svg"></mat-icon>
-            </a>
-          </li>
-        </ul>
+      <div class="order-1 lg:order-2 lg:col-span-1 bg-gray-800 bg-opacity-30 p-8 rounded-lg">
+        <div class="mb-8">
+          <h3 class="section-title-small">{{"CONTACT_US.CONTACT_INFO" | translate}}</h3>
+          <div >
+            <p class="second-text">Toman d.o.o.</p>
+            <p class="second-text">Posavec 131</p>
+            <p class="second-text">4244 Podnart</p>
+            <p class="second-text">{{"CONTACT_US.COUNTRY" | translate}}</p>
+          </div>
+        </div>
 
+        <div class="flex flex-col items-start gap-4">
+          <a href="tel:+38641720655" class="second-text-hover flex justify-center lg:justify-start items-center gap-1">
+            <div class="w-10 h-10 bg-gray-700 rounded-full group-hover:bg-gray-600 transition-colors duration-300 flex items-center justify-center">
+              <mat-icon svgIcon="telephone"></mat-icon>
+            </div>
+            <span>+386 41 720 655</span>
+          </a>
+
+          <a href="mailto:toman.bus@gmail.com" class="second-text-hover flex justify-center lg:justify-start items-center gap-1">
+            <div class="w-10 h-10 bg-gray-700 rounded-full group-hover:bg-gray-600 transition-colors duration-300 flex items-center justify-center">
+              <mat-icon svgIcon="mail" ></mat-icon>
+            </div>
+            <span>toman.bus@gmail.com</span>
+          </a>
+
+          <a href="https://www.facebook.com/avtobusni.toman" target="_blank" rel="noopener" aria-label="Facebook" class="second-text-hover flex justify-center lg:justify-start items-center gap-1 group">
+            <div class="w-10 h-10 bg-gray-700 rounded-full group-hover:bg-gray-600 transition-colors duration-300 flex items-center justify-center">
+              <mat-icon svgIcon="facebook" class="social-media-svg transition-colors group-hover:text-[#1877F2]"></mat-icon>
+            </div>
+            <span>{{"CONTACT_US.FOLLOW_FB" | translate}}</span>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="map-container">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10959.769513997963!2d14.0965965!3d46.182267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477abe8f2cf8e787%3A0xafb9b9176c50237f!2sTOMAN%20prevozi!5e0!3m2!1ssl!2ssi!4v1721123880592!5m2!1ssl!2ssi"
-      width="100%"
-      height="400"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+
+    <div class="mt-16">
+      <div class="text-center mb-8">
+        <h2 class="section-title">{{"CONTACT_US.FIND_US" | translate}}</h2>
+        <p class="section-text">{{"CONTACT_US.OUR_LOCATION" | translate}}</p>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-xl">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10959.769513997963!2d14.0965965!3d46.182267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477abe8f2cf8e787%3A0xafb9b9176c50237f!2sTOMAN%20prevozi!5e0!3m2!1ssl!2ssi!4v1721123880592!5m2!1ssl!2ssi"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
   </div>
 </section>
 

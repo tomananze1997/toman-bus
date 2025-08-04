@@ -12,11 +12,12 @@
   "FOOTER": {
     "CONTACT_US_TITLE": "Kontaktieren Sie Uns",
     "LEGAL_TITLE": "Rechtliche Bestimmungen",
+    "FOLLOW_FB": "Folgen Sie uns auf Facebook",
     "PRIVACY_POLICY": "Datenschutzerklärung",
     "TERMS_AND_CONDITIONS": "Geschäftsbedingungen",
     "INFORMATIONS_TITLE": "Informationen",
     "INFORMATIONS_CONTENT": "Bei uns wird Ihre Reise komfortabel, sicher und nach Ihren Wünschen gestaltet – überall in Slowenien oder Europa.",
-    "COMPANY_DATA": "© 2025 Toman d.o.o. — Posavec 131, 4244 Podnart, Slowenien — USt-Nummer: SI95427201"
+    "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slowenien - USt-Nummer: SI95427201"
   },
   "MAIN": {
     "HERO": {
@@ -106,6 +107,7 @@
     }
   },
   "PRIVACY_POLICY": {
+    "SUBTITLE": "Rechtliche Bestimmungen",
     "TITLE": "Datenschutzerklärung",
     "SECTION_TITLE_FIRST": "Einführung",
     "SECTION_CONTENT_FIRST": "TOMAN Transport GmbH respektiert Ihre Privatsphäre und verpflichtet sich zum Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre persönlichen Daten verarbeiten, wenn Sie unsere Website besuchen (unabhängig davon, von wo aus Sie sie besuchen), und informiert Sie über Ihre Datenschutzrechte und den gesetzlichen Schutz.",
@@ -123,7 +125,12 @@
     "SECTION_CONTENT_SEVENTH": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter"
   },
   "ABOUT_US": {
-    "TITLE": "Über Uns",
+    "SUBTITLE_FIRST": "Unternehmen",
+    "TITLE_FIRST": "Über uns",
+    "SUBTITLE_SECOND": "Exzellenz",
+    "TITLE_SECOND": "Unser Team",
+    "SUBTITLE_THIRD": "Zukunft",
+    "TITLE_THIRD": "Unsere Vision",
     "CONTENT_FIRST": "Toman d.o.o. ist ein Unternehmen, das sich auf hochwertige Bus- und VIP-Transporte für Privatpersonen in Slowenien und im Ausland spezialisiert hat. Mit einer soliden Grundlage, die 2012 gelegt wurde, passen wir uns ständig an und entwickeln uns weiter, um den sich ständig ändernden Bedürfnissen unserer geschätzten Kunden gerecht zu werden.",
     "CONTENT_SECOND": "Im Laufe der Jahre hat das Unternehmen ein bemerkenswertes Wachstum erfahren und sich als einer der vertrauenswürdigsten Anbieter von Transportdienstleistungen etabliert. Durch Investitionen in die Modernisierung unserer Flotte stellen wir sicher, dass unsere Fahrzeuge den höchsten Qualitätsstandards entsprechen und anspruchsvolle Umweltvorschriften erfüllen. Unser Engagement für Nachhaltigkeit verbindet sich mit unserem Bestreben, sichere, effiziente und umweltfreundliche Transportlösungen anzubieten.",
     "CONTENT_THIRD": "Wir sind stolz auf unser Team erfahrener und professioneller Fahrer. Jedes Mitglied unseres Teams wird sorgfältig ausgewählt und geschult, um einen erstklassigen Service zu bieten. Ihre Expertise, kombiniert mit einem freundlichen und zuvorkommenden Auftreten, sorgt für eine angenehme und komfortable Reise für jeden Fahrgast. Wir verstehen, dass die Rolle eines Fahrers über den reinen Transport hinausgeht; sie sind Botschafter unseres Unternehmens und vertreten unsere Werte sowie unser Engagement für Kundenzufriedenheit.",
@@ -131,7 +138,13 @@
     "CONTENT_FIFTH": "Mit Blick auf die Zukunft bleiben wir bestrebt, die Grenzen der Exzellenz im Transportwesen zu erweitern. Wir werden weiterhin in unsere Flotte investieren, innovative Ansätze verfolgen und unser Netzwerk ausbauen, um unseren Kunden noch besseren Service zu bieten. Unsere Vision ist es, eine der ersten Adressen für Personen zu werden, die sichere, effiziente und umweltfreundliche Transportdienstleistungen suchen."
   },
   "CONTACT_US": {
+    "SUBTITLE": "Kontakt aufnehmen",
     "TITLE": "Kontaktieren Sie Uns",
+    "CONTACT_INFO": "Kontaktinformationen",
+    "COUNTRY": "Slowenien",
+    "FOLLOW_FB": "Folgen Sie uns auf Facebook",
+    "FIND_US": "Finden Sie uns",
+    "OUR_LOCATION": "Unser Standort in Podnart, Slowenien",
     "DISCLAIMER": "Das Senden einer Anfrage stellt keine Reservierung des Transfers dar. Die Reservierung ist nur gültig, wenn das vorbereitete Angebot vom Kunden per E-Mail bestätigt wird.",
     "FORM": {
       "NAME": "Vollständiger Name:",

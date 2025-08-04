@@ -1,14 +1,27 @@
 <section id="services" class="main-container-outer">
-  <div class="main-container text-center">
-    <h3 class="title-secondary-third">
-      {{ 'MAIN.SERVICES.SUBTITLE' | translate }}
-    </h3>
-    <h2 class="title-primary-first">
-      {{ 'MAIN.SERVICES.TITLE' | translate }}
-    </h2>
-    <div class="w-full p-6">
-      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:px-12 lg:grid-cols-3 2xl:grid-cols-6">
-        <app-service-card *ngFor="let card of cards" [card]="card"> </app-service-card>
+  <div class="main-container">
+    <!-- Header Section -->
+    <div class="mb-10 text-center sm:mb-16 lg:mb-20">
+      <p class="section-subtitle">
+        {{ 'MAIN.SERVICES.SUBTITLE' | translate }}
+      </p>
+      <h2 class="section-title">
+        {{ 'MAIN.SERVICES.TITLE' | translate }}
+      </h2>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="services-grid">
+      <div *ngFor="let card of cards; let i = index" class="service-card group">
+        <div class="service-icon">
+          <mat-icon [svgIcon]="card.icon" class="icon"></mat-icon>
+        </div>
+        <h3 class="service-title">
+          {{ card.title | translate }}
+        </h3>
+        <p class="service-description">
+          {{ card.content | translate }}
+        </p>
       </div>
     </div>
   </div>
