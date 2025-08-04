@@ -1,0 +1,38 @@
+<section class="main-container-outer-without-background">
+  <!-- Background Image -->
+  <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/bus-1_side-left.png')"></div>
+
+  <!-- Main Left-to-Right Gradient -->
+  <div class="absolute inset-0 -z-20" style="background: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.8) 65%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%)"></div>
+
+  <!-- Top Vertical Black Fade on Right -->
+  <div
+    class="pointer-events-none absolute right-0 top-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.1) 80%, transparent 100%)"
+  ></div>
+
+  <!-- Bottom Vertical Black Fade on Right -->
+  <div
+    class="pointer-events-none absolute bottom-0 right-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
+  ></div>
+
+  <div class="main-container">
+    <!-- Content -->
+    <div class="relative z-10 flex flex-col px-4 text-center sm:px-6 lg:w-3/5 lg:text-left">
+      <div class="mb-6 sm:mb-8">
+        <h3 class="section-subtitle">{{ 'MAIN.WHO_WE_ARE.SUBTITLE' | translate }}</h3>
+        <h2 class="section-title">{{ 'MAIN.WHO_WE_ARE.TITLE' | translate }}</h2>
+      </div>
+      <p class="section-text">{{ 'MAIN.WHO_WE_ARE.CONTENT_1' | translate }}</p>
+      <p class="section-text">{{ 'MAIN.WHO_WE_ARE.CONTENT_2' | translate }}</p>
+
+      <!-- buttons -->
+      <div class="mt-6 flex flex-col justify-center gap-3 sm:mt-4 sm:flex-row sm:gap-4 lg:justify-start">
+        <button routerLink="/about-us" class="btn-primary-outline btn-md">{{ 'MAIN.WHO_WE_ARE.MORE_ABOUT_US_BUTTON' | translate }}</button>
+        <button routerLink="/" fragment="services" class="btn-primary btn-md">{{ 'MAIN.WHO_WE_ARE.SERVICES_BUTTON' | translate }}</button>
+        <button routerLink="/" fragment="fleet" class="btn-primary btn-md">{{ 'MAIN.WHO_WE_ARE.FLEET_BUTTON' | translate }}</button>
+      </div>
+    </div>
+  </div>
+</section>

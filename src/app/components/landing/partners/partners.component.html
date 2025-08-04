@@ -1,0 +1,33 @@
+<section
+  class="main-container-outer"
+  style="
+    background:
+      linear-gradient(to bottom, black 0%, #1a1a1a 50%, black 100%), linear-gradient(to right, black 0%, black 10%, transparent 10%, transparent 90%, black 90%, black 100%);
+    background-repeat: no-repeat;
+    background-size:
+      100% 100%,
+      100% 100%;
+  "
+>
+  <div class="main-container">
+    <div class="container mx-auto text-center">
+      <p class="section-subtitle">{{ 'MAIN.BUSINESS_PARTNERS.TITLE' | translate }}</p>
+      <h2 class="section-title">{{ 'MAIN.BUSINESS_PARTNERS.SUBTITLE' | translate }}</h2>
+      <div class="partners-scroll-container">
+        <div class="partners-scroll-track">
+          <div class="partners-scroll-group">
+            <div *ngFor="let partner of partners" class="flex h-14 w-20 flex-shrink-0 items-center justify-center sm:mx-2 md:mx-3 lg:mx-4">
+              <a [href]="partner.url" target="_blank" rel="noopener" [attr.aria-label]="partner.ariaLabel" class="block">
+                <img
+                  [src]="partner.imgSrc"
+                  [alt]="partner.alt"
+                  [class]="'h-8 w-full object-contain sm:h-10 md:h-12' + (partner.inverted ? ' partner-logo-inverted' : ' partner-logo')"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

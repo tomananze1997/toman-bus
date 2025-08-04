@@ -1,0 +1,40 @@
+<footer class="bg-black text-gray-300 py-12 px-6">
+  <div class="container mx-auto flex flex-col text-center gap-10 lg:flex-row lg:text-left lg:justify-between">
+    <!-- Contact Info -->
+    <div class="w-full lg:w-1/3 px-2">
+      <h4 class="footer-title">{{ 'FOOTER.CONTACT_US_TITLE' | translate }}</h4>
+      <ul class="second-text space-y-2">
+       <li><a href="tel:+38641720655" class="second-text-hover flex justify-center lg:justify-start items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a></li>
+       <li><a href="mailto:toman.bus@gmail.com" class="second-text-hover flex justify-center lg:justify-start items-center gap-1"><mat-icon svgIcon="mail"></mat-icon>toman.bus@gmail.com</a></li>
+        <li >
+          <a
+            href="https://www.facebook.com/avtobusni.toman"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+            class="second-text-hover flex justify-center lg:justify-start items-center gap-1 group"
+          >
+            <mat-icon svgIcon="facebook" class="social-media-svg transition-colors group-hover:text-[#1877F2]"></mat-icon>
+            {{ 'FOOTER.FOLLOW_FB' | translate }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Legal & Social -->
+    <div class="w-full lg:w-1/3 px-2">
+      <h4 class="footer-title">{{ 'FOOTER.LEGAL_TITLE' | translate }}</h4>
+      <ul class="second-text space-y-2">
+        <li><a routerLink="/privacy-policy" class="second-text-hover">{{ 'FOOTER.PRIVACY_POLICY' | translate }}</a></li>
+      </ul>
+    </div>
+
+    <!-- Company Info -->
+    <div class="w-full lg:w-1/3 break-words px-2">
+      <h3 class="footer-title">{{ 'FOOTER.INFORMATIONS_TITLE' | translate }}</h3>
+      <p class="second-text">{{ 'FOOTER.INFORMATIONS_CONTENT' | translate }}</p>
+    </div>
+  </div>
+
+  <!-- Bottom Line -->
+  <div class="border-t border-secondary-300 mt-10 pt-6 text-center second-text">{{ 'FOOTER.COMPANY_DATA' | translate }}</div>
+</footer>

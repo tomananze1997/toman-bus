@@ -1,0 +1,164 @@
+{
+  "NAVIGATION": {
+    "ABOUT_US": "O nas",
+    "CONTACT_US": "Kontakt",
+    "VIP": "VIP transferji",
+    "LANGUAGE": {
+      "ENGLISH": "Angleščina",
+      "SLOVENIAN": "Slovenščina",
+      "GERMAN": "Nemščina"
+    }
+  },
+  "FOOTER": {
+    "CONTACT_US_TITLE": "Kontaktni podatki",
+    "LEGAL_TITLE": "Pravne politike",
+    "FOLLOW_FB": "Sledite nam na Facebooku",
+    "PRIVACY_POLICY": "Politika zasebnosti",
+    "TERMS_AND_CONDITIONS": "Pogoji poslovanja",
+    "INFORMATIONS_TITLE": "Informacije",
+    "INFORMATIONS_CONTENT": "Z nami bo vaše potovanje udobno, varno in prilagojeno vašim željam - kjerkoli v Sloveniji ali Evropi.",
+    "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenija - DDV številka: SI95427201"
+  },
+  "MAIN": {
+    "HERO": {
+      "TITLE": "Doživite udobno in prijetno izkušnjo",
+      "CONTENT": "Z avtobusnimi prevozi Toman, bo vaše popotovanje prijetno in udobno. Poskrbeli bomo, da boste doživeli najlepšo izkušnjo in spoznali najlepše nove kraje. Nudimo popolno storitev, kjer z veseljem ustrežemo vašim zahtevam in pričakovanjem. Vsi avtobusi so opremljeni z vso turistično opremo. Prav tako omogočamo VIP prevoze z vrhunskimi vozili višjega cenovnega razreda. Vozniki so profesionalno usposobljeni in dobro poznajo domače in evropske destinacije. Prevoze izvajamo skladno z veljavno prometno, delovno in davčno zakonodajo, potniki in vozila pa so zavarovani.",
+      "QUOTE_BUTTON": "Pridobite ponudbo"
+    },
+    "WHO_WE_ARE": {
+      "TITLE": "Varno in udobno na poti",
+      "SUBTITLE": "Kdo smo",
+      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.",
+      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko kontaktnega obrazca.",
+      "MORE_ABOUT_US_BUTTON": "Več o nas",
+      "SERVICES_BUTTON": "Naše storitve",
+      "FLEET_BUTTON": "Naš vozni park"
+    },
+    "SERVICES": {
+      "TITLE": "Kjerkoli morate biti — mi vas bomo pripeljali tja",
+      "SUBTITLE": "Naše storitve",
+      "FIRST": {
+        "TITLE": "Letališki prevozi",
+        "CONTENT": "Zanesljivi in brezskrbni prevozi do in z letališča — vedno točni."
+      },
+      "SECOND": {
+        "TITLE": "Prevozi do pristanišč",
+        "CONTENT": "Udobne in pravočasne povezave do križarskih pristanišč — začnite potovanje brez skrbi."
+      },
+      "THIRD": {
+        "TITLE": "Izleti in potovanja",
+        "CONTENT": "Dnevni in večdnevni prevozi za skupine — udobno, prilagodljivo in varno."
+      },
+      "FOURTH": {
+        "TITLE": "Šolski prevozi",
+        "CONTENT": "Varni in točni šolski prevozi z zaupanja vrednimi vozniki."
+      },
+      "FIFTH": {
+        "TITLE": "Poslovni prevozi",
+        "CONTENT": "Profesionalni prevozi za podjetja, njihove partnerje in vodilne kadre."
+      },
+      "SIXTH": {
+        "TITLE": "Prevozi po naročilu",
+        "CONTENT": "Prilagojene prevozne rešitve glede na vaše potrebe. Kontaktirajte nas za možnosti."
+      },
+      "BUTTON": "Izvedi več"
+    },
+    "VIP_TRANSFERS": {
+      "TITLE": "Popolno udobje in prestiž po meri",
+      "SUBTITLE": "VIP Prevozi",
+      "CONTENT_1": "Za posebne priložnosti ali pomembne poslovne poti ponujamo vrhunske prevoze z luksuznimi vozili višjega cenovnega razreda. Naša storitev je popolnoma prilagojena vašim željam – zagotovimo vam udobno, varno in brezskrbno potovanje na najvišji ravni.",
+      "CONTENT_2": "Naši izkušeni in diskretni vozniki poskrbijo, da prispete točno, sproščeno in v stilu – kamorkoli v Sloveniji ali Evropi. Pokličite nas ali pošljite e-mail in z veseljem vam pripravimo individualno ponudbo.",
+      "MORE_ABOUT_US_BUTTON": "Več o nas",
+      "VIP_BUTTON": "VIP prevozi"
+    },
+    "FLEET": {
+      "TITLE": "Zanesljivi, udobni in pripravljeni na pot",
+      "SUBTITLE": "Vozni park",
+      "VEHICLES": {
+        "C_CLASS": {
+          "NAME": "Mercedes-Benz C-Class",
+          "DESCRIPTION": "Mercedes-Benz C-Class z AMG opremo združuje športno eleganco in vrhunsko udobje. Notranjost je prefinjena, vožnja pa izjemno dinamična in tiha. Ta vozilo je idealno za poslovne prevoze, individualne transferje ali elegantne priložnosti, kjer želite izstopati z brezhibnim slogom."
+        },
+        "V_CLASS": {
+          "NAME": "Mercedes-Benz V-Class",
+          "DESCRIPTION": "Podaljšana Mercedes-Benz V-Class ponuja izjemno prostornost in fleksibilnost za skupine do 7 oseb. Z udobnimi sedeži, razkošno notranjostjo in sodobno opremo je popolna izbira za poslovna potovanja, družinske izlete ali VIP transferje. Kombinacija elegance in praktičnosti zagotavlja visoko raven udobja na vsaki poti."
+        },
+        "LION_COACH_1": {
+          "NAME": "MAN Lionʼs Coach",
+          "DESCRIPTION": "Doživite sodobno udobje z našim novejšim avtobusom MAN Lion’s Coach. Z 51+1+1 sedeži je odlična izbira za večje skupine, ki pričakujejo prostornost in zanesljivost. Avtobus je opremljen s klimatsko napravo, televizijo in hladilnikom, kar zagotavlja prijetno in udobno vožnjo. Primeren je tako za daljša potovanja kot tudi za enodnevne izlete in poslovne prevoze."
+        },
+        "LION_COACH_2": {
+          "NAME": "MAN Lionʼs Coach",
+          "DESCRIPTION": "Doživite vrhunec razkošnega potovanja z našim Man Lion's Coachem. S 49+1 sedeži ta avtobus ponuja dovolj prostora za udobno potovanje. Uživajte v dodatnih udobjih na krovu, kot so televizija, WC, klimatska naprava in hladilnik. Ne glede na to, ali gre za poslovni dogodek, prevoz na letališče ali skupinsko izletovanje, naš Man Lion's Coach zagotavlja brezhibno in razkošno izkušnjo potovanja."
+        },
+        "TRAVEGO": {
+          "NAME": "Mercedes-Benz Travego",
+          "DESCRIPTION": "Odpotujte na pustolovščino z našim Mercedes Benz Travegom. Zasnovan za 51+2 potnika ter združuje eleganco in funkcionalnost. Uživajte v televiziji na krovu, sprostite se v osvežujočem okolju klimatske naprave in hranite svoje osvežitve hladne v hladilniku. Ne glede na to, ali gre za dolgo potovanje ali ogled znamenitosti, naš Mercedes Benz Travego zagotavlja elegantno in udobno vožnjo."
+        },
+        "SETRA": {
+          "NAME": "Setra 416 GT-HD",
+          "DESCRIPTION": "Razvajajte se v razkošju in z avtobusom Setra 416 GT HD, ki s 53+2 sedeži nudi obilo prostora in udobja. Uživajte v priljubljenih oddajah na televiziji na krovu in doživite prijetno potovanje s klimatsko napravo, hladilnikom in WC-jem. Ne glede na to, ali gre za poseben dogodek ali skupinski izlet, avtobus Setra 416 GT HD zagotavlja izkušnjo potovanja prvega razreda"
+        }
+      }
+    },
+    "BUSINESS_PARTNERS": {
+      "TITLE": "Naši poslovni partnerji",
+      "SUBTITLE": "Zaupajo nam naročniki po vsej Sloveniji in Evropi"
+    }
+  },
+  "PRIVACY_POLICY": {
+    "SUBTITLE": "Pravne politike",
+    "TITLE": "Politika zasebnosti",
+    "SECTION_TITLE_FIRST": "Uvod",
+    "SECTION_CONTENT_FIRST": "TOMAN prevozništvo d.o.o. spoštuje vašo zasebnost in je zavezana k zaščiti vaših osebnih podatkov. Ta politika zasebnosti vas obvešča, kako skrbimo za vaše osebne podatke, ko obiščete našo spletno stran (ne glede na to, od kje jo obiščete), ter vam pove o vaših pravicah glede zasebnosti in kako vas ščiti zakon.",
+    "SECTION_TITLE_SECOND": "Zbiranje in uporaba podatkov",
+    "SECTION_CONTENT_SECOND": "Med uporabo naše strani vam lahko zahtevamo, da nam posredujete nekatere osebno identifikacijske podatke, ki se lahko uporabljajo za kontaktiranje ali identifikacijo vas. Osebno identifikacijski podatki lahko vključujejo, vendar niso omejeni na vaše ime, naslov, e-poštni naslov in telefonsko številko. Te podatke uporabljamo za izboljšanje naših storitev, odzivanje na vaša vprašanja, obdelavo vaših naročil in skladnost z zakonskimi obveznostmi.",
+    "SECTION_TITLE_THIRD": "Razkritje podatkov",
+    "SECTION_CONTENT_THIRD": "Vaše osebne podatke lahko razkrijemo ponudnikom storitev tretjih oseb, ki opravljajo storitve v našem imenu, kot so obdelava plačil, izpolnitev naročil ali analiza podatkov. Vsi ponudniki storitev tretjih oseb morajo sprejeti ustrezne varnostne ukrepe za zaščito vaših osebnih podatkov.",
+    "SECTION_TITLE_FORTH": "Varnost podatkov",
+    "SECTION_CONTENT_FORTH": "Vzpostavili smo ustrezne varnostne ukrepe za preprečevanje nenamernega izgubljanja, uporabe ali nepooblaščenega dostopa, spreminjanja ali razkrivanja vaših osebnih podatkov.",
+    "SECTION_TITLE_FIFTH": "Vaše pravice",
+    "SECTION_CONTENT_FIFTH": "Imate pravico do dostopa, popravka ali brisanja svojih osebnih podatkov. Prav tako lahko v določenih okoliščinah ugovarjate obdelavi vaših osebnih podatkov.",
+    "SECTION_TITLE_SIXTH": "Spremembe te politike",
+    "SECTION_CONTENT_SIXTH": "Vse spremembe, ki jih bomo v prihodnosti naredili v naši politiki zasebnosti, bodo objavljene na tej strani. Prosimo, redno preverjajte morebitne posodobitve ali spremembe naše politike zasebnosti.",
+    "SECTION_TITLE_SEVENTH": "Kontakt",
+    "SECTION_CONTENT_SEVENTH": "Če imate kakršna koli vprašanja glede te politike zasebnosti, nas prosimo kontaktirajte na"
+  },
+  "ABOUT_US": {
+    "SUBTITLE_FIRST": "Podjetje",
+    "TITLE_FIRST": "O nas",
+    "SUBTITLE_SECOND": "Odličnost",
+    "TITLE_SECOND": "Naša ekipa",
+    "SUBTITLE_THIRD": "Prihodnost",
+    "TITLE_THIRD": "Naša vizija",
+    "CONTENT_FIRST": "Toman d.o.o. je ugledno podjetje, specializirano za zagotavljanje kvalitetnih avtobusnih in VIP prevozov za posameznike tako v Sloveniji kot tudi v tujini. S trdnimi temelji, postavljenimi leta 2012, se nenehno prilagajamo in razvijamo, da bi zadovoljili vedno spreminjajoče se potrebe naših cenjenih strank.",
+    "CONTENT_SECOND": "V preteklih letih je podjetje doživelo izjemen razvoj in s tem utrdilo svoj položaj kot eden izmed najbolj zaupljivih ponudnikov prevoznih storitev. Z vlaganjem sredstev v posodobitev našega voznega parka zagotavljamo, da vozila izpolnjujejo najvišje kakovostne standarde in se ujemajo z zahtevnimi okoljskimi predpisi. Naša zaveza trajnosti se prepleta z našo predanostjo zagotavljanju varnih, učinkovitih in okolju prijaznih prevoznih rešitev.",
+    "CONTENT_THIRD": "V podjetju smo izjemno ponosni na našo ekipo izkušenih in strokovnih voznikov. Vsak član našega osebja je skrbno izbran in temeljito usposobljen, da zagotovi vrhunsko raven storitev. Njihovo strokovno znanje, skupaj z njihovim prijaznim in ustrežljivim pristopom, zagotavlja prijetno in udobno potovanje za vsakega potnika. Razumemo, da vloga voznika sega prek preprostega prevoza; služijo kot ambasadorji našega podjetja, predstavljajo naše vrednote in zavezanost k zadovoljstvu strank.",
+    "CONTENT_FORTH": "V vseh teh letih je naša predanost odličnosti pridobila zaupanje in zvestobo številnih strank. Ponosni smo, da se mnoge naše stranke vedno znova vračajo, z zaupanjem računajo na naše storitve. Poleg tega smo počaščeni, da smo vzpostavili močna sodelovanja z uglednimi mednarodnimi partnerji. Ta partnerstva so nastala na osnovi medsebojnega spoštovanja, skupnih vrednot ter priznanja kakovosti in zanesljivosti našega podjetja.",
+    "CONTENT_FIFTH": "Ko se oziramo v prihodnost, ostajamo zavezani premikati meje odličnosti v prevozniški industriji. Nadaljevali bomo z vlaganjem v vozni park, raziskovanjem inovativnih pristopov ter razširitvijo naše mreže, da še bolje služimo našim strankam. Naša vizija je postati ena izmed prvih izbir za posameznike, ki iščejo varne, učinkovite in okolju prijazne prevozne storitve."
+  },
+  "CONTACT_US": {
+    "SUBTITLE": "Stopite v stik",
+    "TITLE": "Kontakt",
+    "CONTACT_INFO": "Kontaktni podatki",
+    "COUNTRY": "Slovenija",
+    "FOLLOW_FB": "Sledite nam na Facebooku",
+    "FIND_US": "Poiščite nas",
+    "OUR_LOCATION": "Naša lokacija v Podnartu, Slovenija",
+    "DISCLAIMER": "Poslano povpraševanje ne pomeni rezervacije tranferja. Rezervacija je veljavna na podlagi potrditve pripravljene ponudbe preko e-pošte s strani naročnika.",
+    "FORM": {
+      "NAME": "Polno ime:",
+      "E-MAIL": "E-pošta:",
+      "PHONE": "Telefon:",
+      "MESSAGE": "Sporočilo:",
+      "BUTTON_SEND": "Pošlji"
+    }
+  },
+  "COMMON": {
+    "POPUP": {
+      "SUCCESS_TEXT": "E-pošta uspešno poslana!",
+      "FAILURE_TEXT": "Prišlo je do napake pri pošiljanju e-pošte.",
+      "CONFIRM_BUTTON": "Potrdi"
+    }
+  }
+}

@@ -1,1 +1,755 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scroll-mobile {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-110%);
+  }
+}
+
+@keyframes scroll-desktop {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+/*section-text*/
+/* Responsive Paragraphs */
+.content-primary-first {
+  @apply text-base sm:text-lg md:text-2xl text-secondary-100 font-medium my-3;
+}
+
+/* ---------- COMMON ---------- */
+/* Containers */
+.main-container {
+  @apply container mx-auto my-auto relative w-full overflow-hidden py-40 h-full;
+}
+
+.main-container-outer {
+  @apply w-full bg-black relative;
+}
+
+.main-container-outer-without-background {
+  @apply w-full relative;
+}
+
+.section-subtitle {
+  @apply text-primary-300 font-light tracking-widest uppercase;
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;    /* 16px on mobile */
+}
+
+@media (min-width: 640px) {
+  .section-subtitle {
+    margin-bottom: 1.25rem;  /* 20px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-subtitle {
+    margin-bottom: 1.5rem;   /* 24px on desktop */
+  }
+}
+
+.section-title {
+  @apply text-secondary-50 font-bold leading-tight tracking-tight;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;   /* 24px on mobile */
+}
+
+@media (min-width: 640px) {
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;     /* 32px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 2.75rem;
+    margin-bottom: 2rem;     /* 32px on desktop */
+  }
+}
+
+.section-title-small {
+  @apply text-secondary-50 font-bold leading-tight tracking-tight;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;   /* 24px on mobile */
+}
+
+@media (min-width: 640px) {
+  .section-title-small {
+    font-size: 1.65rem;
+    margin-bottom: 1.75rem;     /* 32px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title-small {
+    font-size: 1.9rem;
+    margin-bottom: 1.75rem;     /* 32px on desktop */
+  }
+}
+
+.section-text {
+  @apply text-secondary-100 font-light leading-relaxed;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1rem;     /* 16px on mobile */
+}
+
+.section-text-hover {
+  @apply text-secondary-200 font-light leading-relaxed fill-white hover:text-secondary-50 duration-150 ease-in-out;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1rem;     /* 16px on mobile */
+}
+
+@media (min-width: 640px) {
+  .section-text,
+  .section-text-hover{
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.25rem;  /* 20px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-text,
+  .section-text-hover{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;   /* 24px on desktop */
+  }
+}
+
+.footer-title {
+  @apply text-secondary-50 font-light leading-relaxed;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.8rem;     /* 16px on mobile */
+}
+
+@media (min-width: 640px) {
+  footer-title{
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.05rem;  /* 20px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  footer-title {
+    font-size: 1.3rem;
+    margin-bottom: 1.30rem; /* 24px on desktop */
+  }
+}
+
+.second-text {
+  @apply text-secondary-100 font-light leading-relaxed;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.second-text-hover {
+  @apply text-secondary-200 font-light leading-relaxed fill-white hover:text-secondary-50 duration-150 ease-in-out;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+@media (min-width: 640px) {
+  .second-text,
+  .second-text-hover{
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+}
+
+@media (min-width: 1024px) {
+  .second-text,
+  .second-text-hover{
+    font-size: 1rem;
+  }
+}
+
+/* Social Media SVG */
+.social-media-svg {
+  @apply !h-6 !w-6 sm:!h-8 sm:!w-8 text-secondary-200 transition-colors duration-150 ease-in-out cursor-pointer;
+}
+
+.social-media-svg:hover {
+  color: #1877F2; /* Facebook Blue */
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-base {
+  @apply inline-flex items-center justify-center font-semibold rounded-md transition-all duration-200 ease-in-out cursor-pointer select-none;
+  @apply focus:outline-none;
+  @apply disabled:cursor-not-allowed disabled:opacity-60;
+  @apply relative overflow-hidden;
+  letter-spacing: 0.025em;
+}
+
+.btn-base::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -150%;
+  width: 150%;
+  height: 120%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transform: skewX(-45deg);
+  transition: none;
+}
+
+.btn-base:hover::before {
+  left: 150%;
+  transition: left 0.4s ease-in-out;
+}
+
+.btn-base:disabled::before {
+  display: none;
+}
+
+/* Size variants */
+.btn-xs {
+  @apply px-2 py-1 min-h-[28px] text-xs border;
+
+  @apply sm:px-3 sm:py-1.5 sm:text-sm;
+  @apply md:px-4 md:py-2 md:text-base;
+  @apply lg:px-5 lg:text-base;
+}
+
+.btn-sm {
+  @apply px-3 py-1.5 min-h-[36px] text-sm border;
+
+  @apply sm:px-4 sm:py-2 sm:text-base;
+  @apply md:px-5 md:py-2.5 md:text-lg;
+  @apply lg:px-6 lg:text-lg;
+}
+
+.btn-md {
+  @apply px-4 py-2 min-h-[44px] text-base border-2;
+
+  @apply sm:px-6 sm:py-2.5 sm:text-lg;
+  @apply md:px-7 md:py-3 md:text-xl;
+  @apply lg:px-8 lg:text-xl;
+}
+
+.btn-lg {
+  @apply px-5 py-2.5 min-h-[52px] text-lg border-2;
+
+  @apply sm:px-7 sm:py-3 sm:text-xl;
+  @apply md:px-9 md:py-4 md:text-2xl;
+  @apply lg:px-10 lg:text-2xl;
+}
+
+.btn-xl {
+  @apply px-6 py-3 min-h-[60px] text-xl border-2;
+
+  @apply sm:px-8 sm:py-4 sm:text-2xl;
+  @apply md:px-10 md:py-5 md:text-3xl;
+  @apply lg:px-12 lg:text-3xl;
+}
+
+.btn-hero {
+  @apply px-8 py-4 min-h-[68px] text-2xl font-bold tracking-wide border-2;
+
+  @apply sm:px-10 sm:py-5 sm:text-3xl;
+  @apply md:px-12 md:py-6 md:text-4xl;
+  @apply lg:px-16 lg:text-4xl;
+}
+
+/* Primary buttons */
+.btn-primary {
+  @apply btn-base border-primary-300 bg-primary-400 text-secondary-100;
+  @apply hover:bg-primary-600 hover:border-primary-500 hover:shadow-lg;
+  @apply disabled:hover:bg-primary-400 disabled:hover:border-primary-300 disabled:hover:shadow-none;
+  box-shadow: 0 2px 4px rgba(230, 57, 70, 0.2);
+}
+
+.btn-primary-outline {
+  @apply btn-base border-primary-300 bg-transparent text-primary-300;
+  @apply hover:bg-primary-400 hover:text-secondary-100 hover:shadow-lg;
+  @apply disabled:hover:bg-transparent disabled:hover:text-primary-300 disabled:hover:shadow-none;
+}
+
+.btn-primary-ghost {
+  @apply btn-base border-transparent bg-transparent text-primary-400;
+  @apply hover:bg-primary-50 hover:text-primary-500;
+  @apply disabled:hover:bg-transparent disabled:hover:text-primary-400;
+}
+
+.btn-primary-soft {
+  @apply btn-base border-primary-100 bg-primary-50 text-primary-500;
+  @apply hover:bg-primary-100 hover:border-primary-200 hover:text-primary-600;
+  @apply disabled:hover:bg-primary-50 disabled:hover:border-primary-100 disabled:hover:text-primary-500;
+}
+
+/* Secondary buttons */
+.btn-secondary {
+  @apply btn-base border-secondary-400 bg-secondary-400 text-secondary-100;
+  @apply hover:bg-secondary-500 hover:border-secondary-500 hover:shadow-lg;
+  @apply disabled:hover:bg-secondary-400 disabled:hover:border-secondary-400 disabled:hover:shadow-none;
+  box-shadow: 0 2px 4px rgba(89, 89, 89, 0.2);
+}
+
+.btn-secondary-outline {
+  @apply btn-base border-secondary-300 bg-transparent text-secondary-300;
+  @apply hover:bg-secondary-400 hover:text-secondary-100 hover:shadow-lg;
+  @apply disabled:hover:bg-transparent disabled:hover:text-secondary-300 disabled:hover:shadow-none;
+}
+
+.btn-secondary-ghost {
+  @apply btn-base border-transparent bg-transparent text-secondary-400;
+  @apply hover:bg-secondary-100 hover:text-secondary-600;
+  @apply disabled:hover:bg-transparent disabled:hover:text-secondary-400;
+}
+
+.btn-secondary-soft {
+  @apply btn-base border-secondary-100 bg-secondary-100 text-secondary-600;
+  @apply hover:bg-secondary-200 hover:border-secondary-200 hover:text-secondary-700;
+  @apply disabled:hover:bg-secondary-100 disabled:hover:border-secondary-100 disabled:hover:text-secondary-600;
+}
+
+/* VIP buttons */
+.btn-vip {
+  @apply btn-base border-vip-500 bg-vip-500 text-black font-bold;
+  @apply hover:bg-vip-700 hover:border-vip-700 hover:shadow-xl;
+  @apply disabled:hover:bg-vip-500 disabled:hover:border-vip-500 disabled:hover:shadow-none;
+  box-shadow: 0 4px 8px rgba(192, 142, 0, 0.3);
+}
+
+.btn-vip-outline {
+  @apply btn-base border-vip-500 bg-transparent text-vip-500;
+  @apply hover:bg-vip-500 hover:text-black hover:shadow-xl;
+  @apply disabled:hover:bg-transparent disabled:hover:text-vip-500 disabled:hover:shadow-none;
+}
+
+.btn-vip-ghost {
+  @apply btn-base border-transparent bg-transparent text-vip-500;
+  @apply hover:bg-vip-100 hover:text-vip-700;
+  @apply disabled:hover:bg-transparent disabled:hover:text-vip-500;
+}
+
+.btn-vip-soft {
+  @apply btn-base border-vip-200 bg-vip-100 text-vip-700;
+  @apply hover:bg-vip-200 hover:border-vip-300 hover:text-vip-700;
+  @apply disabled:hover:bg-vip-100 disabled:hover:border-vip-200 disabled:hover:text-vip-700;
+}
+
+/* Button utilities */
+.btn-full {
+  @apply w-full;
+}
+
+.btn-icon-only {
+  @apply aspect-square px-0 justify-center;
+}
+
+.btn-rounded {
+  @apply rounded-full;
+}
+
+.btn-rounded-lg {
+  @apply rounded-xl;
+}
+
+.btn-square {
+  @apply rounded-none;
+}
+
+.btn-loading {
+  @apply pointer-events-none opacity-75 cursor-wait;
+}
+
+.btn-loading::after {
+  content: '';
+  width: 1em;
+  height: 1em;
+  margin-left: 0.5em;
+  border: 2px solid transparent;
+  border-top-color: currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-group {
+  @apply inline-flex shadow-sm;
+}
+
+.btn-group > button:not(:first-child) {
+  @apply -ml-px rounded-l-none;
+}
+
+.btn-group > button:not(:last-child) {
+  @apply rounded-r-none;
+}
+
+.btn-group > button:hover {
+  @apply relative z-10;
+}
+
+/* ---------- HERO ---------- */
+.hero-main-title {
+  @apply text-secondary-50 font-bold leading-tight tracking-tight text-center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .hero-main-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-main-title {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-main-title {
+    font-size: 4rem;
+  }
+}
+
+.hero-main-subtitle {
+  @apply text-secondary-100 font-light leading-relaxed text-center mx-auto;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .hero-main-subtitle {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-main-subtitle {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-main-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin-bottom: 3rem;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-main-subtitle {
+    max-width: 65%;
+  }
+}
+
+.hero-content {
+  @apply text-center w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.hero-cta {
+  @apply inline-block;
+}
+
+/* ---------- SERVICES ---------- */
+.services-grid {
+  @apply grid gap-8 lg:gap-12;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (min-width: 640px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-card {
+  @apply bg-secondary-700 rounded-xl p-8 text-center transition-all duration-300 ease-out;
+  @apply hover:bg-secondary-600;
+  @apply border border-secondary-600 hover:border-primary-400;
+  @apply shadow-lg hover:shadow-xl;
+}
+
+.service-icon {
+  @apply mb-6 flex justify-center;
+}
+
+.service-icon .icon {
+  @apply text-primary-400 transition-colors duration-300;
+  width: 3rem;
+  height: 3rem;
+}
+
+.service-card:hover .service-icon .icon {
+  @apply text-primary-300;
+}
+
+.service-title {
+  @apply text-secondary-50 font-bold mb-4 leading-tight;
+  font-size: 1.25rem;
+  min-height: 2.5rem;
+}
+
+.service-description {
+  @apply text-secondary-200 leading-relaxed;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ---------- FLEET ---------- */
+/* Fleet Component Specific Styles */
+.fleet-vehicle-name {
+  @apply text-secondary-100 font-medium text-center mt-3 transition-opacity duration-300;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (min-width: 640px) {
+  .fleet-vehicle-name {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fleet-vehicle-name {
+    font-size: 1.05rem;
+    margin-top: 1.25rem;
+  }
+}
+
+.fleet-description-container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .fleet-description-container {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  .fleet-description-container {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fleet-description-container {
+    max-width: 65%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .fleet-description-container {
+    max-width: 60%;
+  }
+}
+
+.fleet-description {
+  @apply text-secondary-100 font-light leading-relaxed text-center;
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  min-height: 18rem;
+}
+
+@media (min-width: 640px) {
+  .fleet-description {
+    font-size: 1rem;
+    line-height: 1.75;
+    min-height: 15rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fleet-description {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+}
+
+.fleet-nav-arrow {
+  @apply text-secondary-200 fill-white hover:text-secondary-50 transition-colors duration-200 ease-in-out;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+@media (min-width: 640px) {
+  .fleet-nav-arrow {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fleet-nav-arrow {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+.fleet-swiper {
+  @apply w-full overflow-visible;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .fleet-swiper {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* ---------- FLEET ---------- */
+
+.partners-scroll-container {
+  @apply w-full overflow-hidden;
+  padding-top: 2rem;    /* 32px on mobile */
+  padding-bottom: 2rem; /* 32px on mobile */
+}
+
+@media (min-width: 640px) {
+  .partners-scroll-container {
+    padding-top: 2.5rem;    /* 40px on tablet */
+    padding-bottom: 2.5rem; /* 40px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .partners-scroll-container {
+    padding-top: 3rem;    /* 48px on desktop */
+    padding-bottom: 3rem; /* 48px on desktop */
+  }
+}
+
+/* ---------- PARTNERS ---------- */
+
+.partners-scroll-container {
+  @apply w-full overflow-hidden;
+  padding-top: 2rem;    /* 32px on mobile */
+  padding-bottom: 2rem; /* 32px on mobile */
+}
+
+@media (min-width: 640px) {
+  .partners-scroll-container {
+    padding-top: 2.5rem;    /* 40px on tablet */
+    padding-bottom: 2.5rem; /* 40px on tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .partners-scroll-container {
+    padding-top: 3rem;    /* 48px on desktop */
+    padding-bottom: 3rem; /* 48px on desktop */
+  }
+}
+
+.partners-scroll-track {
+  @apply flex;
+  animation: scroll-mobile 25s linear infinite;
+}
+
+@media (min-width: 1024px) {
+  .partners-scroll-track {
+    animation: scroll-desktop 40s linear infinite;
+  }
+}
+
+.partners-scroll-group {
+  @apply flex items-center;
+  gap: 2rem;
+}
+
+@keyframes scroll-mobile {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-110%);
+  }
+}
+
+@keyframes scroll-desktop {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+.partners-scroll-track:hover {
+  animation-play-state: paused;
+}
+
+.partner-logo {
+  @apply h-8 sm:h-10 md:h-12 w-full object-contain grayscale transition duration-150 ease-in-out;
+}
+
+.partner-logo:hover {
+  @apply grayscale-0 scale-105;
+}
+
+.partner-logo-inverted {
+  @apply h-8 sm:h-10 md:h-12 w-full object-contain grayscale invert;
+}
+
+.partner-logo-inverted:hover {
+  @apply scale-105;
+}

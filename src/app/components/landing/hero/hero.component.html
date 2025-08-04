@@ -1,0 +1,30 @@
+<section class="main-container-outer h-[98vh]">
+  <!-- Fullscreen Background Video -->
+  <video #heroVideo autoplay muted loop playsinline class="absolute left-0 top-0 z-0 h-full w-full object-cover">
+    <source src="assets/videos/hero.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 z-10 bg-black bg-opacity-80"></div>
+
+  <!-- Bottom Gradient -->
+  <div class="z-15 absolute bottom-0 left-0 right-0 h-[400px] bg-gradient-to-t from-black to-transparent"></div>
+
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 animate-bounce">
+    <mat-icon (click)="scrollDown()" svgIcon="down-arrow" class="second-text-hover h-6 w-6 cursor-pointer"></mat-icon>
+  </div>
+  <div class="main-container">
+    <!-- Content -->
+    <div class="relative z-20 flex h-full flex-col items-center justify-center px-6 sm:px-8 lg:px-12">
+      <div class="hero-content">
+        <h1 class="hero-main-title">{{ 'MAIN.HERO.TITLE' | translate }}</h1>
+        <p class="hero-main-subtitle">{{ 'MAIN.HERO.CONTENT' | translate }}</p>
+        <div class="hero-cta">
+          <button routerLink="/contact-us" class="btn-primary btn-lg">{{ 'MAIN.HERO.QUOTE_BUTTON' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

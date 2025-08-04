@@ -1,0 +1,36 @@
+<section class="main-container-outer-without-background">
+  <!-- Background Image: now on the RIGHT -->
+  <div class="absolute inset-0 -z-30 bg-black bg-cover bg-center" style="background-image: url('assets/images/c-class_side-left.png')"></div>
+
+  <!-- Main Right-to-Left Gradient -->
+  <div class="absolute inset-0 -z-20" style="background: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.6) 65%, rgba(0, 0, 0, 0.3) 80%, rgba(0, 0, 0, 0) 100%)"></div>
+
+  <!-- Top Vertical Black Fade on Left -->
+  <div
+    class="pointer-events-none absolute left-0 top-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.1) 80%, transparent 100%)"
+  ></div>
+
+  <!-- Bottom Vertical Black Fade on Left -->
+  <div
+    class="pointer-events-none absolute bottom-0 left-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.1) 70%, transparent 100%)"
+  ></div>
+  <div class="main-container">
+    <!-- Content (responsive alignment) -->
+    <div class="relative z-10 flex flex-col px-4 text-center sm:px-6 lg:ml-auto lg:w-3/5 lg:text-right">
+      <div class="mb-6 sm:mb-8">
+        <p class="section-subtitle">{{ 'MAIN.VIP_TRANSFERS.SUBTITLE' | translate }}</p>
+        <h2 class="section-title">{{ 'MAIN.VIP_TRANSFERS.TITLE' | translate }}</h2>
+      </div>
+      <p class="section-text">{{ 'MAIN.VIP_TRANSFERS.CONTENT_1' | translate }}</p>
+      <p class="section-text">{{ 'MAIN.VIP_TRANSFERS.CONTENT_2' | translate }}</p>
+
+      <!-- Buttons -->
+      <div class="mt-6 flex flex-col justify-center gap-3 sm:mt-4 sm:flex-row sm:gap-4 lg:justify-end">
+        <button routerLink="/contact-us" class="btn-vip btn-md">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</button>
+        <button routerLink="/about-us" class="btn-primary btn-md">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</button>
+      </div>
+    </div>
+  </div>
+</section>
