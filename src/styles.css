@@ -426,29 +426,29 @@ html {
 /* ---------- HERO ---------- */
 .hero-main-title {
   @apply text-secondary-50 font-bold leading-tight tracking-tight text-center;
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 2rem;
+  font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1.5rem;
 }
 
 @media (min-width: 640px) {
   .hero-main-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .hero-main-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 2.5rem;
   }
 }
 
 @media (min-width: 1280px) {
   .hero-main-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
