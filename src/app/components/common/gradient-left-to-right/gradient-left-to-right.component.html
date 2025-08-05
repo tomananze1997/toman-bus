@@ -1,0 +1,34 @@
+<section>
+  <!-- Fallback Plain Background -->
+  <div class="absolute inset-0 -z-40 bg-[#171717]"></div>
+
+  <!-- Main Left-to-Right Gradient - mobile (default) -->
+  <div
+    class="absolute inset-0 -z-20 block sm:hidden"
+    style="background: linear-gradient(to right, #171717 60%, rgba(23, 23, 23, 0.7) 75%, rgba(23, 23, 23, 0.4) 80%, rgba(23, 23, 23, 0) 100%)"
+  ></div>
+
+  <!-- Main Left-to-Right Gradient - sm -->
+  <div
+    class="absolute inset-0 -z-20 hidden sm:block lg:hidden"
+    style="background: linear-gradient(to right, #171717 60%, rgba(23, 23, 23, 0.6) 75%, rgba(23, 23, 23, 0.3) 80%, rgba(23, 23, 23, 0) 100%)"
+  ></div>
+
+  <!-- Main Left-to-Right Gradient - lg and up -->
+  <div
+    class="absolute inset-0 -z-20 hidden lg:block"
+    style="background: linear-gradient(to right, #171717 50%, rgba(23, 23, 23, 0.6) 65%, rgba(23, 23, 23, 0.3) 80%, rgba(23, 23, 23, 0) 100%)"
+  ></div>
+
+  <!-- Top Vertical Fade on Right -->
+  <div
+    class="pointer-events-none absolute right-0 top-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to bottom, #171717 0%, rgba(23, 23, 23, 0.7) 50%, rgba(23, 23, 23, 0.1) 80%, transparent 100%)"
+  ></div>
+
+  <!-- Bottom Vertical Fade on Right -->
+  <div
+    class="pointer-events-none absolute bottom-0 right-0 -z-10 h-1/2 w-1/2"
+    style="background: linear-gradient(to top, #171717 0%, rgba(23, 23, 23, 0.7) 40%, rgba(23, 23, 23, 0.1) 70%, transparent 100%)"
+  ></div>
+</section>

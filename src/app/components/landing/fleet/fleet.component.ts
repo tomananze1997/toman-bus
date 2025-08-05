@@ -102,7 +102,7 @@ export class FleetComponent implements AfterViewInit, OnDestroy {
 
       this.swiperInstance.slideTo(nextIndex);
       this.updateRealIndex();
-    }, 15000);
+    }, 10000);
   }
 
   private clearAutoplay(): void {

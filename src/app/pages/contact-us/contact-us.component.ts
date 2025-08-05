@@ -24,7 +24,7 @@ export class ContactUsComponent implements OnInit {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      phone: ['', [Validators.required]],
+      phone: ['', [Validators.required, Validators.pattern(/^[\d +]*$/)]],
       message: ['', Validators.required]
     });
   }
@@ -37,28 +37,32 @@ export class ContactUsComponent implements OnInit {
 
       if (!this.contactForm?.valid) return;
       const formData = this.contactForm.value;
-
-      emailjs
-        .send(
-          this.EMAIL_SERVICE_ID,
-          this.EMAIL_TEMPLATE_ID,
-          {
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone,
-            message: formData.message
-          },
-          this.EMAIL_PUBLIC_KEY
-        )
-        .then(() => {
-          this.showPopup = true;
-          this.popupText = 'COMMON.POPUP.SUCCESS_TEXT';
-          this.contactForm?.reset();
-        })
-        .catch((error) => {
-          this.showPopup = true;
-          this.popupText = 'COMMON.POPUP.FAILURE_TEXT';
-        });
+      try {
+        emailjs
+          .send(
+            this.EMAIL_SERVICE_ID,
+            this.EMAIL_TEMPLATE_ID,
+            {
+              name: formData.name,
+              email: formData.email,
+              phone: formData.phone,
+              message: formData.message
+            },
+            this.EMAIL_PUBLIC_KEY
+          )
+          .then(() => {
+            this.showPopup = true;
+            this.popupText = 'COMMON.POPUP.SUCCESS_TEXT';
+            this.contactForm?.reset();
+          })
+          .catch((error) => {
+            this.showPopup = true;
+            this.popupText = 'COMMON.POPUP.FAILURE_TEXT';
+          });
+      } catch (error) {
+        this.showPopup = true;
+        this.popupText = 'COMMON.POPUP.FAILURE_TEXT';
+      }
     }
   }
 

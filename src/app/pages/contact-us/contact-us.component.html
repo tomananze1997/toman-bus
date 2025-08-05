@@ -6,7 +6,7 @@
     </div>
 
     <div class="grid lg:grid-cols-3 gap-12 lg:gap-16">
-      <div class="order-2 lg:order-1 lg:col-span-2">
+      <div class="order-1 lg:col-span-2">
         <form *ngIf="contactForm" [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="space-y-6">
 
           <div class="form-group">
@@ -68,7 +68,7 @@
         </div>
       </div>
 
-      <div class="order-1 lg:order-2 lg:col-span-1 bg-gray-800 bg-opacity-30 p-8 rounded-lg">
+      <div class="order-2 hidden sm:block lg:col-span-1 bg-gray-800 bg-opacity-30 p-8 rounded-lg">
         <div class="mb-8">
           <h3 class="section-title-small">{{"CONTACT_US.CONTACT_INFO" | translate}}</h3>
           <div >
@@ -128,4 +128,5 @@
 <app-popup
   [showPopup]="showPopup"
   [text]="popupText"
+  (confirmAction)="showPopup = false"
 />

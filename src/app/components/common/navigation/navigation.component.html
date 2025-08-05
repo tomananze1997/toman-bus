@@ -41,10 +41,10 @@
 
   <!-- Mobile Menu -->
   <div *ngIf="isMenuOpen" class="fixed top-0 z-40 flex w-full flex-col items-center gap-4 bg-black bg-opacity-90 px-6 py-16 backdrop-blur-md lg:hidden">
-    <a href="tel:+38641720655" class="second-text-hover flex items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
-    <button routerLink="/about-us" class="btn-secondary-outline btn-xs w-full">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
-    <button routerLink="/contact-us" class="btn-secondary btn-xs w-full">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
-    <button routerLink="/contact-us" class="btn-vip btn-xs w-full">{{ 'NAVIGATION.VIP' | translate }}</button>
+    <a href="tel:+38641720655" class="section-text-hover flex items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
+    <button routerLink="/about-us" class="btn-secondary-outline btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
+    <button routerLink="/contact-us" class="btn-secondary btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
+    <button routerLink="/contact-us" class="btn-vip btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.VIP' | translate }}</button>
     <app-language-picker />
   </div>
 </nav>

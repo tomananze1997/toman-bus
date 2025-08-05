@@ -34,11 +34,11 @@ html {
 /* ---------- COMMON ---------- */
 /* Containers */
 .main-container {
-  @apply container mx-auto my-auto relative w-full overflow-hidden py-40 h-full;
+  @apply container mx-auto my-auto relative w-full overflow-hidden py-20 sm:py-32 lg:py-40 h-full;
 }
 
 .main-container-outer {
-  @apply w-full bg-black relative;
+  @apply w-full bg-neutral-900 relative;
 }
 
 .main-container-outer-without-background {
