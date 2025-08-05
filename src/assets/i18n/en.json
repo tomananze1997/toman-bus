@@ -15,14 +15,15 @@
     "FOLLOW_FB": "Follow us on Facebook",
     "PRIVACY_POLICY": "Privacy Policy",
     "TERMS_AND_CONDITIONS": "Terms & Conditions",
-    "INFORMATIONS_TITLE": "Informations",
+    "INFORMATIONS_TITLE": "Information",
     "INFORMATIONS_CONTENT": "With us, your journey will be comfortable, safe, and tailored to your wishes – anywhere in Slovenia or Europe.",
     "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenia - VAT number: SI95427201"
   },
   "MAIN": {
     "HERO": {
       "TITLE": "Enjoy a Comfortable and Pleasant Experience",
-      "CONTENT": "With Toman bus transport, your journey will be pleasant and comfortable. We will ensure that you have the best experience and discover the most beautiful new places. We offer a complete service, where we are happy to meet your requirements and expectations. All buses are equipped with all tourist amenities. We also offer VIP transport with top-of-the-range vehicles. Our drivers are professionally trained and have extensive knowledge of domestic and European destinations.",
+      "CONTENT_FIRST": "With Toman bus transport, your journey will be pleasant and comfortable. We will ensure that you have the best experience and discover the most beautiful new places. We offer a complete service, where we are happy to meet your requirements and expectations.",
+      "CONTENT_SECOND": "All buses are equipped with all tourist amenities. We also offer VIP transport with top-of-the-range vehicles. Our drivers are professionally trained and have extensive knowledge of domestic and European destinations.",
       "QUOTE_BUTTON": "Get a Quote"
     },
     "WHO_WE_ARE": {
@@ -72,7 +73,7 @@
       "VIP_BUTTON": "VIP Transfers"
     },
     "FLEET": {
-      "TITLE": "Reliable, comfortable, and ready to go",
+      "TITLE": "Reliable, comfortable and ready to go",
       "SUBTITLE": "Our Fleet",
       "VEHICLES": {
         "C_CLASS": {

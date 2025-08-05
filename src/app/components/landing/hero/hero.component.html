@@ -6,13 +6,16 @@
   </video>
 
   <!-- Overlay -->
-  <div class="absolute inset-0 z-10 bg-black bg-opacity-80"></div>
+  <div class="absolute inset-0 z-10 bg-neutral-900 bg-opacity-40"></div>
 
   <!-- Bottom Gradient -->
-  <div class="z-15 absolute bottom-0 left-0 right-0 h-[400px] bg-gradient-to-t from-black to-transparent"></div>
+  <div
+    class="z-15 pointer-events-none absolute bottom-0 left-0 right-0 h-full"
+    style="background: linear-gradient(to top, #171717 5%, rgba(23, 23, 23, 0.8) 20%, rgba(23, 23, 23, 0.3) 50%, transparent 80%)"
+  ></div>
 
   <!-- Scroll Indicator -->
-  <div class="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 animate-bounce">
+  <div class="absolute inset-x-0 bottom-6 z-20 mx-auto w-fit animate-bounce">
     <mat-icon (click)="scrollDown()" svgIcon="down-arrow" class="second-text-hover h-6 w-6 cursor-pointer"></mat-icon>
   </div>
   <div class="main-container">
@@ -20,7 +23,12 @@
     <div class="relative z-20 flex h-full flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
       <div class="hero-content">
         <h1 class="hero-main-title mt-4">{{ 'MAIN.HERO.TITLE' | translate }}</h1>
-        <p class="hero-main-subtitle">{{ 'MAIN.HERO.CONTENT' | translate }}</p>
+        <p class="hero-main-subtitle">
+          {{ 'MAIN.HERO.CONTENT_FIRST' | translate }}
+          <span class="hidden sm:inline">
+            {{ 'MAIN.HERO.CONTENT_SECOND' | translate }}
+          </span>
+        </p>
         <div class="hero-cta">
           <button routerLink="/contact-us" class="btn-primary btn-lg">{{ 'MAIN.HERO.QUOTE_BUTTON' | translate }}</button>
         </div>

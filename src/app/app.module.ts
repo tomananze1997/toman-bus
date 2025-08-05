@@ -15,6 +15,9 @@ import {
   ContentPrivacyPolicyComponent,
   FleetComponent,
   FooterComponent,
+  GradientLeftToRightComponent,
+  GradientRightToLeftComponent,
+  GradientTopBottomComponent,
   HeroComponent,
   LanguagePickerComponent,
   LuxuryComponent,
@@ -50,7 +53,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     PrivacyPolicyComponent,
     ContentPrivacyPolicyComponent,
     PopupComponent,
-    ContentAboutUsComponent
+    ContentAboutUsComponent,
+    GradientRightToLeftComponent,
+    GradientLeftToRightComponent,
+    GradientTopBottomComponent
   ],
   imports: [
     BrowserModule,

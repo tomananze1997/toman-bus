@@ -1,20 +1,20 @@
 <section id="fleet" class="main-container-outer">
-  <div class="main-container group relative bg-black text-center">
+  <div class="main-container group relative bg-neutral-900 text-center">
     <h2 class="section-subtitle">{{ 'MAIN.FLEET.SUBTITLE' | translate }}</h2>
     <h3 class="section-title">{{ 'MAIN.FLEET.TITLE' | translate }}</h3>
 
     <swiper-container
       #swiperRef
-      slides-per-view="1"
+      slides-per-view="1.75"
       centered-slides="true"
       autoplay="false"
-      space-between="16"
+      space-between="10"
       events-prefix="swiper-"
       grab-cursor="true"
       touch-ratio="1.5"
       breakpoints='{
-      "640": { "slidesPerView": 1.5, "spaceBetween": 20 },
-      "768": { "slidesPerView": 2, "spaceBetween": 20 },
+      "640": { "slidesPerView": 2, "spaceBetween": 16 },
+      "768": { "slidesPerView": 2.5, "spaceBetween": 20 },
       "1024": { "slidesPerView": 3, "spaceBetween": 24 }
     }'
     >
@@ -30,7 +30,7 @@
         class="transform cursor-pointer px-4 py-6 transition-transform duration-300 sm:px-6 sm:py-8 lg:px-8 lg:py-10"
       >
         <!-- Image container -->
-        <div class="relative mx-auto h-60 w-full max-w-xs sm:h-44 lg:h-48">
+        <div class="relative mx-auto h-40 w-full max-w-xs sm:h-44 lg:h-48">
           <!-- Primary image (shown when active) -->
           <img
             [src]="bus.imgPrimary"

@@ -1,10 +1,12 @@
-<section class="main-container-outer">
-  <div class="main-container">
-    <h2 class="section-subtitle">{{ 'PRIVACY_POLICY.SUBTITLE' | translate | uppercase }}</h2>
-    <h2 class="section-title">{{ 'PRIVACY_POLICY.TITLE' | translate}}</h2>
-    <div class="py-4" *ngFor="let item of content; let i = index">
-      <h3 class="section-title-small">{{ i + 1 }}. {{ item.titleKey | translate }}</h3>
-      <p class="section-text">{{ item.contentKey | translate }} <a *ngIf="i === 6" href="mailto:toman.bus@gmail.com" class="section-text-hover"> toman.bus@gmail.com</a> <span *ngIf="i===6">.</span></p>
+<section class="!mt-12">
+  <div class="main-container-outer">
+    <div class="main-container">
+      <h2 class="section-subtitle">{{ 'PRIVACY_POLICY.SUBTITLE' | translate | uppercase }}</h2>
+      <h2 class="section-title">{{ 'PRIVACY_POLICY.TITLE' | translate}}</h2>
+      <div class="py-4" *ngFor="let item of content; let i = index">
+        <h3 class="section-title-small">{{ i + 1 }}. {{ item.titleKey | translate }}</h3>
+        <p class="section-text">{{ item.contentKey | translate }} <a *ngIf="i === 6" href="mailto:toman.bus@gmail.com" class="section-text-hover"> toman.bus@gmail.com</a> <span *ngIf="i===6">.</span></p>
+      </div>
     </div>
   </div>
 </section>
