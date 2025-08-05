@@ -9,17 +9,28 @@ export class HeroComponent implements AfterViewInit {
   @ViewChild('heroVideo', { static: false }) heroVideo!: ElementRef<HTMLVideoElement>;
 
   ngAfterViewInit(): void {
-    const video: HTMLVideoElement = this.heroVideo?.nativeElement;
+    const video = this.heroVideo?.nativeElement;
+
     if (video) {
       video.muted = true;
-      const playPromise: Promise<void> = video.play();
-      if (playPromise !== undefined) {
-        playPromise.catch((error) => {
-          console.warn('Autoplay prevented:', error);
+      video.setAttribute('playsinline', '');
+      video.setAttribute('autoplay', '');
+      video.setAttribute('loop', '');
+
+      const tryPlay = () => {
+        video.play().catch((err) => {
+          console.warn('Autoplay prevented:', err);
         });
+      };
+
+      if (video.readyState >= 3) {
+        tryPlay();
+      } else {
+        video.addEventListener('canplay', tryPlay, { once: true });
       }
     }
   }
+
   public scrollDown(): void {
     const scrollThreshold: number = window.innerHeight * 0.8;
     const targetScroll = Math.floor(scrollThreshold);
