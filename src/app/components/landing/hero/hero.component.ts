@@ -10,12 +10,17 @@ export class HeroComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     const video = this.heroVideo?.nativeElement;
-
     if (video) {
       video.muted = true;
+      video.playsInline = true; // boolean property
+      video.loop = true;
+      video.autoplay = true;
+
+      video.setAttribute('muted', '');
       video.setAttribute('playsinline', '');
       video.setAttribute('autoplay', '');
       video.setAttribute('loop', '');
+      video.setAttribute('preload', 'auto');
 
       const tryPlay = () => {
         video.play().catch((err) => {
