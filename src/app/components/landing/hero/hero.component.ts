@@ -1,41 +1,11 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
   templateUrl: './hero.component.html',
   styleUrls: ['./hero.component.css']
 })
-export class HeroComponent implements AfterViewInit {
-  @ViewChild('heroVideo', { static: false }) heroVideo!: ElementRef<HTMLVideoElement>;
-
-  ngAfterViewInit(): void {
-    const video = this.heroVideo?.nativeElement;
-    if (video) {
-      video.muted = true;
-      video.playsInline = true; // boolean property
-      video.loop = true;
-      video.autoplay = true;
-
-      video.setAttribute('muted', '');
-      video.setAttribute('playsinline', '');
-      video.setAttribute('autoplay', '');
-      video.setAttribute('loop', '');
-      video.setAttribute('preload', 'auto');
-
-      const tryPlay = () => {
-        video.play().catch((err) => {
-          console.warn('Autoplay prevented:', err);
-        });
-      };
-
-      if (video.readyState >= 3) {
-        tryPlay();
-      } else {
-        video.addEventListener('canplay', tryPlay, { once: true });
-      }
-    }
-  }
-
+export class HeroComponent {
   public scrollDown(): void {
     const scrollThreshold: number = window.innerHeight * 0.8;
     const targetScroll = Math.floor(scrollThreshold);
