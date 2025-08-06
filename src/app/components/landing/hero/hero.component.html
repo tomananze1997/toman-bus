@@ -1,9 +1,15 @@
 <section class="main-container-outer h-[98vh]">
   <!-- Fullscreen Background Video -->
-  <video #heroVideo autoplay muted loop playsinline preload="auto" class="absolute left-0 top-0 z-0 h-full w-full object-cover">
-    <source src="assets/videos/hero.mp4#t=0.001" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <video
+    src="assets/videos/hero.mp4"
+    playsinline
+    autoplay
+    muted
+    loop
+    oncanplay="this.play()"
+    onloadedmetadata="this.muted = true"
+    class="absolute left-0 top-0 z-0 h-full w-full object-cover"
+  ></video>
 
   <!-- Overlay -->
   <div class="absolute inset-0 z-10 bg-neutral-900 bg-opacity-60"></div>
