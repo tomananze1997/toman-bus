@@ -45,6 +45,6 @@
     <button routerLink="/about-us" class="btn-secondary-outline btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
     <button routerLink="/contact-us" class="btn-secondary btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
     <button routerLink="/contact-us" class="btn-vip btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.VIP' | translate }}</button>
-    <app-language-picker />
+    <app-language-picker (languageChange)="isMenuOpen = false" />
   </div>
 </nav>

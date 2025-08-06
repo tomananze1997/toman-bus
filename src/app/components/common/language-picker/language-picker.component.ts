@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, inject } from '@angular/core';
 
 import { TranslateService } from '@ngx-translate/core';
 
@@ -13,6 +13,7 @@ import { IDropdown } from '@interfaces';
 })
 export class LanguagePickerComponent implements OnInit {
   private translate: TranslateService = inject(TranslateService);
+  @Output() languageChange: EventEmitter<void> = new EventEmitter<void>();
 
   public selectedLanguage: IDropdown = { label: 'Slovenščina', value: ELanguages.SLOVENIAN };
   public languages: IDropdown[] = [
@@ -29,6 +30,7 @@ export class LanguagePickerComponent implements OnInit {
   public onLangChange(lang: ELanguages): void {
     this.translate.use(lang);
     this.selectedLanguage = this.getDropdownObjectFromValue(lang);
+    this.languageChange.emit();
   }
 
   private getDropdownObjectFromValue(value: ELanguages): IDropdown {

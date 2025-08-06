@@ -12,7 +12,7 @@
 
     <!-- Services Grid -->
     <div class="services-grid">
-      <div *ngFor="let card of cards; let i = index" class="service-card group">
+      <div #cardEl *ngFor="let card of cards; let i = index" class="service-card group" [class.active]="i === activeCardIndex" [class.active-around]="isAroundActive(i)">
         <div class="service-icon">
           <mat-icon [svgIcon]="card.icon" class="icon"></mat-icon>
         </div>

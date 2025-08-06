@@ -518,11 +518,20 @@ html {
 }
 
 .service-card {
-  @apply bg-secondary-700 rounded-xl p-8 text-center transition-all duration-300 ease-out;
-  @apply hover:bg-secondary-600;
-  @apply border border-secondary-600 hover:border-primary-400;
-  @apply shadow-lg hover:shadow-xl;
+  @apply bg-secondary-700 rounded-xl p-8 text-center transition-all duration-300 ease-out sm:hover:scale-105;
+  @apply sm:hover:bg-secondary-600;
+  @apply border border-secondary-600 sm:hover:border-primary-400;
+  @apply shadow-lg sm:hover:shadow-xl;
 }
+
+.service-card.active {
+  @apply bg-secondary-600 border-primary-400 shadow-xl scale-105;
+}
+
+.service-card.active-around {
+  @apply bg-secondary-650;
+}
+
 
 .service-icon {
   @apply mb-6 flex justify-center;
@@ -535,7 +544,7 @@ html {
 }
 
 .service-card:hover .service-icon .icon {
-  @apply text-primary-300;
+  @apply sm:text-primary-300;
 }
 
 .service-title {
