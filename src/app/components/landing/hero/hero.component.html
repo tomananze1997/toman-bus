@@ -1,4 +1,4 @@
-<section class="main-container-outer !mt-[2vh] h-[98vh]">
+<section class="main-container-outer relative min-h-[100dvh] overflow-hidden">
   <!-- Fullscreen Background Video -->
   <video
     src="assets/videos/hero.mp4"
@@ -8,21 +8,31 @@
     loop
     oncanplay="this.play()"
     onloadedmetadata="this.muted = true"
-    class="absolute left-0 top-0 z-0 h-full w-full object-cover"
+    class="absolute left-0 top-0 z-0 h-full min-h-[100dvh] w-full object-cover"
   ></video>
 
-  <!-- Overlay -->
-  <div class="absolute inset-0 z-10 bg-neutral-900 bg-opacity-60"></div>
+  <!-- Even dimming over video (no lighter band at top) -->
+  <div class="pointer-events-none absolute inset-0 z-10 bg-neutral-950/50"></div>
 
-  <!-- Bottom Gradient -->
+  <!-- Fade into page background (stone-200 #e7e5e4); opaque at bottom = seamless handoff to next section -->
   <div
-    class="z-15 pointer-events-none absolute bottom-0 left-0 right-0 h-full"
-    style="background: linear-gradient(to top, #171717 5%, rgba(23, 23, 23, 0.8) 20%, rgba(23, 23, 23, 0.3) 50%, transparent 80%)"
+    class="pointer-events-none absolute inset-0 z-[11]"
+    style="
+      background: linear-gradient(
+        to top,
+        #e7e5e4 0%,
+        #e7e5e4 5%,
+        rgba(231, 229, 228, 0.92) 15%,
+        rgba(231, 229, 228, 0.55) 30%,
+        rgba(231, 229, 228, 0) 70%,
+        rgba(231, 229, 228, 0) 100%
+      );
+    "
   ></div>
 
   <!-- Scroll Indicator -->
   <div class="absolute inset-x-0 bottom-6 z-20 mx-auto w-fit animate-bounce">
-    <mat-icon (click)="scrollDown()" svgIcon="down-arrow" class="second-text-hover h-6 w-6 cursor-pointer"></mat-icon>
+    <mat-icon (click)="scrollDown()" svgIcon="down-arrow" class="h-6 w-6 cursor-pointer text-white/90 transition-colors hover:text-white"></mat-icon>
   </div>
   <div class="main-container">
     <!-- Content -->

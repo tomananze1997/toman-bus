@@ -1,0 +1,7 @@
+/* Strong white halo + downward bias so it reads as a “shadow” under the bus */
+.fleet-vehicle-img--active {
+  filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 0.95))
+    drop-shadow(0 14px 22px rgba(255, 255, 255, 0.75))
+    drop-shadow(0 0 36px rgba(255, 255, 255, 0.55))
+    drop-shadow(0 28px 48px rgba(255, 255, 255, 0.35));
+}

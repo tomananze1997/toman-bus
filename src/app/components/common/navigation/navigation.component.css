@@ -1,0 +1,50 @@
+/* Light bar: scrolled or inner pages */
+.nav-solid {
+  @apply border-stone-300 bg-stone-100/95 text-neutral-800 shadow-sm backdrop-blur-md;
+}
+
+/* Homepage at top: ~50% dark film over video */
+.nav-over-hero {
+  @apply border-white/10 bg-neutral-950/50 text-white backdrop-blur-md;
+}
+
+.nav-over-hero .second-text-hover {
+  @apply text-white/90 hover:text-white;
+}
+
+.nav-over-hero .btn-secondary-outline {
+  @apply border-white/75 bg-white/10 text-white hover:border-white hover:bg-white/20;
+}
+
+.nav-over-hero .btn-primary-outline {
+  @apply border-primary-300 bg-white/5 text-red-100 hover:border-primary-200 hover:bg-primary-500/20;
+}
+
+.nav-over-hero .btn-vip {
+  @apply border-vip-400 bg-vip-300 text-neutral-900 hover:bg-vip-400 hover:border-vip-500;
+}
+
+.nav-over-hero .social-media-svg {
+  @apply text-white/80;
+}
+
+/* Mobile dropdown: light (inner pages / scrolled home) — like old black/90 strip, but stone-100 */
+.nav-mobile-drawer-light {
+  background-color: rgba(245, 245, 244, 0.92);
+  border-color: rgb(214 211 209);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+/* Homepage at top of hero: dark translucent strip (same idea as old bg-black/90) */
+.nav-mobile-drawer-hero {
+  background-color: rgba(10, 10, 10, 0.88);
+  border-color: rgba(255, 255, 255, 0.12);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.nav-mobile-drawer-hero .section-text-hover,
+.nav-mobile-drawer-hero .section-text-hover mat-icon {
+  @apply text-white/90 hover:text-white;
+}

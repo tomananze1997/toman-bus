@@ -8,6 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  @apply bg-stone-200 text-neutral-800 antialiased;
+}
+
+mat-icon svg {
+  fill: currentColor;
+}
+
 @keyframes scroll-mobile {
   0% {
     transform: translateX(10%);
@@ -28,7 +36,7 @@ html {
 /*section-text*/
 /* Responsive Paragraphs */
 .content-primary-first {
-  @apply text-base sm:text-lg md:text-2xl text-secondary-100 font-medium my-3;
+  @apply text-base sm:text-lg md:text-2xl text-neutral-700 font-medium my-3;
 }
 
 /* ---------- COMMON ---------- */
@@ -38,17 +46,94 @@ html {
 }
 
 .main-container-outer {
-  @apply w-full bg-neutral-900 relative;
+  @apply w-full bg-stone-200 relative;
 }
 
 .main-container-outer-without-background {
   @apply w-full relative;
 }
 
+/* Fleet: darker mid (carousel area) + vignette pulls in from sides */
+.section-gradient-band {
+  background:
+    linear-gradient(
+      to bottom,
+      #e7e5e4 0%,
+      #e1deda 12%,
+      #d0cbc5 26%,
+      #c5c0ba 42%,
+      #bfb9b3 100%
+    ),
+    linear-gradient(
+      to right,
+      #b9b4ae 0%,
+      transparent 11%,
+      transparent 89%,
+      #b9b4ae 100%
+    );
+  background-repeat: no-repeat;
+  background-size:
+    100% 100%,
+    100% 100%;
+}
+
+/* Partners (home): match fleet floor, darker mid, fade to footer stone-100 (#f5f5f4) */
+.partners-band.section-gradient-band.section-gradient-band-continue {
+  background:
+    linear-gradient(
+      to bottom,
+      #bfb9b3 0%,
+      #b8b2ac 22%,
+      #b5afa9 40%,
+      #c9c4be 58%,
+      #ddd9d5 74%,
+      #eceae8 86%,
+      #f5f5f4 100%
+    ),
+    linear-gradient(
+      to right,
+      #b9b4ae 0%,
+      transparent 11%,
+      transparent 89%,
+      #b9b4ae 100%
+    );
+  background-repeat: no-repeat;
+  background-size:
+    100% 100%,
+    100% 100%;
+}
+
+/* Partners (other pages): from page bg into darker band, then hand off to footer */
+.partners-band.section-gradient-band.section-gradient-band-from-light {
+  background:
+    linear-gradient(
+      to bottom,
+      #e7e5e4 0%,
+      #e0dcd7 18%,
+      #d0cac4 36%,
+      #c5c0ba 52%,
+      #beb8b2 66%,
+      #d8d4d0 78%,
+      #ebe9e7 88%,
+      #f5f5f4 100%
+    ),
+    linear-gradient(
+      to right,
+      #b9b4ae 0%,
+      transparent 11%,
+      transparent 89%,
+      #b9b4ae 100%
+    );
+  background-repeat: no-repeat;
+  background-size:
+    100% 100%,
+    100% 100%;
+}
+
 .section-subtitle {
-  @apply text-primary-300 font-light tracking-widest uppercase;
+  @apply text-primary-300 font-medium tracking-widest uppercase;
   font-size: 0.875rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.2em;
   margin-bottom: 1rem;    /* 16px on mobile */
 }
@@ -66,7 +151,7 @@ html {
 }
 
 .section-title {
-  @apply text-secondary-50 font-bold leading-tight tracking-tight;
+  @apply text-neutral-900 font-bold leading-tight tracking-tight;
   font-size: 2rem;
   font-weight: 900;
   line-height: 1.1;
@@ -88,7 +173,7 @@ html {
 }
 
 .section-title-small {
-  @apply text-secondary-50 font-bold leading-tight tracking-tight;
+  @apply text-neutral-900 font-bold leading-tight tracking-tight;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.1;
@@ -110,17 +195,17 @@ html {
 }
 
 .section-text {
-  @apply text-secondary-100 font-light leading-relaxed;
+  @apply text-neutral-600 font-normal leading-relaxed;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   margin-bottom: 1rem;     /* 16px on mobile */
 }
 
 .section-text-hover {
-  @apply text-secondary-200 font-light leading-relaxed fill-white hover:text-secondary-50 duration-150 ease-in-out;
+  @apply text-neutral-600 font-normal leading-relaxed hover:text-primary-400 duration-150 ease-in-out;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   margin-bottom: 1rem;     /* 16px on mobile */
 }
@@ -143,7 +228,7 @@ html {
 }
 
 .footer-title {
-  @apply text-secondary-50 font-light leading-relaxed;
+  @apply text-neutral-900 font-light leading-relaxed;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.3;
@@ -166,16 +251,16 @@ html {
 }
 
 .second-text {
-  @apply text-secondary-100 font-light leading-relaxed;
+  @apply text-neutral-600 font-normal leading-relaxed;
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3;
 }
 
 .second-text-hover {
-  @apply text-secondary-200 font-light leading-relaxed fill-white hover:text-secondary-50 duration-150 ease-in-out;
+  @apply text-neutral-600 font-normal leading-relaxed hover:text-primary-400 duration-150 ease-in-out;
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.3;
 }
 
@@ -196,7 +281,7 @@ html {
 
 /* Social Media SVG */
 .social-media-svg {
-  @apply !h-6 !w-6 sm:!h-8 sm:!w-8 text-secondary-200 transition-colors duration-150 ease-in-out cursor-pointer;
+  @apply !h-6 !w-6 sm:!h-8 sm:!w-8 text-neutral-500 transition-colors duration-150 ease-in-out cursor-pointer;
 }
 
 .social-media-svg:hover {
@@ -236,6 +321,11 @@ html {
   min-width: 16px !important;
   min-height: 16px !important;
   vertical-align: middle;
+  @apply text-neutral-600 transition-colors duration-150 ease-in-out;
+}
+
+.second-text-hover:hover mat-icon {
+  @apply text-primary-400;
 }
 
 @media (min-width: 640px) {
@@ -365,16 +455,16 @@ html {
 
 /* Primary buttons */
 .btn-primary {
-  @apply btn-base border-primary-300 bg-primary-400 text-secondary-100;
-  @apply hover:bg-primary-600 hover:border-primary-500 hover:shadow-lg;
-  @apply disabled:hover:bg-primary-400 disabled:hover:border-primary-300 disabled:hover:shadow-none;
-  box-shadow: 0 2px 4px rgba(230, 57, 70, 0.2);
+  @apply btn-base border-primary-200 bg-primary-300 text-white;
+  @apply hover:bg-primary-400 hover:border-primary-300 hover:shadow-md;
+  @apply disabled:hover:bg-primary-300 disabled:hover:border-primary-200 disabled:hover:shadow-none;
+  box-shadow: 0 1px 3px rgba(230, 57, 70, 0.18);
 }
 
 .btn-primary-outline {
-  @apply btn-base border-primary-300 bg-transparent text-primary-300;
-  @apply hover:bg-primary-400 hover:text-secondary-100 hover:shadow-lg;
-  @apply disabled:hover:bg-transparent disabled:hover:text-primary-300 disabled:hover:shadow-none;
+  @apply btn-base border-primary-300 bg-stone-100 text-primary-400;
+  @apply hover:bg-primary-50 hover:border-primary-300 hover:shadow-md;
+  @apply disabled:hover:bg-stone-100 disabled:hover:text-primary-400 disabled:hover:shadow-none;
 }
 
 .btn-primary-ghost {
@@ -391,48 +481,48 @@ html {
 
 /* Secondary buttons */
 .btn-secondary {
-  @apply btn-base border-secondary-400 bg-secondary-400 text-secondary-100;
-  @apply hover:bg-secondary-500 hover:border-secondary-500 hover:shadow-lg;
-  @apply disabled:hover:bg-secondary-400 disabled:hover:border-secondary-400 disabled:hover:shadow-none;
-  box-shadow: 0 2px 4px rgba(89, 89, 89, 0.2);
+  @apply btn-base border-stone-400 bg-stone-300 text-neutral-800;
+  @apply hover:bg-stone-400 hover:border-stone-500 hover:shadow-md;
+  @apply disabled:hover:bg-stone-300 disabled:hover:border-stone-400 disabled:hover:shadow-none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 .btn-secondary-outline {
-  @apply btn-base border-secondary-300 bg-transparent text-secondary-300;
-  @apply hover:bg-secondary-400 hover:text-secondary-100 hover:shadow-lg;
-  @apply disabled:hover:bg-transparent disabled:hover:text-secondary-300 disabled:hover:shadow-none;
+  @apply btn-base border-stone-500 bg-stone-100 text-neutral-800;
+  @apply hover:bg-stone-200 hover:border-stone-600 hover:shadow-md;
+  @apply disabled:hover:bg-stone-100 disabled:hover:text-neutral-800 disabled:hover:shadow-none;
 }
 
 .btn-secondary-ghost {
-  @apply btn-base border-transparent bg-transparent text-secondary-400;
-  @apply hover:bg-secondary-100 hover:text-secondary-600;
-  @apply disabled:hover:bg-transparent disabled:hover:text-secondary-400;
+  @apply btn-base border-transparent bg-transparent text-neutral-600;
+  @apply hover:bg-stone-100 hover:text-neutral-900;
+  @apply disabled:hover:bg-transparent disabled:hover:text-neutral-600;
 }
 
 .btn-secondary-soft {
-  @apply btn-base border-secondary-100 bg-secondary-100 text-secondary-600;
-  @apply hover:bg-secondary-200 hover:border-secondary-200 hover:text-secondary-700;
-  @apply disabled:hover:bg-secondary-100 disabled:hover:border-secondary-100 disabled:hover:text-secondary-600;
+  @apply btn-base border-stone-200 bg-stone-50 text-neutral-800;
+  @apply hover:bg-stone-100 hover:border-stone-300 hover:text-neutral-900;
+  @apply disabled:hover:bg-stone-50 disabled:hover:border-stone-200 disabled:hover:text-neutral-800;
 }
 
 /* VIP buttons */
 .btn-vip {
-  @apply btn-base border-vip-500 bg-vip-500 text-black font-bold;
-  @apply hover:bg-vip-700 hover:border-vip-700 hover:shadow-xl;
-  @apply disabled:hover:bg-vip-500 disabled:hover:border-vip-500 disabled:hover:shadow-none;
-  box-shadow: 0 4px 8px rgba(192, 142, 0, 0.3);
+  @apply btn-base border-vip-400 bg-vip-300 text-vip-700 font-bold;
+  @apply hover:bg-vip-400 hover:border-vip-400 hover:text-neutral-900 hover:shadow-md;
+  @apply disabled:hover:bg-vip-300 disabled:hover:border-vip-400 disabled:hover:shadow-none;
+  box-shadow: 0 1px 3px rgba(194, 142, 0, 0.2);
 }
 
 .btn-vip-outline {
-  @apply btn-base border-vip-500 bg-transparent text-vip-500;
-  @apply hover:bg-vip-500 hover:text-black hover:shadow-xl;
-  @apply disabled:hover:bg-transparent disabled:hover:text-vip-500 disabled:hover:shadow-none;
+  @apply btn-base border-vip-500 bg-stone-100 text-vip-600;
+  @apply hover:bg-vip-100 hover:border-vip-500 hover:shadow-md;
+  @apply disabled:hover:bg-stone-100 disabled:hover:text-vip-600 disabled:hover:shadow-none;
 }
 
 .btn-vip-ghost {
-  @apply btn-base border-transparent bg-transparent text-vip-500;
+  @apply btn-base border-transparent bg-transparent text-vip-600;
   @apply hover:bg-vip-100 hover:text-vip-700;
-  @apply disabled:hover:bg-transparent disabled:hover:text-vip-500;
+  @apply disabled:hover:bg-transparent disabled:hover:text-vip-600;
 }
 
 .btn-vip-soft {
@@ -501,7 +591,7 @@ html {
 
 /* ---------- HERO ---------- */
 .hero-main-title {
-  @apply text-secondary-50 font-bold leading-tight tracking-tight text-center;
+  @apply text-white font-bold leading-tight tracking-tight text-center drop-shadow-md;
   font-size: 2rem;
   font-weight: 800;
   line-height: 1.1;
@@ -529,9 +619,9 @@ html {
 }
 
 .hero-main-subtitle {
-  @apply text-secondary-100 font-light leading-relaxed text-center mx-auto;
+  @apply text-white/95 font-normal leading-relaxed text-center mx-auto drop-shadow;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   margin-bottom: 2rem;
   max-width: 100%;
@@ -594,18 +684,17 @@ html {
 }
 
 .service-card {
-  @apply bg-secondary-700 rounded-xl p-8 text-center transition-all duration-300 ease-out sm:hover:scale-105;
-  @apply sm:hover:bg-secondary-600;
-  @apply border border-secondary-600 sm:hover:border-primary-400;
-  @apply shadow-lg sm:hover:shadow-xl;
+  @apply rounded-xl border border-stone-300 bg-stone-100 p-8 text-center shadow-sm transition-all duration-300 ease-out sm:hover:scale-[1.02];
+  @apply sm:hover:border-primary-300 sm:hover:bg-stone-200;
+  @apply sm:hover:shadow-md;
 }
 
 .service-card.active {
-  @apply bg-secondary-600 border-primary-400 shadow-xl scale-105;
+  @apply scale-[1.02] border-primary-400 bg-stone-100 shadow-md;
 }
 
 .service-card.active-around {
-  @apply bg-secondary-650;
+  @apply bg-stone-300/80;
 }
 
 
@@ -624,21 +713,22 @@ html {
 }
 
 .service-title {
-  @apply text-secondary-50 font-bold mb-4 leading-tight;
+  @apply text-neutral-900 font-bold mb-4 leading-tight;
   font-size: 1.25rem;
   min-height: 2.5rem;
 }
 
 .service-description {
-  @apply text-secondary-200 leading-relaxed;
+  @apply text-neutral-600 font-normal leading-relaxed;
   font-size: 0.95rem;
+  font-weight: 400;
   line-height: 1.6;
 }
 
 /* ---------- FLEET ---------- */
 /* Fleet Component Specific Styles */
 .fleet-vehicle-name {
-  @apply text-secondary-100 font-medium text-center mt-3 transition-opacity duration-300;
+  @apply text-neutral-800 font-medium text-center mt-3 transition-opacity duration-300;
   font-size: 0.9rem;
   font-weight: 500;
   line-height: 1.4;
@@ -688,9 +778,9 @@ html {
 }
 
 .fleet-description {
-  @apply text-secondary-100 font-light leading-relaxed text-center;
+  @apply text-neutral-600 font-normal leading-relaxed text-center;
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   min-height: 18rem;
 }
@@ -711,7 +801,7 @@ html {
 }
 
 .fleet-nav-arrow {
-  @apply text-secondary-200 fill-white hover:text-secondary-50 transition-colors duration-200 ease-in-out;
+  @apply text-neutral-500 hover:text-primary-400 transition-colors duration-200 ease-in-out;
   width: 1.75rem;
   height: 1.75rem;
 }
@@ -728,6 +818,10 @@ html {
     width: 2.25rem;
     height: 2.25rem;
   }
+}
+
+app-fleet swiper-slide {
+  overflow: visible;
 }
 
 .fleet-swiper {
@@ -832,9 +926,9 @@ html {
 }
 
 .partner-logo-inverted {
-  @apply h-8 sm:h-10 md:h-12 w-full object-contain grayscale invert;
+  @apply h-8 sm:h-10 md:h-12 w-full object-contain grayscale opacity-90;
 }
 
 .partner-logo-inverted:hover {
-  @apply scale-105;
+  @apply scale-105 grayscale-0 opacity-100;
 }
