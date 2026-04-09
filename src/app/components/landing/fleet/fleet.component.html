@@ -1,10 +1,11 @@
-<section id="fleet" class="main-container-outer">
-  <div class="main-container group relative bg-neutral-900 text-center">
+<section id="fleet" class="main-container-outer section-gradient-band">
+  <div class="main-container group relative text-center">
     <h2 class="section-subtitle">{{ 'MAIN.FLEET.SUBTITLE' | translate }}</h2>
     <h3 class="section-title">{{ 'MAIN.FLEET.TITLE' | translate }}</h3>
 
     <swiper-container
       #swiperRef
+      class="fleet-swiper"
       slides-per-view="1.75"
       centered-slides="true"
       autoplay="false"
@@ -26,17 +27,26 @@
         (mouseenter)="onMouseEnter(i)"
         (mouseleave)="onMouseLeave()"
         (click)="onSelectSlide(i)"
-        class="transform cursor-pointer px-4 py-6 transition-transform duration-300 sm:px-6 sm:py-8 lg:px-8 lg:py-10"
+        class="fleet-swiper-slide transform cursor-pointer overflow-visible px-4 py-6 transition-transform duration-300 sm:px-6 sm:py-8 lg:px-8 lg:py-10"
       >
         <!-- Image container -->
-        <div class="relative mx-auto h-40 w-full max-w-xs sm:h-44 lg:h-48">
+        <div class="relative z-[1] mx-auto h-40 w-full max-w-xs sm:h-44 lg:h-48">
+          <!-- Ground glow (visible; not clipped like filter on some Swiper layouts) -->
+          <div
+            class="pointer-events-none absolute -bottom-3 left-1/2 z-0 h-14 w-[110%] max-w-[min(100vw,22rem)] -translate-x-1/2 rounded-[100%] opacity-0 transition-opacity duration-300"
+            [class.opacity-90]="isSlideActive(i)"
+            [style.background]="
+              'radial-gradient(ellipse 55% 45% at 50% 50%, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.35) 45%, transparent 72%)'
+            "
+            aria-hidden="true"
+          ></div>
           <!-- Primary image (shown when active) -->
           <img
             [src]="bus.imgPrimary"
             [alt]="bus.name"
-            class="absolute inset-0 h-full w-full object-contain transition-all duration-300"
+            class="absolute inset-0 z-[1] h-full w-full object-contain transition-all duration-300"
             [ngClass]="{
-              'opacity-100 drop-shadow-[0_0_20px_rgba(255,255,255,0.5)] delay-150': isSlideActive(i),
+              'opacity-100 delay-150 fleet-vehicle-img--active': isSlideActive(i),
               'opacity-0 delay-0': !isSlideActive(i)
             }"
           />
@@ -45,7 +55,7 @@
           <img
             [src]="bus.imgSecondary"
             [alt]="bus.name"
-            class="absolute inset-0 h-full w-full object-contain transition-all duration-300"
+            class="absolute inset-0 z-[1] h-full w-full object-contain transition-all duration-300"
             [ngClass]="{
               'opacity-0 delay-0': isSlideActive(i),
               'opacity-100 brightness-50 delay-150': !isSlideActive(i)

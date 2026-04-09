@@ -1,14 +1,7 @@
 <section
-  class="main-container-outer"
-  style="
-    background:
-      linear-gradient(to bottom, #171717 0%, #222222 50%, #171717 100%),
-      linear-gradient(to right, #171717 0%, #1f1f1f 10%, transparent 10%, transparent 90%, #1f1f1f 90%, #171717 100%);
-    background-repeat: no-repeat;
-    background-size:
-      100% 100%,
-      100% 100%;
-  "
+  class="main-container-outer partners-band section-gradient-band"
+  [class.section-gradient-band-continue]="continueAfterFleet"
+  [class.section-gradient-band-from-light]="!continueAfterFleet"
 >
   <div class="main-container">
     <div class="container mx-auto text-center">

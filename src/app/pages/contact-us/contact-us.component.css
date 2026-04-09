@@ -1,3 +1,16 @@
+/* Ease into footer bg (stone-100 #f5f5f4) — matches app-footer */
+section.main-container-outer.contact-fade-footer {
+  background-image: linear-gradient(
+    to bottom,
+    #e7e5e4 0%,
+    #e7e5e4 92%,
+    #eae8e6 94%,
+    #efedeb 96%,
+    #f3f2f0 98%,
+    #f5f5f4 100%
+  );
+}
+
 .form-group {
   margin: 2rem 0;
 }
@@ -24,25 +37,24 @@ textarea {
   background: transparent;
   border: none;
   padding: 0.5rem 0;
-  color: white;
+  color: #171717;
   outline: none;
 }
 
-/* Keep browser autofill from painting gray background on dark theme inputs. */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
 textarea:-webkit-autofill:focus {
-  -webkit-text-fill-color: #ffffff;
-  box-shadow: 0 0 0 1000px transparent inset;
-  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+  -webkit-text-fill-color: #171717;
+  box-shadow: 0 0 0 1000px #f5f5f4 inset;
+  -webkit-box-shadow: 0 0 0 1000px #f5f5f4 inset;
   transition: background-color 9999s ease-out 0s;
 }
 
 textarea {
-  border: 1px solid white;
+  border: 1px solid #a8a29e;
   padding: 0.5rem;
   resize: vertical;
   min-height: 120px;
@@ -58,23 +70,28 @@ textarea {
   left: 0;
   height: 2px;
   width: 20%;
-  background-color: white;
+  background-color: #d6d3d1;
   transition: width 0.3s ease, background-color 0.3s ease;
 }
 
 .input-wrapper:focus-within:not(.invalid) .underline,
 .input-wrapper.has-value:not(.invalid) .underline {
   width: 100%;
-  background-color: white;
+  background-color: #171717;
 }
 
 .input-wrapper.invalid .underline {
-  background-color: red;
+  background-color: #dc2626;
   width: 75%;
 }
 
 .input-wrapper.invalid textarea {
-  border-color: red;
+  border-color: #dc2626;
+}
+
+/* Valid / neutral focus: dark border on message field */
+.input-wrapper:focus-within:not(.invalid) textarea {
+  border-color: #171717;
 }
 
 .input-wrapper:focus-within input,

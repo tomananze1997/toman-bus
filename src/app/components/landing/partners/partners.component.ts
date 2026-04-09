@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 import { IPartner } from '@interfaces';
 
@@ -8,6 +8,9 @@ import { IPartner } from '@interfaces';
   styleUrls: ['./partners.component.css']
 })
 export class PartnersComponent {
+  /** Home: seamless with fleet floor. Other pages: ease in from light page background. */
+  @Input() continueAfterFleet = false;
+
   public partners: IPartner[] = [
     {
       url: 'https://www.abc-tourism.com/sl/o-nas/',

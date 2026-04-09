@@ -1,4 +1,7 @@
-import { Component, ElementRef, HostListener, inject } from '@angular/core';
+import { Component, ElementRef, HostListener, OnDestroy, OnInit, inject } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+
+import { filter, Subscription } from 'rxjs';
 
 import { environment } from '@environments';
 
@@ -9,15 +12,36 @@ import { LanguageService } from '@services';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css']
 })
-export class NavigationComponent {
+export class NavigationComponent implements OnInit, OnDestroy {
   public isMenuOpen: boolean = false;
   public isScrolled: boolean = false;
+  public isHomeRoute: boolean = false;
   public showHamburger: boolean = true;
   public showCross: boolean = false;
 
   private ref: ElementRef = inject(ElementRef);
+  private router: Router = inject(Router);
+  private routeSub: Subscription | null = null;
   public languageService: LanguageService = inject(LanguageService);
   public REDIRECT_LINK: string = environment.REDIRECT_LINK;
+
+  ngOnInit(): void {
+    this.updateHomeRoute();
+    this.routeSub = this.router.events
+      .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
+      .subscribe(() => this.updateHomeRoute());
+  }
+
+  ngOnDestroy(): void {
+    this.routeSub?.unsubscribe();
+  }
+
+  private updateHomeRoute(): void {
+    const path: string = this.router.url.split('?')[0];
+    const segments: string[] = path.split('/').filter(Boolean);
+    const langs: string[] = ['en', 'sl', 'de'];
+    this.isHomeRoute = segments.length === 1 && langs.includes(segments[0]);
+  }
 
   @HostListener('window:scroll', [])
   onScroll() {
