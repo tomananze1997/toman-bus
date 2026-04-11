@@ -1,7 +1,5 @@
 import { Component, inject } from '@angular/core';
 
-import { TranslateService } from '@ngx-translate/core';
-
 import { LanguageService } from '@services';
 
 @Component({
@@ -11,4 +9,5 @@ import { LanguageService } from '@services';
 })
 export class FooterComponent {
   public languageService: LanguageService = inject(LanguageService);
+  readonly currentYear = new Date().getFullYear();
 }
