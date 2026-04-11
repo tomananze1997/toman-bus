@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.toman-bus.si/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/sl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/en/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/about-us"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/about-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/about-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/about-us"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/sl/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/about-us"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/about-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/about-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/about-us"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/de/about-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/about-us"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/about-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/about-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/about-us"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/en/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/contact-us"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/sl/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/contact-us"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/de/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/contact-us"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/sl/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.toman-bus.si/de/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.toman-bus.si/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.toman-bus.si/sl/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.toman-bus.si/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.toman-bus.si/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>

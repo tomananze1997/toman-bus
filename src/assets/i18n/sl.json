@@ -155,6 +155,27 @@
       "BUTTON_SEND": "Pošlji"
     }
   },
+  "SEO": {
+    "SITE_NAME": "Toman Bus",
+    "OG_LOCALE": "sl_SI",
+    "OG_IMAGE": "/assets/images/logo_2.png",
+    "HOME": {
+      "TITLE": "Avtobusni prevozi, letališki transferji in VIP transport po Sloveniji in Evropi",
+      "DESCRIPTION": "Toman Bus: profesionalni avtobusni prevozi, transferji na letališča in v pristanišča, šolski in poslovni transport ter VIP transferji. Udobna in varna potovanja po Sloveniji in Evropi — povpraševanje pri Toman d.o.o."
+    },
+    "ABOUT_US": {
+      "TITLE": "O Toman Bus — podjetje, vozni park in ekipa",
+      "DESCRIPTION": "Spoznajte Toman d.o.o.: avtobusni in VIP prevozi od leta 2012, sodoben vozni park, izkušeni vozniki, mednarodni partnerji in naša vizija zanesljivega prevoza v Sloveniji in tujini."
+    },
+    "CONTACT_US": {
+      "TITLE": "Kontakt Toman Bus — povpraševanja in rezervacije",
+      "DESCRIPTION": "Kontaktirajte Toman Bus za ponudbe in rezervacije po telefonu, e-pošti ali kontaktnem obrazcu. Sedež v Podnartu, Slovenija. Hitro odgovorimo na povpraševanja za avtobusne prevoze in VIP transferje."
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Politika zasebnosti",
+      "DESCRIPTION": "Politika zasebnosti za www.toman-bus.si: kako Toman d.o.o. zbira, uporablja, hrani in varuje vaše osebne podatke pri uporabi spletne strani in storitev."
+    }
+  },
   "COMMON": {
     "POPUP": {
       "SUCCESS_TEXT": "E-pošta uspešno poslana!",
