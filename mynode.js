@@ -2,22 +2,23 @@ const fs = require('fs');
 const path = require('path');
 const successColor = '\x1b[32m%s\x1b[0m';
 const checkSign = '\u{2705}';
-const dotenv = require('dotenv').config({ path: '.env' });
+require('dotenv').config({ path: '.env' });
 
-// Public canonical URL (SEO). Optional SITE_URL in .env / Vercel; default matches production.
-const siteUrl = JSON.stringify(
-  (process.env.SITE_URL && process.env.SITE_URL.trim()) || 'https://www.toman-bus.si'
-);
+const siteUrl = (process.env.SITE_URL || 'https://www.toman-bus.si').trim();
+const redirectLink = (process.env.REDIRECT_LINK || 'https://vip.toman-bus.si').trim();
+const emailServiceId = process.env.EMAIL_SERVICE_ID;
+const emailTemplateId = process.env.EMAIL_TEMPLATE_ID;
+const emailPublicKey = process.env.EMAIL_PUBLIC_KEY;
 
 const envFile = `import { IEnvironment } from '@interfaces';
 
 export const environment: IEnvironment = {
-  REDIRECT_LINK: '${process.env.REDIRECT_LINK ?? ''}',
-  EMAIL_SERVICE_ID: '${process.env.EMAIL_SERVICE_ID ?? ''}',
-  EMAIL_TEMPLATE_ID: '${process.env.EMAIL_TEMPLATE_ID ?? ''}',
-  EMAIL_PUBLIC_KEY: '${process.env.EMAIL_PUBLIC_KEY ?? ''}',
-  siteUrl: ${siteUrl}
-};
+  REDIRECT_LINK: ${JSON.stringify(redirectLink)},
+  EMAIL_SERVICE_ID: ${JSON.stringify(emailServiceId)},
+  EMAIL_TEMPLATE_ID: ${JSON.stringify(emailTemplateId)},
+  EMAIL_PUBLIC_KEY: ${JSON.stringify(emailPublicKey)},
+  siteUrl: ${JSON.stringify(siteUrl)}
+ };
 `;
 const targetPath = path.join(__dirname, './src/app/environments/environments.ts');
 fs.writeFile(targetPath, envFile, (err) => {
