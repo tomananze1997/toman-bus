@@ -1,7 +1,7 @@
 import { Component, ElementRef, HostListener, OnDestroy, OnInit, inject } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
-import { filter, Subscription } from 'rxjs';
+import { Subscription, filter } from 'rxjs';
 
 import { environment } from '@environments';
 
@@ -23,17 +23,19 @@ export class NavigationComponent implements OnInit, OnDestroy {
   private router: Router = inject(Router);
   private routeSub: Subscription | null = null;
   public languageService: LanguageService = inject(LanguageService);
-  public REDIRECT_LINK: string = environment.REDIRECT_LINK;
 
   ngOnInit(): void {
     this.updateHomeRoute();
-    this.routeSub = this.router.events
-      .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
-      .subscribe(() => this.updateHomeRoute());
+    this.routeSub = this.router.events.pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd)).subscribe(() => this.updateHomeRoute());
   }
 
   ngOnDestroy(): void {
     this.routeSub?.unsubscribe();
+  }
+
+  public get vipSiteLangUrl(): string {
+    const base: string = environment.REDIRECT_LINK.replace(/\/$/, '');
+    return `${base}/${this.languageService.currentLang}`;
   }
 
   private updateHomeRoute(): void {
