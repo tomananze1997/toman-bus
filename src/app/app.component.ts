@@ -1,6 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
 
-import { LanguageService, SvgIconService } from '@services';
+import { LanguageService, SeoService, SvgIconService } from '@services';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,7 @@ import { LanguageService, SvgIconService } from '@services';
 })
 export class AppComponent implements OnInit {
   private languageService: LanguageService = inject(LanguageService);
+  private seoService: SeoService = inject(SeoService);
   private svgIconService: SvgIconService = inject(SvgIconService);
 
   constructor() {
@@ -17,5 +18,6 @@ export class AppComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     await this.languageService.setLanguageFromBrowserSettings();
+    this.seoService.init();
   }
 }

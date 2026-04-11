@@ -155,6 +155,27 @@
       "BUTTON_SEND": "Senden"
     }
   },
+  "SEO": {
+    "SITE_NAME": "Toman Bus",
+    "OG_LOCALE": "de_DE",
+    "OG_IMAGE": "/assets/images/logo_2.png",
+    "HOME": {
+      "TITLE": "Busreisen, Flughafentransfers & VIP-Transport in Slowenien und Europa",
+      "DESCRIPTION": "Toman Bus: professionelle Busreisen, Flughafen- und Hafentransfers, Schul- und Firmenfahrten sowie VIP-Transfers. Komfortable, sichere Fahrten in Slowenien und Europa — Angebot bei Toman d.o.o. anfragen."
+    },
+    "ABOUT_US": {
+      "TITLE": "Über Toman Bus — Unternehmen, Fuhrpark und Team",
+      "DESCRIPTION": "Erfahren Sie mehr über Toman d.o.o.: Bus- und VIP-Transport seit 2012, moderner Fuhrpark, erfahrene Fahrer, internationale Partner und unsere Vision für zuverlässigen Transport in Slowenien und im Ausland."
+    },
+    "CONTACT_US": {
+      "TITLE": "Kontakt Toman Bus — Angebote und Buchungen",
+      "DESCRIPTION": "Kontaktieren Sie Toman Bus für Angebote und Buchungen per Telefon, E-Mail oder Kontaktformular. Standort Podnart, Slowenien. Wir antworten zügig auf Anfragen zu Busreisen und VIP-Transfers."
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Datenschutzerklärung",
+      "DESCRIPTION": "Datenschutzerklärung für www.toman-bus.si: wie Toman d.o.o. Ihre personenbezogenen Daten bei Nutzung der Website und der Dienste erhebt, verwendet, speichert und schützt."
+    }
+  },
   "COMMON": {
     "POPUP": {
       "SUCCESS_TEXT": "E-Mail Erfolgreich Gesendet!",
